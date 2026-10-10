@@ -19,7 +19,7 @@ addEventListener('message',e=>{if(e.data==='aria-intro-done'){const f=document.g
 <header id="hd"><div class="wrap">
  <a class="brand" href="./">ARIA<b>games</b></a>
  <div class="search"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>Search Apple Watch games</div>
- <nav><a href="#games">Games</a><a href="#kart">Kart Watch GP</a><a href="#starace">STARwing Ace</a><a href="#watch">On your wrist</a></nav>
+ <nav><a href="#games">Games</a><a href="#kart">Kart Watch GP</a><a href="#starwingace">STARwing Ace</a><a href="#watch">On your wrist</a></nav>
  <a class="nav-cta" href="#games">Coming to App Store</a>
 </div></header>
 
@@ -28,7 +28,7 @@ addEventListener('message',e=>{if(e.data==='aria-intro-done'){const f=document.g
   <div class="slide on" data-i="0"><img class="bg" src="art/kart.jpg" alt="Kart Watch GP" style="object-position:62% 50%"><div class="shade"></div>
    <div class="info"><span class="tag">Racing · New</span><h2>Kart Watch GP</h2><p>16 original tracks, 5 cups and wild vehicles that fly and float — all steered with the Digital Crown.</p><div class="row"><a class="btn red" href="#kart">Explore the game</a><span class="price">US$1.99</span></div></div></div>
   <div class="slide" data-i="1"><img class="bg" src="art/staracce.jpg" alt="STARwing Ace" style="object-position:70% 50%"><div class="shade"></div>
-   <div class="info"><span class="tag">Space shooter · New</span><h2>STARwing Ace</h2><p>Dodge, roll and lock on across five worlds — then face five unique bosses with a full orchestral score.</p><div class="row"><a class="btn red" href="#starace">Explore the game</a><span class="price">US$1.99</span></div></div></div>
+   <div class="info"><span class="tag">Space shooter · New</span><h2>STARwing Ace</h2><p>Dodge, roll and lock on across five worlds — then face five unique bosses with a full orchestral score.</p><div class="row"><a class="btn red" href="#starwingace">Explore the game</a><span class="price">US$1.99</span></div></div></div>
  </div>
  <div class="list">
   <button class="item on" data-go="0"><img src="img/kart.png" alt=""><span><b>Kart Watch GP</b><small>Racing · US$1.99</small></span><i></i></button>
@@ -42,7 +42,7 @@ addEventListener('message',e=>{if(e.data==='aria-intro-done'){const f=document.g
  <div class="h rv"><div><span class="mono">The catalog</span><h3>Only on <em>Apple Watch</em></h3></div></div>
  <div class="cards">
   <a class="card rv" href="#kart"><img class="art" src="art/kart.jpg" alt="" style="object-position:55% 50%"><div class="glass"><img src="img/kart.png" alt=""><span><b>Kart Watch GP</b><small>Racing</small></span><span class="pr">US$1.99</span></div></a>
-  <a class="card rv" href="#starace"><img class="art" src="art/staracce.jpg" alt="" style="object-position:72% 50%"><div class="glass"><img src="img/staracce.png" alt=""><span><b>STARwing Ace</b><small>Space shooter</small></span><span class="pr">US$1.99</span></div></a>
+  <a class="card rv" href="#starwingace"><img class="art" src="art/staracce.jpg" alt="" style="object-position:72% 50%"><div class="glass"><img src="img/staracce.png" alt=""><span><b>STARwing Ace</b><small>Space shooter</small></span><span class="pr">US$1.99</span></div></a>
  </div>
 </div></section>
 
@@ -55,7 +55,7 @@ addEventListener('message',e=>{if(e.data==='aria-intro-done'){const f=document.g
   <div class="row"><span class="btn red">US$1.99 · Coming soon</span></div></div>
 </div></section>
 
-<section id="starace" style="padding-top:20px"><div class="wrap game rev">
+<section id="starwingace" style="padding-top:20px"><div class="wrap game rev">
  <div class="shot rv"><img src="art/staracce.jpg" alt="STARwing Ace" style="object-position:70% 50%"></div>
  <div class="copy rv"><span class="mono">Space shooter · Apple Watch</span><h3>Star<em>Ace</em></h3>
   <p>Pilot the Vanguard from the asteroid belt to the enemy flagship. Deflect fire, lock on, and drop bombs — all with a Crown and a thumb.</p>
@@ -111,7 +111,7 @@ b.addEventListener('click',function(e){e.stopPropagation();on?stop():start()});
 var first=function(){removeEventListener('pointerdown',first);try{localStorage.getItem('ariaMusicOff')||on||start()}catch(x){on||start()}};addEventListener('pointerdown',first);
 b.addEventListener('click',function(){try{localStorage.setItem('ariaMusicOff',on?'':'1')}catch(x){}});
 function set(g){if(g==cur)return;cur=g;if(on){tgt().volume=0;tgt().play().catch(function(){});fade()}}
-var ks=document.getElementById('kart'),ss=document.getElementById('starace');
+var ks=document.getElementById('kart'),ss=document.getElementById("starwingace");
 function chk(){if(!ks||!ss)return;var m=innerHeight/2,a=ks.getBoundingClientRect(),c=ss.getBoundingClientRect();if(c.top<m)set('s');else set('k')}
 addEventListener('scroll',chk,{passive:true});
 document.addEventListener('click',function(e){var i=e.target.closest&&e.target.closest('[data-go]');if(i)set(i.getAttribute('data-go')=='1'?'s':'k')});
