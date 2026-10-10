@@ -147,6 +147,7 @@ def build(lang):
     h = re.sub(r'(href|src)="(style\.css[^"]*|intro\.html|art/|img/|shots/|music/|support\.html|privacy\.html)',
                lambda m: f'{m.group(1)}="/{m.group(2)}', h)
     h = h.replace('href="./"', f'href="/{lang}/"')
+    h = h.replace('href="/privacy.html', f'href="/{lang}/privacy.html').replace('href="/support.html', f'href="/{lang}/support.html')
     return h
 
 def path(l): return '/' if l == 'en' else f'/{l}/'
