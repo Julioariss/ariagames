@@ -2,7 +2,16 @@
 <title>ARIAgames — Games built for Apple Watch</title>
 <meta name="description" content="Console-style games made only for Apple Watch. Kart Watch GP and STARwing Ace — one purchase, no ads, no accounts.">
 <meta property="og:title" content="ARIAgames"><meta property="og:description" content="Games built only for Apple Watch."><meta property="og:image" content="https://ariagames.dev/img/logo.jpg">
-<link rel="stylesheet" href="style.css?v=4"></head><body>
+<link rel="stylesheet" href="style.css?v=5"></head><body>
+<canvas id="bgw" aria-hidden="true"></canvas>
+<script>(function(){var c=document.getElementById('bgw'),x=c.getContext('2d'),W,H,D=Math.min(devicePixelRatio||1,2);
+function rs(){W=innerWidth;H=innerHeight;c.width=W*D;c.height=H*D;x.setTransform(D,0,0,D,0,0)}rs();addEventListener('resize',rs);
+var L=[[38,1.25,.22,.55,.13,0],[26,.9,-.31,.62,.10,0],[48,1.6,.14,.70,.09,0],[18,.7,.42,.58,0,1.2],[30,1.1,-.2,.66,0,.8],[22,.8,.27,.72,0,1.5]];
+function f(ms){var t=ms/1000;x.clearRect(0,0,W,H);L.forEach(function(l){var by=H*l[3],a=l[0]*1.4;x.beginPath();
+for(var i=0;i<=80;i++){var px=W*i/80,ph=px/W*Math.PI*2/l[1],y=by+Math.sin(ph+t*l[2]*2)*a+Math.sin(ph*2.3-t*l[2])*a*.35;i?x.lineTo(px,y):x.moveTo(px,y)}
+if(l[5]){x.strokeStyle='rgba(229,9,20,.30)';x.lineWidth=l[5];x.stroke()}else{x.lineTo(W,H);x.lineTo(0,H);x.closePath();var g=x.createLinearGradient(0,by-a,0,H);g.addColorStop(0,'rgba(229,9,20,'+l[4]*1.7+')');g.addColorStop(1,'rgba(229,9,20,'+l[4]*.25+')');x.fillStyle=g;x.fill()}});requestAnimationFrame(f)}
+requestAnimationFrame(f)})();</script>
+
 <iframe id="intro" src="intro.html" style="position:fixed;inset:0;width:100%;height:100%;border:0;z-index:999" title="ARIAgames intro"></iframe>
 <script>try{if(sessionStorage.getItem('ag'))document.getElementById('intro').remove();else sessionStorage.setItem('ag','1')}catch(e){}
 addEventListener('message',e=>{if(e.data==='aria-intro-done'){const f=document.getElementById('intro');f&&f.remove()}})</script>
