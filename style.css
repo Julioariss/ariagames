@@ -127,3 +127,6 @@ body>*:not(#bgw):not(script):not(header){position:relative;z-index:1}
 @keyframes shf{0%{opacity:0}4%,20%{opacity:1}24%,100%{opacity:0}}
 #snd{position:fixed;left:18px;bottom:18px;z-index:80;display:flex;align-items:center;gap:8px;padding:10px 16px;border-radius:999px;border:1px solid rgba(229,9,20,.25);background:rgba(255,255,255,.72);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);color:#0b0b0c;font:700 13px/1 -apple-system,sans-serif;cursor:pointer;box-shadow:0 10px 30px -10px rgba(0,0,0,.3)}
 #snd svg{color:var(--red)}#snd .on{opacity:0}#snd.on .on{opacity:1}
+.aw.b .scr img.sh{animation:shf3 15s infinite}
+@keyframes shf3{0%{opacity:0}4%,29%{opacity:1}34%,100%{opacity:0}}
+@keyframes shf{0%{opacity:0}3%,22%{opacity:1}26%,100%{opacity:0}}
