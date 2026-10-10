@@ -123,3 +123,5 @@ body>*:not(#bgw):not(script):not(header){position:relative;z-index:1}
 .aw .scr{border-radius:22.5%/19%;box-shadow:0 0 0 3px #050505}
 .aw .band{left:10%;right:10%}
 .aw .crown{top:24%;height:13%}
+.aw .scr img.sh{position:absolute;inset:0;opacity:0;object-fit:cover;animation:shf 20s infinite}
+@keyframes shf{0%{opacity:0}4%,20%{opacity:1}24%,100%{opacity:0}}
