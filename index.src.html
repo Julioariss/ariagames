@@ -1,0 +1,119 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ARIAgames — Games built for Apple Watch</title>
+<meta name="description" content="Console-style games made only for Apple Watch. Kart Watch GP and STARwing Ace — one purchase, no ads, no accounts.">
+<meta property="og:title" content="ARIAgames"><meta property="og:description" content="Games built only for Apple Watch."><meta property="og:image" content="https://ariagames.dev/img/logo.jpg">
+<link rel="stylesheet" href="style.css?v=14"></head><body>
+<canvas id="bgw" aria-hidden="true"></canvas>
+<script>(function(){var c=document.getElementById('bgw'),x=c.getContext('2d'),W,H,D=Math.min(devicePixelRatio||1,2);
+function rs(){W=innerWidth;H=innerHeight;c.width=W*D;c.height=H*D;x.setTransform(D,0,0,D,0,0)}rs();addEventListener('resize',rs);
+var L=[[38,1.25,.22,.55,.13,0],[26,.9,-.31,.62,.10,0],[48,1.6,.14,.70,.09,0],[18,.7,.42,.58,0,1.2],[30,1.1,-.2,.66,0,.8],[22,.8,.27,.72,0,1.5]];
+function f(ms){var t=ms/1000;x.clearRect(0,0,W,H);L.forEach(function(l){var by=H*l[3],a=l[0]*1.4;x.beginPath();
+for(var i=0;i<=80;i++){var px=W*i/80,ph=px/W*Math.PI*2/l[1],y=by+Math.sin(ph+t*l[2]*2)*a+Math.sin(ph*2.3-t*l[2])*a*.35;i?x.lineTo(px,y):x.moveTo(px,y)}
+if(l[5]){x.strokeStyle='rgba(229,9,20,.30)';x.lineWidth=l[5];x.stroke()}else{x.lineTo(W,H);x.lineTo(0,H);x.closePath();var g=x.createLinearGradient(0,by-a,0,H);g.addColorStop(0,'rgba(229,9,20,'+l[4]*1.7+')');g.addColorStop(1,'rgba(229,9,20,'+l[4]*.25+')');x.fillStyle=g;x.fill()}});requestAnimationFrame(f)}
+requestAnimationFrame(f)})();</script>
+
+<iframe id="intro" src="intro.html" style="position:fixed;inset:0;width:100%;height:100%;border:0;z-index:999" title="ARIAgames intro"></iframe>
+<script>try{if(sessionStorage.getItem('ag'))document.getElementById('intro').remove();else sessionStorage.setItem('ag','1')}catch(e){}
+addEventListener('message',e=>{if(e.data==='aria-intro-done'){const f=document.getElementById('intro');f&&f.remove()}})</script>
+
+<header id="hd"><div class="wrap">
+ <a class="brand" href="./">ARIA<b>games</b></a>
+ <div class="search"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>Search Apple Watch games</div>
+ <nav><a href="#games">Games</a><a href="#kart">Kart Watch GP</a><a href="#starwingace">STARwing Ace</a><a href="#watch">On your wrist</a></nav>
+ <a class="nav-cta" href="#games">Coming to App Store</a>
+</div></header>
+
+<div class="wrap"><div class="stage">
+ <div class="feature" id="feature">
+  <div class="slide on" data-i="0"><img class="bg" src="art/kart.jpg" alt="Kart Watch GP" style="object-position:62% 50%"><div class="shade"></div>
+   <div class="info"><span class="tag">Racing · New</span><h2>Kart Watch GP</h2><p>16 original tracks, 5 cups and wild vehicles that fly and float — all steered with the Digital Crown.</p><div class="row"><a class="btn red" href="#kart">Explore the game</a><span class="price">US$1.99</span></div></div></div>
+  <div class="slide" data-i="1"><img class="bg" src="art/staracce.jpg" alt="STARwing Ace" style="object-position:70% 50%"><div class="shade"></div>
+   <div class="info"><span class="tag">Space shooter · New</span><h2>STARwing Ace</h2><p>Dodge, roll and lock on across five worlds — then face five unique bosses with a full orchestral score.</p><div class="row"><a class="btn red" href="#starwingace">Explore the game</a><span class="price">US$1.99</span></div></div></div>
+ </div>
+ <div class="list">
+  <button class="item on" data-go="0"><img src="img/kart.png" alt=""><span><b>Kart Watch GP</b><small>Racing · US$1.99</small></span><i></i></button>
+  <button class="item" data-go="1"><img src="img/staracce.png" alt=""><span><b>STARwing Ace</b><small>Space shooter · US$1.99</small></span><i></i></button>
+ </div>
+</div></div>
+
+<div class="marq"><div id="mq"></div></div>
+
+<section id="games"><div class="wrap">
+ <div class="h rv"><div><span class="mono">The catalog</span><h3>Only on <em>Apple Watch</em></h3></div></div>
+ <div class="cards">
+  <a class="card rv" href="#kart"><img class="art" src="art/kart.jpg" alt="" style="object-position:55% 50%"><div class="glass"><img src="img/kart.png" alt=""><span><b>Kart Watch GP</b><small>Racing</small></span><span class="pr">US$1.99</span></div></a>
+  <a class="card rv" href="#starwingace"><img class="art" src="art/staracce.jpg" alt="" style="object-position:72% 50%"><div class="glass"><img src="img/staracce.png" alt=""><span><b>STARwing Ace</b><small>Space shooter</small></span><span class="pr">US$1.99</span></div></a>
+ </div>
+</div></section>
+
+<section id="kart" style="padding-top:20px"><div class="wrap game">
+ <div class="shot rv" id="s1"><img src="art/kart.jpg" alt="Kart Watch GP" style="object-position:60% 50%"></div>
+ <div class="copy rv"><span class="mono">Racing · Apple Watch</span><h3>Kart Watch <em>GP</em></h3>
+  <p>A complete championship on your wrist. Drift for mini-turbos, pull mid-air tricks, and race friends nearby over local Wi-Fi or Bluetooth.</p>
+  <div class="stats"><div><b data-n="16">0</b><span>Original tracks</span></div><div><b data-n="5">0</b><span>Cups</span></div><div><b data-n="8">0</b><span>Racers</span></div></div>
+  <ul class="ticks"><li>Karts that turn into planes and boats</li><li>VS Race with up to 4 nearby watches</li><li>Music composed for every track</li></ul>
+  <div class="row"><span class="btn red">US$1.99 · Coming soon</span></div></div>
+</div></section>
+
+<section id="starwingace" style="padding-top:20px"><div class="wrap game rev">
+ <div class="shot rv"><img src="art/staracce.jpg" alt="STARwing Ace" style="object-position:70% 50%"></div>
+ <div class="copy rv"><span class="mono">Space shooter · Apple Watch</span><h3>STARwing <em>Ace</em></h3>
+  <p>Pilot the Vanguard from the asteroid belt to the enemy flagship. Deflect fire, lock on, and drop bombs — all with a Crown and a thumb.</p>
+  <div class="stats"><div><b data-n="5">0</b><span>Missions</span></div><div><b data-n="5">0</b><span>Unique bosses</span></div><div><b data-n="1">0</b><span>Epic score</span></div></div>
+  <ul class="ticks"><li>Dodge-focused rail combat with auto-target</li><li>Spoken wingman radio calls</li><li>Original orchestral soundtrack</li></ul>
+  <div class="row"><span class="btn red">US$1.99 · Coming soon</span></div></div>
+</div></section>
+
+<section class="watchband" id="watch"><div class="wrap">
+ <div class="duo rv"><div class="aw a"><div class="band t"></div><div class="band b"></div><div class="case"><div class="scr"><img class="sh" src="shots/k0.jpg" alt="Kart Watch GP" style="animation-delay:0s"><img class="sh" src="shots/k1.jpg" alt="Kart Watch GP" style="animation-delay:5s"><img class="sh" src="shots/k2.jpg" alt="Kart Watch GP" style="animation-delay:10s"><img class="sh" src="shots/k3.jpg" alt="Kart Watch GP" style="animation-delay:15s"><span class="gn">Kart Watch GP</span><i class="gl"></i></div></div><i class="crown"></i><i class="sbtn"></i></div><div class="aw b"><div class="band t"></div><div class="band b"></div><div class="case"><div class="scr"><img class="sh" src="shots/s0.jpg" alt="STARwing Ace" style="animation-delay:0s"><img class="sh" src="shots/s1.jpg" alt="STARwing Ace" style="animation-delay:5s"><img class="sh" src="shots/s2.jpg" alt="STARwing Ace" style="animation-delay:10s"><span class="gn">STARwing Ace</span><i class="gl"></i></div></div><i class="crown"></i><i class="sbtn"></i></div></div>
+ <div class="copy rv"><span class="mono">Built for the wrist</span><h3>Big games.<br><em>Tiny screen.</em></h3>
+  <p>We don't port phone games. Every ARIAgames title is designed from scratch for the Digital Crown, haptics and a 45 mm screen.</p>
+  <div><span class="pill">Digital Crown</span><span class="pill">Haptics</span><span class="pill">No ads</span><span class="pill">No accounts</span><span class="pill">No tracking</span><span class="pill">One purchase</span></div></div>
+</div></section>
+
+<section style="padding:90px 0 40px"><div class="cta rv">
+ <svg class="w" viewBox="0 0 1440 150" preserveAspectRatio="none"><path fill="#fff" d="M0 80c120-60 240 60 360 0s240-60 360 0 240 60 360 0 240-60 360 0v70H0z"/></svg>
+ <svg class="w b" viewBox="0 0 1440 150" preserveAspectRatio="none"><path fill="#fff" d="M0 60c120 60 240-60 360 0s240 60 360 0 240-60 360 0 240 60 360 0v90H0z"/></svg>
+ <h3>Play on your wrist.</h3><p>Kart Watch GP and STARwing Ace are coming to the App Store.</p><a class="btn" href="support.html">Get updates &amp; support</a>
+</div></section>
+
+<footer><div class="wrap"><span>© 2026 ARIAgames · Independent games made in Chile</span><span><a href="privacy.html">Privacy</a><a href="support.html">Support</a></span></div></footer>
+
+<script>
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
+// ticker
+$('#mq').innerHTML=('<span>Apple Watch</span><span>Digital Crown</span><span>No ads</span><span>Kart Watch GP</span><span>STARwing Ace</span><span>One purchase</span>').repeat(6);
+// header
+addEventListener('scroll',()=>$('#hd').classList.toggle('s',scrollY>8),{passive:true});
+// slider
+const slides=$$('.slide'),items=$$('.item');let cur=0,t;
+function go(i){cur=i;slides.forEach((s,k)=>s.classList.toggle('on',k===i));items.forEach((s,k)=>{s.classList.remove('on');if(k===i){void s.offsetWidth;s.classList.add('on')}});clearTimeout(t);t=setTimeout(()=>go((cur+1)%slides.length),7000)}
+items.forEach(b=>b.addEventListener('click',()=>go(+b.dataset.go)));go(0);
+// parallax on hero
+$('#feature').addEventListener('mousemove',e=>{const r=e.currentTarget.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;$$('.slide.on .bg').forEach(b=>b.style.transform=`translate(${x*-24}px,${y*-16}px)`)});
+// card tilt
+$$('.card').forEach(c=>{c.addEventListener('mousemove',e=>{const r=c.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;c.style.transform=`perspective(900px) rotateY(${x*9}deg) rotateX(${-y*9}deg) translateY(-6px)`});c.addEventListener('mouseleave',()=>c.style.transform='')});
+// reveal + counters
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;e.target.classList.add('in');e.target.querySelectorAll('[data-n]').forEach(n=>{const to=+n.dataset.n;let v=0;const st=performance.now();(function f(t){const p=Math.min((t-st)/1100,1);n.textContent=Math.round(to*(1-Math.pow(1-p,3)));if(p<1)requestAnimationFrame(f)})(st)});io.unobserve(e.target)}),{threshold:.2});
+$$('.rv').forEach(el=>io.observe(el));
+// parallax scroll on shots
+addEventListener('scroll',()=>$$('.shot img').forEach(im=>{const r=im.parentElement.getBoundingClientRect();if(r.bottom<0||r.top>innerHeight)return;im.style.transform=`translateY(${Math.max(-60,Math.min(60,(r.top+r.height/2-innerHeight/2)*-.06))}px)`}),{passive:true});
+// optional videos (Gemini): used only if files exist
+[['videos/kart.mp4','.slide[data-i="0"]','#s1'],['videos/staracce.mp4','.slide[data-i="1"]',null]].forEach(([src,sel,shot])=>{fetch(src,{method:'HEAD'}).then(r=>{if(!r.ok)return;[sel,shot].filter(Boolean).forEach(s=>{const host=$(s),v=document.createElement('video');v.src=src;v.muted=v.loop=v.playsInline=true;v.autoplay=true;v.setAttribute('playsinline','');host.querySelector('.shade')?host.insertBefore(v,host.querySelector('.shade')):host.appendChild(v);v.addEventListener('canplay',()=>{v.classList.add('ready');v.play().catch(()=>{})})})}).catch(()=>{})});
+</script><audio id="bgmK" src="music/kart-menu.m4a" loop preload="none"></audio><audio id="bgmS" src="music/starwing-menu.m4a" loop preload="none"></audio>
+<button id="snd" type="button" aria-label="Toggle music"><svg viewBox="0 0 24 24" width="18" height="18"><path d="M3 10v4h4l5 4V6L7 10z" fill="currentColor"/><path class="on" d="M15.5 8.5a5 5 0 010 7M18 6a8.5 8.5 0 010 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span>Music off</span></button>
+<script>(function(){var K=document.getElementById('bgmK'),S=document.getElementById('bgmS'),b=document.getElementById('snd'),on=false,cur='k',MAX=.45,tm;
+function tgt(){return cur=='k'?K:S}function oth(){return cur=='k'?S:K}
+function fade(){clearInterval(tm);tm=setInterval(function(){var t=tgt(),o=oth();t.volume=Math.min(MAX,t.volume+.03);o.volume=Math.max(0,o.volume-.05);if(o.volume<=0&&!o.paused)o.pause();if(t.volume>=MAX&&o.volume<=0)clearInterval(tm)},60)}
+function start(){on=true;var t=tgt();t.volume=0;t.play().then(function(){b.classList.add('on');b.querySelector('span').textContent='Music on';fade()}).catch(function(){on=false})}
+function stop(){on=false;b.classList.remove('on');b.querySelector('span').textContent='Music off';K.pause();S.pause()}
+b.addEventListener('click',function(e){e.stopPropagation();on?stop():start()});
+var first=function(){removeEventListener('pointerdown',first);try{localStorage.getItem('ariaMusicOff')||on||start()}catch(x){on||start()}};addEventListener('pointerdown',first);
+b.addEventListener('click',function(){try{localStorage.setItem('ariaMusicOff',on?'':'1')}catch(x){}});
+function set(g){if(g==cur)return;cur=g;if(on){tgt().volume=0;tgt().play().catch(function(){});fade()}}
+var ks=document.getElementById('kart'),ss=document.getElementById("starwingace");
+function chk(){if(!ks||!ss)return;var m=innerHeight/2,a=ks.getBoundingClientRect(),c=ss.getBoundingClientRect();if(c.top<m)set('s');else set('k')}
+addEventListener('scroll',chk,{passive:true});
+document.addEventListener('click',function(e){var i=e.target.closest&&e.target.closest('[data-go]');if(i)set(i.getAttribute('data-go')=='1'?'s':'k')});
+})();</script>
+</body></html>
