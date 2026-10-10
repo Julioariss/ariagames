@@ -1,9 +1,98 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="style.css?v=3"><meta property="og:image" content="img/logo.jpg"><title>ARIAgames — Cinematic games for Apple Watch</title><meta name="description" content="Console-style games built for your wrist. Kart Watch GP, StarAce and more for Apple Watch."></head><body><iframe id="intro" src="intro.html" style="position:fixed;inset:0;width:100%;height:100%;border:0;z-index:99" title="ARIAgames intro"></iframe>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ARIAgames — Games built for Apple Watch</title>
+<meta name="description" content="Console-style games made only for Apple Watch. Kart Watch GP and StarAce — one purchase, no ads, no accounts.">
+<meta property="og:title" content="ARIAgames"><meta property="og:description" content="Games built only for Apple Watch."><meta property="og:image" content="https://ariagames.dev/img/logo.jpg">
+<link rel="stylesheet" href="style.css?v=4"></head><body>
+<iframe id="intro" src="intro.html" style="position:fixed;inset:0;width:100%;height:100%;border:0;z-index:999" title="ARIAgames intro"></iframe>
 <script>try{if(sessionStorage.getItem('ag'))document.getElementById('intro').remove();else sessionStorage.setItem('ag','1')}catch(e){}
-addEventListener('message',e=>{if(e.data==='aria-intro-done'){const f=document.getElementById('intro');f&&f.remove()}})</script><header><div class="wrap"><a class="mark" href="./">ARIA<b>games</b></a><nav><a href="./">Games</a><a href="privacy.html">Privacy</a><a href="support.html">Support</a></nav></div></header>
-<section class="hero"><div class="wrap"><img class="logo" src="img/logo.jpg" alt="ARIAgames" style="display:block;width:min(560px,86vw);height:auto;margin:0 auto 6px;mix-blend-mode:multiply"><p class="mono">Apple Watch · Original games</p><h1>Big games.<br><em>Tiny screen.</em></h1><p class="lead">Racing, space combat and retro play — designed from scratch for the Digital Crown and your wrist. One purchase, no ads, no accounts.</p></div></section>
-<div class="wrap"><div class="games">
-<article class="card"><img src="img/kart.png" alt="Kart Watch GP icon"><h2>Kart Watch GP</h2><p>Arcade kart racing with karts that turn into planes and boats. Steer with the Digital Crown, fire items with a tap, and win cups from city streets to the Space Cup.</p><span class="tag">Racing</span><span class="tag price">US$1.99</span></article>
-<article class="card"><img src="img/staracce.png" alt="StarAce icon"><h2>StarAce</h2><p>A cinematic rail shooter across five missions. Dodge, roll, lock on and take down a different boss every mission, with an epic soundtrack.</p><span class="tag">Space shooter</span><span class="tag price">US$1.99</span></article>
-<article class="card"><img src="img/gb.png" alt="ARIAgb icon"><h2>ARIAgb</h2><p>Play your own Game Boy, Color and Advance backups on your wrist with D-pad swipes and Crown controls.</p><span class="tag">Retro</span><span class="tag soon">Coming soon</span></article>
-</div></div><footer><div class="wrap"><span>ARIAgames · Independent games made in Chile</span><nav><a href="privacy.html">Privacy</a><a href="support.html">Support</a></nav></div></footer></body></html>
+addEventListener('message',e=>{if(e.data==='aria-intro-done'){const f=document.getElementById('intro');f&&f.remove()}})</script>
+
+<header id="hd"><div class="wrap">
+ <a class="brand" href="./">ARIA<b>games</b></a>
+ <div class="search"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>Search Apple Watch games</div>
+ <nav><a href="#games">Games</a><a href="#kart">Kart Watch GP</a><a href="#starace">StarAce</a><a href="#watch">On your wrist</a></nav>
+ <a class="nav-cta" href="#games">Coming to App Store</a>
+</div></header>
+
+<div class="wrap"><div class="stage">
+ <div class="feature" id="feature">
+  <div class="slide on" data-i="0"><img class="bg" src="art/kart.jpg" alt="Kart Watch GP" style="object-position:62% 50%"><div class="shade"></div>
+   <div class="info"><span class="tag">Racing · New</span><h2>Kart Watch GP</h2><p>16 original tracks, 5 cups and wild vehicles that fly and float — all steered with the Digital Crown.</p><div class="row"><a class="btn red" href="#kart">Explore the game</a><span class="price">US$1.99</span></div></div></div>
+  <div class="slide" data-i="1"><img class="bg" src="art/staracce.jpg" alt="StarAce" style="object-position:70% 50%"><div class="shade"></div>
+   <div class="info"><span class="tag">Space shooter · New</span><h2>StarAce</h2><p>Dodge, roll and lock on across five worlds — then face five unique bosses with a full orchestral score.</p><div class="row"><a class="btn red" href="#starace">Explore the game</a><span class="price">US$1.99</span></div></div></div>
+  <div class="slide" data-i="2" style="background:linear-gradient(135deg,#d9c8ff,#8a5cf6 60%,#5b2fd0)"><img class="bg" src="img/gb.png" alt="ARIAgb" style="object-fit:contain;inset:8% 4% 8% 48%;width:48%;height:84%;border-radius:22%;filter:drop-shadow(0 40px 50px rgba(0,0,0,.35))"><div class="shade" style="background:linear-gradient(90deg,rgba(255,255,255,.9),rgba(255,255,255,.4) 42%,rgba(255,255,255,0) 62%)"></div>
+   <div class="info"><span class="tag" style="background:#6b3df0">Retro · Coming soon</span><h2>ARIAgb</h2><p>Your own Game Boy collection, reimagined for the wrist with D-pad swipes and Crown controls.</p><div class="row"><span class="price">Coming soon</span></div></div></div>
+ </div>
+ <div class="list">
+  <button class="item on" data-go="0"><img src="img/kart.png" alt=""><span><b>Kart Watch GP</b><small>Racing · US$1.99</small></span><i></i></button>
+  <button class="item" data-go="1"><img src="img/staracce.png" alt=""><span><b>StarAce</b><small>Space shooter · US$1.99</small></span><i></i></button>
+  <button class="item" data-go="2"><img src="img/gb.png" alt=""><span><b>ARIAgb</b><small>Retro · Coming soon</small></span><i></i></button>
+ </div>
+</div></div>
+
+<div class="marq"><div id="mq"></div></div>
+
+<section id="games"><div class="wrap">
+ <div class="h rv"><div><span class="mono">The catalog</span><h3>Only on <em>Apple Watch</em></h3></div></div>
+ <div class="cards">
+  <a class="card rv" href="#kart"><img class="art" src="art/kart.jpg" alt="" style="object-position:55% 50%"><div class="glass"><img src="img/kart.png" alt=""><span><b>Kart Watch GP</b><small>Racing</small></span><span class="pr">US$1.99</span></div></a>
+  <a class="card rv" href="#starace"><img class="art" src="art/staracce.jpg" alt="" style="object-position:72% 50%"><div class="glass"><img src="img/staracce.png" alt=""><span><b>StarAce</b><small>Space shooter</small></span><span class="pr">US$1.99</span></div></a>
+  <div class="card soon rv"><span class="tag ribbon" style="background:#fff;color:#6b3df0">Coming soon</span><img class="art" src="img/gb.png" alt=""><div class="glass"><img src="img/gb.png" alt=""><span><b>ARIAgb</b><small>Retro</small></span></div></div>
+ </div>
+</div></section>
+
+<section id="kart" style="padding-top:20px"><div class="wrap game">
+ <div class="shot rv" id="s1"><img src="art/kart.jpg" alt="Kart Watch GP" style="object-position:60% 50%"></div>
+ <div class="copy rv"><span class="mono">Racing · Apple Watch</span><h3>Kart Watch <em>GP</em></h3>
+  <p>A complete championship on your wrist. Drift for mini-turbos, pull mid-air tricks, and race friends nearby over local Wi-Fi or Bluetooth.</p>
+  <div class="stats"><div><b data-n="16">0</b><span>Original tracks</span></div><div><b data-n="5">0</b><span>Cups</span></div><div><b data-n="8">0</b><span>Racers</span></div></div>
+  <ul class="ticks"><li>Karts that turn into planes and boats</li><li>VS Race with up to 4 nearby watches</li><li>Music composed for every track</li></ul>
+  <div class="row"><span class="btn red">US$1.99 · Coming soon</span></div></div>
+</div></section>
+
+<section id="starace" style="padding-top:20px"><div class="wrap game rev">
+ <div class="shot rv"><img src="art/staracce.jpg" alt="StarAce" style="object-position:70% 50%"></div>
+ <div class="copy rv"><span class="mono">Space shooter · Apple Watch</span><h3>Star<em>Ace</em></h3>
+  <p>Pilot the Vanguard from the asteroid belt to the enemy flagship. Deflect fire, lock on, and drop bombs — all with a Crown and a thumb.</p>
+  <div class="stats"><div><b data-n="5">0</b><span>Missions</span></div><div><b data-n="5">0</b><span>Unique bosses</span></div><div><b data-n="1">0</b><span>Epic score</span></div></div>
+  <ul class="ticks"><li>Dodge-focused rail combat with auto-target</li><li>Spoken wingman radio calls</li><li>Original orchestral soundtrack</li></ul>
+  <div class="row"><span class="btn red">US$1.99 · Coming soon</span></div></div>
+</div></section>
+
+<section class="watchband" id="watch"><div class="wrap">
+ <div class="watch rv"><div class="scr"><img src="art/kart.jpg" alt=""></div><i class="crown"></i></div>
+ <div class="copy rv"><span class="mono">Built for the wrist</span><h3>Big games.<br><em>Tiny screen.</em></h3>
+  <p>We don't port phone games. Every ARIAgames title is designed from scratch for the Digital Crown, haptics and a 45 mm screen.</p>
+  <div><span class="pill">Digital Crown</span><span class="pill">Haptics</span><span class="pill">No ads</span><span class="pill">No accounts</span><span class="pill">No tracking</span><span class="pill">One purchase</span></div></div>
+</div></section>
+
+<section style="padding:90px 0 40px"><div class="cta rv">
+ <svg class="w" viewBox="0 0 1440 150" preserveAspectRatio="none"><path fill="#fff" d="M0 80c120-60 240 60 360 0s240-60 360 0 240 60 360 0 240-60 360 0v70H0z"/></svg>
+ <svg class="w b" viewBox="0 0 1440 150" preserveAspectRatio="none"><path fill="#fff" d="M0 60c120 60 240-60 360 0s240 60 360 0 240-60 360 0 240 60 360 0v90H0z"/></svg>
+ <h3>Play on your wrist.</h3><p>Kart Watch GP and StarAce are coming to the App Store.</p><a class="btn" href="support.html">Get updates &amp; support</a>
+</div></section>
+
+<footer><div class="wrap"><span>© 2026 ARIAgames · Independent games made in Chile</span><span><a href="privacy.html">Privacy</a><a href="support.html">Support</a></span></div></footer>
+
+<script>
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
+// ticker
+$('#mq').innerHTML=('<span>Apple Watch</span><span>Digital Crown</span><span>No ads</span><span>Kart Watch GP</span><span>StarAce</span><span>One purchase</span>').repeat(6);
+// header
+addEventListener('scroll',()=>$('#hd').classList.toggle('s',scrollY>8),{passive:true});
+// slider
+const slides=$$('.slide'),items=$$('.item');let cur=0,t;
+function go(i){cur=i;slides.forEach((s,k)=>s.classList.toggle('on',k===i));items.forEach((s,k)=>{s.classList.remove('on');if(k===i){void s.offsetWidth;s.classList.add('on')}});clearTimeout(t);t=setTimeout(()=>go((cur+1)%slides.length),7000)}
+items.forEach(b=>b.addEventListener('click',()=>go(+b.dataset.go)));go(0);
+// parallax on hero
+$('#feature').addEventListener('mousemove',e=>{const r=e.currentTarget.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;$$('.slide.on .bg').forEach(b=>b.style.transform=`translate(${x*-24}px,${y*-16}px)`)});
+// card tilt
+$$('.card').forEach(c=>{c.addEventListener('mousemove',e=>{const r=c.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;c.style.transform=`perspective(900px) rotateY(${x*9}deg) rotateX(${-y*9}deg) translateY(-6px)`});c.addEventListener('mouseleave',()=>c.style.transform='')});
+// reveal + counters
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;e.target.classList.add('in');e.target.querySelectorAll('[data-n]').forEach(n=>{const to=+n.dataset.n;let v=0;const st=performance.now();(function f(t){const p=Math.min((t-st)/1100,1);n.textContent=Math.round(to*(1-Math.pow(1-p,3)));if(p<1)requestAnimationFrame(f)})(st)});io.unobserve(e.target)}),{threshold:.2});
+$$('.rv').forEach(el=>io.observe(el));
+// parallax scroll on shots
+addEventListener('scroll',()=>$$('.shot img').forEach(im=>{const r=im.parentElement.getBoundingClientRect();if(r.bottom<0||r.top>innerHeight)return;im.style.transform=`translateY(${Math.max(-60,Math.min(60,(r.top+r.height/2-innerHeight/2)*-.06))}px)`}),{passive:true});
+// optional videos (Gemini): used only if files exist
+[['videos/kart.mp4','.slide[data-i="0"]','#s1'],['videos/staracce.mp4','.slide[data-i="1"]',null]].forEach(([src,sel,shot])=>{fetch(src,{method:'HEAD'}).then(r=>{if(!r.ok)return;[sel,shot].filter(Boolean).forEach(s=>{const host=$(s),v=document.createElement('video');v.src=src;v.muted=v.loop=v.playsInline=true;v.autoplay=true;v.setAttribute('playsinline','');host.querySelector('.shade')?host.insertBefore(v,host.querySelector('.shade')):host.appendChild(v);v.addEventListener('canplay',()=>{v.classList.add('ready');v.play().catch(()=>{})})})}).catch(()=>{})});
+</script></body></html>
