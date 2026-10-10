@@ -2,7 +2,7 @@
 <title>ARIAgames — Games built for Apple Watch</title>
 <meta name="description" content="Console-style games made only for Apple Watch. Kart Watch GP and STARwing Ace — one purchase, no ads, no accounts.">
 <meta property="og:title" content="ARIAgames"><meta property="og:description" content="Games built only for Apple Watch."><meta property="og:image" content="https://ariagames.dev/img/logo.jpg">
-<link rel="stylesheet" href="style.css?v=10"></head><body>
+<link rel="stylesheet" href="style.css?v=11"></head><body>
 <canvas id="bgw" aria-hidden="true"></canvas>
 <script>(function(){var c=document.getElementById('bgw'),x=c.getContext('2d'),W,H,D=Math.min(devicePixelRatio||1,2);
 function rs(){W=innerWidth;H=innerHeight;c.width=W*D;c.height=H*D;x.setTransform(D,0,0,D,0,0)}rs();addEventListener('resize',rs);
@@ -65,7 +65,7 @@ addEventListener('message',e=>{if(e.data==='aria-intro-done'){const f=document.g
 </div></section>
 
 <section class="watchband" id="watch"><div class="wrap">
- <div class="duo rv"><div class="aw a"><div class="band t"></div><div class="band b"></div><div class="case"><div class="scr"><img class="sh" src="shots/kwgp_s1.jpg" alt="Kart Watch GP gameplay" style="animation-delay:0s"><img class="sh" src="shots/kwgp_s2.jpg" alt="Kart Watch GP gameplay" style="animation-delay:4s"><img class="sh" src="shots/kwgp_s3.jpg" alt="Kart Watch GP gameplay" style="animation-delay:8s"><img class="sh" src="shots/kwgp_s4.jpg" alt="Kart Watch GP gameplay" style="animation-delay:12s"><img class="sh" src="shots/kwgp_s5.jpg" alt="Kart Watch GP gameplay" style="animation-delay:16s"><span class="tm">10:09</span><span class="gn">Kart Watch GP</span><i class="gl"></i></div></div><i class="crown"></i><i class="sbtn"></i></div><div class="aw b"><div class="band t"></div><div class="band b"></div><div class="case"><div class="scr"><img src="art/staracce.jpg" alt="STARwing Ace" style="object-position:70% 50%"><span class="tm">10:09</span><span class="gn">STARwing Ace</span><i class="gl"></i></div></div><i class="crown"></i><i class="sbtn"></i></div></div>
+ <div class="duo rv"><div class="aw a"><div class="band t"></div><div class="band b"></div><div class="case"><div class="scr"><img class="sh" src="shots/k0.jpg" alt="Kart Watch GP" style="animation-delay:0s"><img class="sh" src="shots/k1.jpg" alt="Kart Watch GP" style="animation-delay:5s"><img class="sh" src="shots/k2.jpg" alt="Kart Watch GP" style="animation-delay:10s"><img class="sh" src="shots/k3.jpg" alt="Kart Watch GP" style="animation-delay:15s"><span class="gn">Kart Watch GP</span><i class="gl"></i></div></div><i class="crown"></i><i class="sbtn"></i></div><div class="aw b"><div class="band t"></div><div class="band b"></div><div class="case"><div class="scr"><img class="sh" src="shots/s0.jpg" alt="STARwing Ace" style="animation-delay:0s"><img class="sh" src="shots/s1.jpg" alt="STARwing Ace" style="animation-delay:5s"><img class="sh" src="shots/s2.jpg" alt="STARwing Ace" style="animation-delay:10s"><span class="gn">STARwing Ace</span><i class="gl"></i></div></div><i class="crown"></i><i class="sbtn"></i></div></div>
  <div class="copy rv"><span class="mono">Built for the wrist</span><h3>Big games.<br><em>Tiny screen.</em></h3>
   <p>We don't port phone games. Every ARIAgames title is designed from scratch for the Digital Crown, haptics and a 45 mm screen.</p>
   <div><span class="pill">Digital Crown</span><span class="pill">Haptics</span><span class="pill">No ads</span><span class="pill">No accounts</span><span class="pill">No tracking</span><span class="pill">One purchase</span></div></div>
@@ -100,4 +100,20 @@ $$('.rv').forEach(el=>io.observe(el));
 addEventListener('scroll',()=>$$('.shot img').forEach(im=>{const r=im.parentElement.getBoundingClientRect();if(r.bottom<0||r.top>innerHeight)return;im.style.transform=`translateY(${Math.max(-60,Math.min(60,(r.top+r.height/2-innerHeight/2)*-.06))}px)`}),{passive:true});
 // optional videos (Gemini): used only if files exist
 [['videos/kart.mp4','.slide[data-i="0"]','#s1'],['videos/staracce.mp4','.slide[data-i="1"]',null]].forEach(([src,sel,shot])=>{fetch(src,{method:'HEAD'}).then(r=>{if(!r.ok)return;[sel,shot].filter(Boolean).forEach(s=>{const host=$(s),v=document.createElement('video');v.src=src;v.muted=v.loop=v.playsInline=true;v.autoplay=true;v.setAttribute('playsinline','');host.querySelector('.shade')?host.insertBefore(v,host.querySelector('.shade')):host.appendChild(v);v.addEventListener('canplay',()=>{v.classList.add('ready');v.play().catch(()=>{})})})}).catch(()=>{})});
-</script></body></html>
+</script><audio id="bgmK" src="music/kart-menu.m4a" loop preload="none"></audio><audio id="bgmS" src="music/starwing-menu.m4a" loop preload="none"></audio>
+<button id="snd" type="button" aria-label="Toggle music"><svg viewBox="0 0 24 24" width="18" height="18"><path d="M3 10v4h4l5 4V6L7 10z" fill="currentColor"/><path class="on" d="M15.5 8.5a5 5 0 010 7M18 6a8.5 8.5 0 010 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span>Music off</span></button>
+<script>(function(){var K=document.getElementById('bgmK'),S=document.getElementById('bgmS'),b=document.getElementById('snd'),on=false,cur='k',MAX=.45,tm;
+function tgt(){return cur=='k'?K:S}function oth(){return cur=='k'?S:K}
+function fade(){clearInterval(tm);tm=setInterval(function(){var t=tgt(),o=oth();t.volume=Math.min(MAX,t.volume+.03);o.volume=Math.max(0,o.volume-.05);if(o.volume<=0&&!o.paused)o.pause();if(t.volume>=MAX&&o.volume<=0)clearInterval(tm)},60)}
+function start(){on=true;var t=tgt();t.volume=0;t.play().then(function(){b.classList.add('on');b.querySelector('span').textContent='Music on';fade()}).catch(function(){on=false})}
+function stop(){on=false;b.classList.remove('on');b.querySelector('span').textContent='Music off';K.pause();S.pause()}
+b.addEventListener('click',function(e){e.stopPropagation();on?stop():start()});
+var first=function(){removeEventListener('pointerdown',first);try{localStorage.getItem('ariaMusicOff')||on||start()}catch(x){on||start()}};addEventListener('pointerdown',first);
+b.addEventListener('click',function(){try{localStorage.setItem('ariaMusicOff',on?'':'1')}catch(x){}});
+function set(g){if(g==cur)return;cur=g;if(on){tgt().volume=0;tgt().play().catch(function(){});fade()}}
+var ks=document.getElementById('kart'),ss=document.getElementById('starace');
+function chk(){if(!ks||!ss)return;var m=innerHeight/2,a=ks.getBoundingClientRect(),c=ss.getBoundingClientRect();if(c.top<m)set('s');else set('k')}
+addEventListener('scroll',chk,{passive:true});
+document.addEventListener('click',function(e){var i=e.target.closest&&e.target.closest('[data-go]');if(i)set(i.getAttribute('data-go')=='1'?'s':'k')});
+})();</script>
+</body></html>
