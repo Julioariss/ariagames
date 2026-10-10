@@ -2,7 +2,7 @@
 <title>ARIAgames — Des jeux conçus pour l’Apple Watch</title>
 <meta name="description" content="Des jeux de style console conçus uniquement pour l’Apple Watch. Kart Watch GP et STARwing Ace — un seul achat, sans publicité, sans compte.">
 <meta property="og:title" content="ARIAgames"><meta property="og:description" content="Des jeux conçus uniquement pour l’Apple Watch."><meta property="og:image" content="https://ariagames.dev/img/logo.jpg">
-<link rel="stylesheet" href="/style.css?v=14"><link rel="canonical" href="https://ariagames.dev/fr/"><link rel="alternate" hreflang="en" href="https://ariagames.dev/"><link rel="alternate" hreflang="es" href="https://ariagames.dev/es/"><link rel="alternate" hreflang="pt" href="https://ariagames.dev/pt/"><link rel="alternate" hreflang="de" href="https://ariagames.dev/de/"><link rel="alternate" hreflang="fr" href="https://ariagames.dev/fr/"><link rel="alternate" hreflang="ja" href="https://ariagames.dev/ja/"><link rel="alternate" hreflang="x-default" href="https://ariagames.dev/"></head><body>
+<link rel="stylesheet" href="/style.css?v=15"><link rel="canonical" href="https://ariagames.dev/fr/"><link rel="alternate" hreflang="en" href="https://ariagames.dev/"><link rel="alternate" hreflang="es" href="https://ariagames.dev/es/"><link rel="alternate" hreflang="pt" href="https://ariagames.dev/pt/"><link rel="alternate" hreflang="de" href="https://ariagames.dev/de/"><link rel="alternate" hreflang="fr" href="https://ariagames.dev/fr/"><link rel="alternate" hreflang="ja" href="https://ariagames.dev/ja/"><link rel="alternate" hreflang="x-default" href="https://ariagames.dev/"></head><body>
 <canvas id="bgw" aria-hidden="true"></canvas>
 <script>(function(){var c=document.getElementById('bgw'),x=c.getContext('2d'),W,H,D=Math.min(devicePixelRatio||1,2);
 function rs(){W=innerWidth;H=innerHeight;c.width=W*D;c.height=H*D;x.setTransform(D,0,0,D,0,0)}rs();addEventListener('resize',rs);
@@ -108,7 +108,7 @@ function fade(){clearInterval(tm);tm=setInterval(function(){var t=tgt(),o=oth();
 function start(){on=true;var t=tgt();t.volume=0;t.play().then(function(){b.classList.add('on');b.querySelector('span').textContent='Musique activée';fade()}).catch(function(){on=false})}
 function stop(){on=false;b.classList.remove('on');b.querySelector('span').textContent='Musique coupée';K.pause();S.pause()}
 b.addEventListener('click',function(e){e.stopPropagation();on?stop():start()});
-var first=function(){removeEventListener('pointerdown',first);try{localStorage.getItem('ariaMusicOff')||on||start()}catch(x){on||start()}};addEventListener('pointerdown',first);
+var first=function(e){if(e&&e.target&&e.target.closest&&e.target.closest('#snd'))return;try{if(localStorage.getItem('ariaMusicOff'))return}catch(x){}if(!on)start()};['pointerdown','keydown','touchstart','click'].forEach(function(n){addEventListener(n,first,{capture:true,passive:true})});addEventListener('message',function(e){if(e.data==='aria-gesture')first()});
 b.addEventListener('click',function(){try{localStorage.setItem('ariaMusicOff',on?'':'1')}catch(x){}});
 function set(g){if(g==cur)return;cur=g;if(on){tgt().volume=0;tgt().play().catch(function(){});fade()}}
 var ks=document.getElementById('kart'),ss=document.getElementById("starwingace");

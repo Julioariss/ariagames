@@ -40,7 +40,7 @@ html,body{height:100%;background:var(--ink);overflow:hidden;font-family:-apple-s
 /* pixel burst */
 .px{position:absolute;left:50%;top:50%;width:var(--s);height:var(--s);background:var(--c);z-index:4;opacity:0;animation:px 1s var(--d) cubic-bezier(.1,.8,.3,1) forwards}
 @keyframes px{0%{opacity:1;transform:translate(0,0) rotate(0)}100%{opacity:0;transform:translate(var(--x),var(--y)) rotate(var(--r))}}
-</style></head><body>
+.aria span{padding:0 .07em 0 .12em;margin:0 -.07em 0 -.12em}.aria{padding-left:.04em}</style></head><body>
 <div id="stage">
  <div class="cur t"></div><div class="cur b"></div><div class="line"></div>
  <div class="ring"></div><div class="ring r2"></div>
@@ -97,4 +97,4 @@ if(c.state==='running')go();else{c.resume().then(function(){if(c.state==='runnin
  ['pointerdown','keydown','touchstart'].forEach(function(e){addEventListener(e,go,{once:true,passive:true})})}
 document.addEventListener('click',function(){location.reload()});
 })();
-</script></body></html>
+</script><script>addEventListener('pointerdown',function(){try{parent.postMessage('aria-gesture','*')}catch(e){}},true)</script></body></html>
