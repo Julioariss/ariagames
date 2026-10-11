@@ -136,4 +136,6 @@ body>*:not(#bgw):not(script):not(header){position:relative;z-index:1}
 .req{margin:14px 0 0;font:600 12.5px/1.4 -apple-system,Inter,sans-serif;color:#6b6762;letter-spacing:.01em}
 
 footer .aid{display:block;margin-top:6px;opacity:.65;font-size:12px}
-.cards .card:nth-child(3){grid-column:1/-1;aspect-ratio:21/9}@media(max-width:700px){.cards .card:nth-child(3){aspect-ratio:3/4}}
+
+
+.cards{grid-template-columns:repeat(3,1fr)}.card{aspect-ratio:4/5}.card .glass{left:10px;right:10px;bottom:10px;padding:14px;gap:12px}.card .glass b{font-size:16px}.card .glass .pr{font-size:15px}@media(max-width:900px){.cards{grid-template-columns:1fr}.card{aspect-ratio:4/3}}
