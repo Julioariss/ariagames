@@ -57,3 +57,5 @@ Meta intermedia: 10k descargas mes 1 → 100k mes 3 → 1M año 1.
 - Nave rediseñada (Aurora Manta, original): marketing en ig/v4; en el juego Sources/Hero.swift (respaldo: Hero.swift.xfoil.bak). Falta nuevo build/archive y subir a App Store (decide Julio).
 - IG: nuevas publicaciones con etiqueta de IA + texto de transparencia. Reel antiguo de Star Ace (nave tipo X-wing): archivar/eliminar desde el movil.
 - Pendiente: busqueda de marcas (INAPI/USPTO/EUIPO) de Kart Watch GP, Star Ace, ARIAgames; revisar terminos comerciales de Gemini y licencias de voces/musica con un abogado.
+
+- Prompts Gemini: adjuntar hoja de la nave + Cosmo y listar PROHIBIDO (alas en X, canones en puntas, X-wing/Star Wars/Star Fox). Assets nuevos: ig/v5, promo/cosmo_reel_v2.mp4.
