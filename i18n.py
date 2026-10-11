@@ -124,11 +124,18 @@ T = {
  'Apple Watch専用のコンソール風ゲーム。Kart Watch GPとSTARwing Ace — 買い切り、広告なし、アカウント不要。',
  'Apple Watch専用のゲーム。'],
 }
+REQ='Requires Apple Watch Series 10 or later (including Ultra 3).'
+K.append(REQ)
+T['es'].append('Requiere Apple Watch Series 10 o posterior (incluye Ultra 3).')
+T['pt'].append('Requer Apple Watch Series 10 ou posterior (inclui Ultra 3).')
+T['de'].append('Erfordert Apple Watch Series 10 oder neuer (inkl. Ultra 3).')
+T['fr'].append('Nécessite une Apple Watch Series 10 ou ultérieure (Ultra 3 incluse).')
+T['ja'].append('Apple Watch Series 10以降（Ultra 3を含む）が必要です。')
 for l, v in T.items():
     assert len(v) == len(K), (l, len(v), len(K))
 NAMES = {'en':'English','es':'Español','pt':'Português','de':'Deutsch','fr':'Français','ja':'日本語'}
 BASE = 'https://ariagames.dev'
-MET = (K[-2], K[-1])
+MET = (K[-3], K[-2])
 
 def build(lang):
     h = SRC
