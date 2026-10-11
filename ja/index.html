@@ -2,7 +2,7 @@
 <title>ARIAgames — Apple Watch専用ゲーム</title>
 <meta name="description" content="Apple Watch専用のコンソール風ゲーム。Kart Watch GPとStar Ace : Watch Shooter — 買い切り、広告なし、アカウント不要。">
 <meta property="og:title" content="ARIAgames"><meta property="og:description" content="Apple Watch専用のゲーム。"><meta property="og:image" content="https://ariagames.dev/img/logo.jpg">
-<link rel="stylesheet" href="/style.css?v=17"><link rel="canonical" href="https://ariagames.dev/ja/"><link rel="alternate" hreflang="en" href="https://ariagames.dev/"><link rel="alternate" hreflang="es" href="https://ariagames.dev/es/"><link rel="alternate" hreflang="pt" href="https://ariagames.dev/pt/"><link rel="alternate" hreflang="de" href="https://ariagames.dev/de/"><link rel="alternate" hreflang="fr" href="https://ariagames.dev/fr/"><link rel="alternate" hreflang="ja" href="https://ariagames.dev/ja/"><link rel="alternate" hreflang="x-default" href="https://ariagames.dev/"></head><body>
+<link rel="stylesheet" href="/style.css?v=18"><link rel="canonical" href="https://ariagames.dev/ja/"><link rel="alternate" hreflang="en" href="https://ariagames.dev/"><link rel="alternate" hreflang="es" href="https://ariagames.dev/es/"><link rel="alternate" hreflang="pt" href="https://ariagames.dev/pt/"><link rel="alternate" hreflang="de" href="https://ariagames.dev/de/"><link rel="alternate" hreflang="fr" href="https://ariagames.dev/fr/"><link rel="alternate" hreflang="ja" href="https://ariagames.dev/ja/"><link rel="alternate" hreflang="x-default" href="https://ariagames.dev/"></head><body>
 <canvas id="bgw" aria-hidden="true"></canvas>
 <script>(function(){var c=document.getElementById('bgw'),x=c.getContext('2d'),W,H,D=Math.min(devicePixelRatio||1,2);
 function rs(){W=innerWidth;H=innerHeight;c.width=W*D;c.height=H*D;x.setTransform(D,0,0,D,0,0)}rs();addEventListener('resize',rs);
@@ -19,7 +19,7 @@ addEventListener('message',e=>{if(e.data==='aria-intro-done'){const f=document.g
 <header id="hd"><div class="wrap">
  <a class="brand" href="/ja/">ARIA<b>games</b></a>
  <div class="search"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>Apple Watchゲームを検索</div>
- <nav><a href="#games">ゲーム</a><a href="#kart">Kart Watch GP</a><a href="#starwingace">Star Ace : Watch Shooter</a><a href="#watch">あなたの手首で</a></nav>
+ <nav><a href="#games">ゲーム</a><a href="#kart">Kart Watch GP</a><a href="#starwingace">Star Ace : Watch Shooter</a><a href="#petalpop">Petal Pop</a><a href="#watch">あなたの手首で</a></nav>
  <a class="nav-cta" href="#games">App Storeに近日登場</a>
 </div></header>
 
@@ -29,24 +29,19 @@ addEventListener('message',e=>{if(e.data==='aria-intro-done'){const f=document.g
    <div class="info"><span class="tag">レース · 新作</span><h2>Kart Watch GP</h2><p>オリジナル16コース、5つのカップ、空を飛び水に浮かぶ変わった乗り物 — すべてデジタルクラウンで操作。</p><div class="row"><a class="btn red" href="#kart">ゲームを見る</a><span class="price">US$1.99</span></div></div></div>
   <div class="slide" data-i="1"><img class="bg" src="/art/staracce.jpg" alt="Star Ace : Watch Shooter" style="object-position:70% 50%"><div class="shade"></div>
    <div class="info"><span class="tag">シューティング · 新作</span><h2>Star Ace : Watch Shooter</h2><p>5つのワールドで避けて、ローリングして、ロックオン — さらに、フルオーケストラの音楽とともに5体の個性的なボスに挑め。</p><div class="row"><a class="btn red" href="#starwingace">ゲームを見る</a><span class="price">US$1.99</span></div></div></div>
- </div>
- <div class="list">
+   <div class="slide" data-i="2"><img class="bg" src="/art/petalpop.jpg" alt="Petal Pop" style="object-position:50% 50%"><div class="shade"></div>
+   <div class="info"><span class="tag">パズル · 新作</span><h2>Petal Pop</h2><p>絵本の水彩画の世界で、かわいいお花をそろえよう。デジタルクラウンと親指のために作られた、大きく弾むタイル。</p><div class="row"><a class="btn red" href="#petalpop">ゲームを見る</a><span class="price">近日公開</span></div></div></div>
+ </div> <div class="list">
   <button class="item on" data-go="0"><img src="/img/kart.png" alt=""><span><b>Kart Watch GP</b><small>レース · US$1.99</small></span><i></i></button>
   <button class="item" data-go="1"><img src="/img/staracce.png" alt=""><span><b>Star Ace : Watch Shooter</b><small>シューティング · US$1.99</small></span><i></i></button>
- </div>
-</div></div>
-
-<div class="marq"><div id="mq"></div></div>
+  <button class="item" data-go="2"><img src="/img/petalpop.png" alt=""><span><b>Petal Pop</b><small>パズル · 近日公開</small></span><i></i></button> </div></div></div><div class="marq"><div id="mq"></div></div>
 
 <section id="games"><div class="wrap">
  <div class="h rv"><div><span class="mono">カタログ</span><h3>専用: <em>Apple Watch</em></h3></div></div>
  <div class="cards">
   <a class="card rv" href="#kart"><img class="art" src="/art/kart.jpg" alt="" style="object-position:55% 50%"><div class="glass"><img src="/img/kart.png" alt=""><span><b>Kart Watch GP</b><small>レース</small></span><span class="pr">US$1.99</span></div></a>
   <a class="card rv" href="#starwingace"><img class="art" src="/art/staracce.jpg" alt="" style="object-position:72% 50%"><div class="glass"><img src="/img/staracce.png" alt=""><span><b>Star Ace : Watch Shooter</b><small>シューティング</small></span><span class="pr">US$1.99</span></div></a>
- </div>
-</div></section>
-
-<section id="kart" style="padding-top:20px"><div class="wrap game">
+  <a class="card rv" href="#petalpop"><img class="art" src="/art/petalpop.jpg" alt="" style="object-position:50% 50%"><div class="glass"><img src="/img/petalpop.png" alt=""><span><b>Petal Pop</b><small>パズル</small></span><span class="pr">近日公開</span></div></a> </div></div></section><section id="kart" style="padding-top:20px"><div class="wrap game">
  <div class="shot rv" id="s1"><img src="/art/kart.jpg" alt="Kart Watch GP" style="object-position:60% 50%"></div>
  <div class="copy rv"><span class="mono">レース · Apple Watch</span><h3>Kart Watch <em>GP</em></h3>
   <p>手首で楽しむ本格チャンピオンシップ。ドリフトでミニターボ、空中トリック、近くの友だちとローカルWi-FiやBluetoothで対戦。</p>
@@ -64,7 +59,12 @@ addEventListener('message',e=>{if(e.data==='aria-intro-done'){const f=document.g
   <div class="row"><span class="btn red">US$1.99 · 近日公開</span></div><p class="req">Apple Watch Series 10以降（Ultra 3を含む）が必要です。</p></div>
 </div></section>
 
-<section class="watchband" id="watch"><div class="wrap">
+<section id="petalpop" style="padding-top:20px"><div class="wrap game">
+ <div class="shot rv"><img src="/art/petalpop.jpg" alt="Petal Pop" style="object-position:50% 50%"></div>
+ <div class="copy rv"><span class="mono">パズル · Apple Watch</span><h3>Petal <em>Pop</em></h3>
+  <p>花を咲かせ、キラキラのコンボをつなぎ、手描きの庭でスプラウトと一緒に冒険。Apple Watch のためにゼロから作られた、心地よいパズルです。</p>
+  <ul class="ticks"><li>ストーリーモードとエンドレスモード</li><li>小さな画面でも押しやすい大きなタイル</li><li>絵本タッチの水彩アートとオリジナルの耳に残るサウンドトラック</li></ul>
+  <div class="row"><span class="btn red">近日公開</span></div><p class="req">Apple Watch Series 10以降（Ultra 3を含む）が必要です。</p></div></div></section><section class="watchband" id="watch"><div class="wrap">
  <div class="duo rv"><div class="aw a"><div class="band t"></div><div class="band b"></div><div class="case"><div class="scr"><img class="sh" src="/shots/k0.jpg" alt="Kart Watch GP" style="animation-delay:0s"><img class="sh" src="/shots/k1.jpg" alt="Kart Watch GP" style="animation-delay:5s"><img class="sh" src="/shots/k2.jpg" alt="Kart Watch GP" style="animation-delay:10s"><img class="sh" src="/shots/k3.jpg" alt="Kart Watch GP" style="animation-delay:15s"><span class="gn">Kart Watch GP</span><i class="gl"></i></div></div><i class="crown"></i><i class="sbtn"></i></div><div class="aw b"><div class="band t"></div><div class="band b"></div><div class="case"><div class="scr"><img class="sh" src="/shots/s0.jpg" alt="Star Ace : Watch Shooter" style="animation-delay:0s"><img class="sh" src="/shots/s1.jpg" alt="Star Ace : Watch Shooter" style="animation-delay:5s"><img class="sh" src="/shots/s2.jpg" alt="Star Ace : Watch Shooter" style="animation-delay:10s"><span class="gn">Star Ace : Watch Shooter</span><i class="gl"></i></div></div><i class="crown"></i><i class="sbtn"></i></div></div>
  <div class="copy rv"><span class="mono">手首のために設計</span><h3>大きなゲーム。<br><em>小さな画面。</em></h3>
   <p>スマホゲームの移植はしません。ARIAgamesの全作品は、デジタルクラウン、触覚、45mmの画面のためにゼロから設計しています。</p>
@@ -74,7 +74,7 @@ addEventListener('message',e=>{if(e.data==='aria-intro-done'){const f=document.g
 <section style="padding:90px 0 40px"><div class="cta rv">
  <svg class="w" viewBox="0 0 1440 150" preserveAspectRatio="none"><path fill="#fff" d="M0 80c120-60 240 60 360 0s240-60 360 0 240 60 360 0 240-60 360 0v70H0z"/></svg>
  <svg class="w b" viewBox="0 0 1440 150" preserveAspectRatio="none"><path fill="#fff" d="M0 60c120 60 240-60 360 0s240 60 360 0 240-60 360 0 240 60 360 0v90H0z"/></svg>
- <h3>手首でプレイ。</h3><p>Kart Watch GPとStar Ace : Watch Shooterは、まもなくApp Storeに登場します。</p><a class="btn" href="/ja/support.html">最新情報とサポート</a>
+ <h3>手首でプレイ。</h3><p>Kart Watch GP、Star Ace : Watch Shooter、Petal Pop は近日 App Store に登場します。</p><a class="btn" href="/ja/support.html">最新情報とサポート</a>
 </div></section>
 
 <footer><div class="wrap"><span>© 2026 ARIAgames · チリ発のインディーゲーム<br><small class="aid">デザイン・開発：Julio Aris。アートはAIツールで作成し、作者が監修しています。</small></span><span><a href="/ja/privacy.html">プライバシー</a><a href="/ja/support.html">サポート</a></span></div></footer>
@@ -82,7 +82,7 @@ addEventListener('message',e=>{if(e.data==='aria-intro-done'){const f=document.g
 <script>
 const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
 // ticker
-$('#mq').innerHTML=('<span>Apple Watch</span><span>デジタルクラウン</span><span>広告なし</span><span>Kart Watch GP</span><span>Star Ace : Watch Shooter</span><span>買い切り</span>').repeat(6);
+$('#mq').innerHTML=('<span>Apple Watch</span><span>デジタルクラウン</span><span>広告なし</span><span>Kart Watch GP</span><span>Star Ace : Watch Shooter</span><span>Petal Pop</span><span>買い切り</span>').repeat(6);
 // header
 addEventListener('scroll',()=>$('#hd').classList.toggle('s',scrollY>8),{passive:true});
 // slider

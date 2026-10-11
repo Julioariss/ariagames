@@ -2,7 +2,7 @@
 <title>ARIAgames — Games built for Apple Watch</title>
 <meta name="description" content="Console-style games made only for Apple Watch. Kart Watch GP and Star Ace : Watch Shooter — one purchase, no ads, no accounts.">
 <meta property="og:title" content="ARIAgames"><meta property="og:description" content="Games built only for Apple Watch."><meta property="og:image" content="https://ariagames.dev/img/logo.jpg">
-<link rel="stylesheet" href="style.css?v=17"><script>(function(){try{if(localStorage.getItem("ariaLang"))return;var l=(navigator.language||"en").slice(0,2).toLowerCase();if({es:1,pt:1,de:1,fr:1,ja:1}[l]&&!location.hash)location.replace("/"+l+"/")}catch(e){}})()</script><link rel="canonical" href="https://ariagames.dev/"><link rel="alternate" hreflang="en" href="https://ariagames.dev/"><link rel="alternate" hreflang="es" href="https://ariagames.dev/es/"><link rel="alternate" hreflang="pt" href="https://ariagames.dev/pt/"><link rel="alternate" hreflang="de" href="https://ariagames.dev/de/"><link rel="alternate" hreflang="fr" href="https://ariagames.dev/fr/"><link rel="alternate" hreflang="ja" href="https://ariagames.dev/ja/"><link rel="alternate" hreflang="x-default" href="https://ariagames.dev/"></head><body>
+<link rel="stylesheet" href="style.css?v=18"><script>(function(){try{if(localStorage.getItem("ariaLang"))return;var l=(navigator.language||"en").slice(0,2).toLowerCase();if({es:1,pt:1,de:1,fr:1,ja:1}[l]&&!location.hash)location.replace("/"+l+"/")}catch(e){}})()</script><link rel="canonical" href="https://ariagames.dev/"><link rel="alternate" hreflang="en" href="https://ariagames.dev/"><link rel="alternate" hreflang="es" href="https://ariagames.dev/es/"><link rel="alternate" hreflang="pt" href="https://ariagames.dev/pt/"><link rel="alternate" hreflang="de" href="https://ariagames.dev/de/"><link rel="alternate" hreflang="fr" href="https://ariagames.dev/fr/"><link rel="alternate" hreflang="ja" href="https://ariagames.dev/ja/"><link rel="alternate" hreflang="x-default" href="https://ariagames.dev/"></head><body>
 <canvas id="bgw" aria-hidden="true"></canvas>
 <script>(function(){var c=document.getElementById('bgw'),x=c.getContext('2d'),W,H,D=Math.min(devicePixelRatio||1,2);
 function rs(){W=innerWidth;H=innerHeight;c.width=W*D;c.height=H*D;x.setTransform(D,0,0,D,0,0)}rs();addEventListener('resize',rs);
@@ -19,7 +19,7 @@ addEventListener('message',e=>{if(e.data==='aria-intro-done'){const f=document.g
 <header id="hd"><div class="wrap">
  <a class="brand" href="./">ARIA<b>games</b></a>
  <div class="search"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>Search Apple Watch games</div>
- <nav><a href="#games">Games</a><a href="#kart">Kart Watch GP</a><a href="#starwingace">Star Ace : Watch Shooter</a><a href="#watch">On your wrist</a></nav>
+ <nav><a href="#games">Games</a><a href="#kart">Kart Watch GP</a><a href="#starwingace">Star Ace : Watch Shooter</a><a href="#petalpop">Petal Pop</a><a href="#watch">On your wrist</a></nav>
  <a class="nav-cta" href="#games">Coming to App Store</a>
 </div></header>
 
@@ -29,24 +29,19 @@ addEventListener('message',e=>{if(e.data==='aria-intro-done'){const f=document.g
    <div class="info"><span class="tag">Racing · New</span><h2>Kart Watch GP</h2><p>16 original tracks, 5 cups and wild vehicles that fly and float — all steered with the Digital Crown.</p><div class="row"><a class="btn red" href="#kart">Explore the game</a><span class="price">US$1.99</span></div></div></div>
   <div class="slide" data-i="1"><img class="bg" src="art/staracce.jpg" alt="Star Ace : Watch Shooter" style="object-position:70% 50%"><div class="shade"></div>
    <div class="info"><span class="tag">Space shooter · New</span><h2>Star Ace : Watch Shooter</h2><p>Dodge, roll and lock on across five worlds — then face five unique bosses with a full orchestral score.</p><div class="row"><a class="btn red" href="#starwingace">Explore the game</a><span class="price">US$1.99</span></div></div></div>
- </div>
- <div class="list">
+   <div class="slide" data-i="2"><img class="bg" src="art/petalpop.jpg" alt="Petal Pop" style="object-position:50% 50%"><div class="shade"></div>
+   <div class="info"><span class="tag">Puzzle · New</span><h2>Petal Pop</h2><p>Match adorable flowers in a storybook watercolor world — big, bouncy tiles built for the Digital Crown and your thumb.</p><div class="row"><a class="btn red" href="#petalpop">Explore the game</a><span class="price">Coming soon</span></div></div></div>
+ </div> <div class="list">
   <button class="item on" data-go="0"><img src="img/kart.png" alt=""><span><b>Kart Watch GP</b><small>Racing · US$1.99</small></span><i></i></button>
   <button class="item" data-go="1"><img src="img/staracce.png" alt=""><span><b>Star Ace : Watch Shooter</b><small>Space shooter · US$1.99</small></span><i></i></button>
- </div>
-</div></div>
-
-<div class="marq"><div id="mq"></div></div>
+  <button class="item" data-go="2"><img src="img/petalpop.png" alt=""><span><b>Petal Pop</b><small>Puzzle · Coming soon</small></span><i></i></button> </div></div></div><div class="marq"><div id="mq"></div></div>
 
 <section id="games"><div class="wrap">
  <div class="h rv"><div><span class="mono">The catalog</span><h3>Only on <em>Apple Watch</em></h3></div></div>
  <div class="cards">
   <a class="card rv" href="#kart"><img class="art" src="art/kart.jpg" alt="" style="object-position:55% 50%"><div class="glass"><img src="img/kart.png" alt=""><span><b>Kart Watch GP</b><small>Racing</small></span><span class="pr">US$1.99</span></div></a>
   <a class="card rv" href="#starwingace"><img class="art" src="art/staracce.jpg" alt="" style="object-position:72% 50%"><div class="glass"><img src="img/staracce.png" alt=""><span><b>Star Ace : Watch Shooter</b><small>Space shooter</small></span><span class="pr">US$1.99</span></div></a>
- </div>
-</div></section>
-
-<section id="kart" style="padding-top:20px"><div class="wrap game">
+  <a class="card rv" href="#petalpop"><img class="art" src="art/petalpop.jpg" alt="" style="object-position:50% 50%"><div class="glass"><img src="img/petalpop.png" alt=""><span><b>Petal Pop</b><small>Puzzle</small></span><span class="pr">Coming soon</span></div></a> </div></div></section><section id="kart" style="padding-top:20px"><div class="wrap game">
  <div class="shot rv" id="s1"><img src="art/kart.jpg" alt="Kart Watch GP" style="object-position:60% 50%"></div>
  <div class="copy rv"><span class="mono">Racing · Apple Watch</span><h3>Kart Watch <em>GP</em></h3>
   <p>A complete championship on your wrist. Drift for mini-turbos, pull mid-air tricks, and race friends nearby over local Wi-Fi or Bluetooth.</p>
@@ -64,7 +59,12 @@ addEventListener('message',e=>{if(e.data==='aria-intro-done'){const f=document.g
   <div class="row"><span class="btn red">US$1.99 · Coming soon</span></div><p class="req">Requires Apple Watch Series 10 or later (including Ultra 3).</p></div>
 </div></section>
 
-<section class="watchband" id="watch"><div class="wrap">
+<section id="petalpop" style="padding-top:20px"><div class="wrap game">
+ <div class="shot rv"><img src="art/petalpop.jpg" alt="Petal Pop" style="object-position:50% 50%"></div>
+ <div class="copy rv"><span class="mono">Puzzle · Apple Watch</span><h3>Petal <em>Pop</em></h3>
+  <p>Pop blooms, chain sparkling combos and follow the Sprout through a hand-painted garden — a cozy puzzle made from scratch for Apple Watch.</p>
+  <ul class="ticks"><li>Story mode and Endless mode</li><li>Big, tappable tiles made for a small screen</li><li>Storybook watercolor art and an original catchy soundtrack</li></ul>
+  <div class="row"><span class="btn red">Coming soon</span></div><p class="req">Requires Apple Watch Series 10 or later (including Ultra 3).</p></div></div></section><section class="watchband" id="watch"><div class="wrap">
  <div class="duo rv"><div class="aw a"><div class="band t"></div><div class="band b"></div><div class="case"><div class="scr"><img class="sh" src="shots/k0.jpg" alt="Kart Watch GP" style="animation-delay:0s"><img class="sh" src="shots/k1.jpg" alt="Kart Watch GP" style="animation-delay:5s"><img class="sh" src="shots/k2.jpg" alt="Kart Watch GP" style="animation-delay:10s"><img class="sh" src="shots/k3.jpg" alt="Kart Watch GP" style="animation-delay:15s"><span class="gn">Kart Watch GP</span><i class="gl"></i></div></div><i class="crown"></i><i class="sbtn"></i></div><div class="aw b"><div class="band t"></div><div class="band b"></div><div class="case"><div class="scr"><img class="sh" src="shots/s0.jpg" alt="Star Ace : Watch Shooter" style="animation-delay:0s"><img class="sh" src="shots/s1.jpg" alt="Star Ace : Watch Shooter" style="animation-delay:5s"><img class="sh" src="shots/s2.jpg" alt="Star Ace : Watch Shooter" style="animation-delay:10s"><span class="gn">Star Ace : Watch Shooter</span><i class="gl"></i></div></div><i class="crown"></i><i class="sbtn"></i></div></div>
  <div class="copy rv"><span class="mono">Built for the wrist</span><h3>Big games.<br><em>Tiny screen.</em></h3>
   <p>We don't port phone games. Every ARIAgames title is designed from scratch for the Digital Crown, haptics and a 45 mm screen.</p>
@@ -74,7 +74,7 @@ addEventListener('message',e=>{if(e.data==='aria-intro-done'){const f=document.g
 <section style="padding:90px 0 40px"><div class="cta rv">
  <svg class="w" viewBox="0 0 1440 150" preserveAspectRatio="none"><path fill="#fff" d="M0 80c120-60 240 60 360 0s240-60 360 0 240 60 360 0 240-60 360 0v70H0z"/></svg>
  <svg class="w b" viewBox="0 0 1440 150" preserveAspectRatio="none"><path fill="#fff" d="M0 60c120 60 240-60 360 0s240 60 360 0 240-60 360 0 240 60 360 0v90H0z"/></svg>
- <h3>Play on your wrist.</h3><p>Kart Watch GP and Star Ace : Watch Shooter are coming to the App Store.</p><a class="btn" href="support.html">Get updates &amp; support</a>
+ <h3>Play on your wrist.</h3><p>Kart Watch GP, Star Ace : Watch Shooter and Petal Pop are coming to the App Store.</p><a class="btn" href="support.html">Get updates &amp; support</a>
 </div></section>
 
 <footer><div class="wrap"><span>© 2026 ARIAgames · Independent games made in Chile<br><small class="aid">Designed and developed by Julio Aris. Art created with AI tools, directed by the author.</small></span><span><a href="privacy.html">Privacy</a><a href="support.html">Support</a></span></div></footer>
@@ -82,7 +82,7 @@ addEventListener('message',e=>{if(e.data==='aria-intro-done'){const f=document.g
 <script>
 const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
 // ticker
-$('#mq').innerHTML=('<span>Apple Watch</span><span>Digital Crown</span><span>No ads</span><span>Kart Watch GP</span><span>Star Ace : Watch Shooter</span><span>One purchase</span>').repeat(6);
+$('#mq').innerHTML=('<span>Apple Watch</span><span>Digital Crown</span><span>No ads</span><span>Kart Watch GP</span><span>Star Ace : Watch Shooter</span><span>Petal Pop</span><span>One purchase</span>').repeat(6);
 // header
 addEventListener('scroll',()=>$('#hd').classList.toggle('s',scrollY>8),{passive:true});
 // slider
