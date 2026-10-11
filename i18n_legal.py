@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 #!/usr/bin/env python3
 # Localizes privacy.html and support.html -> /<lang>/privacy.html, /<lang>/support.html
 import re, os
@@ -82,6 +83,10 @@ T = {
  'ゲーム名、ウォッチのモデル、watchOSのバージョン、発生した状況を添えてください。',
  'ARIAgames · チリ発のインディーゲーム'],
 }
+import opencc
+_cc=opencc.OpenCC('s2twp')
+T['zh']=['隐私 — ARIAgames', '支持 — ARIAgames', '游戏', '隐私', '支持', '首页', '隐私政策', '你的数据只留在你的手表上', '适用于 Kart Watch GP 和 Star Ace : Watch Shooter。最后更新：2026 年 10 月。', '我们收集什么', '什么都不收集。游戏没有账号、广告、分析和追踪。我们不收集、存储或分享任何个人信息。', '留在你设备上的内容', '进度、设置和最高分都保存在你的 Apple Watch 本地，永远不会离开它。', '本地多人游戏', '对战竞速通过本地网络让手表彼此直接连接。不使用游戏服务器，不会向我们发送任何内容，除比赛过程中的游戏数据外不交换任何个人信息，这些数据在比赛结束后即被丢弃。', '第三方', '游戏不包含用于广告或分析的第三方 SDK。购买完全由 Apple 通过 App Store 处理。', '儿童', '游戏不会收集任何人的数据，包括儿童。', '联系方式', '问题请联系：', '需要帮助吗？', '操作方式', '转动数码表冠即可操控或浏览菜单。滑动或点按进行操作；在支持的游戏中，按住屏幕中央 3 秒可打开暂停菜单。', '安装', '在 iPhone 上打开“Watch”App，在“可用的 App”中找到游戏并点按“安装”。游戏直接在手表上运行。', '购买与退款', '购买和退款由 Apple 管理，请前往', '仍然无法解决？', '请发邮件至', '并注明游戏名称、手表型号、watchOS 版本以及发生的情况。', 'ARIAgames · 来自智利的独立游戏']
+T['zh-hant']=[_cc.convert(x).replace('數碼','數位') for x in T['zh']]
 for l, v in T.items(): assert len(v) == len(K), (l, len(v), len(K))
 for lang, vals in T.items():
     tr = dict(zip(K, vals))
