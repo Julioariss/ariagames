@@ -4,7 +4,7 @@
 import re, os
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 K = ['Privacy — ARIAgames','Support — ARIAgames','Games','Privacy','Support','Home',
- 'Privacy policy','Your data stays on your watch','Applies to Kart Watch GP and Star Ace : Watch Shooter. Last updated: October 2026.',
+ 'Privacy policy','Your data stays on your watch','Applies to Kart Watch GP and Star Ace : Watch Shooter, Poppy Pop. Last updated: October 2026.',
  'What we collect','Nothing. The games have no accounts, no ads, no analytics and no tracking. We do not collect, store or share personal information.',
  'What stays on your device','Progress, settings and high scores are saved locally on your Apple Watch and never leave it.',
  'Local multiplayer','Versus races connect watches directly to each other over your local network. No game servers are involved, nothing is sent to us, and no personal information is exchanged beyond in-race gameplay data, which is discarded when the race ends.',
@@ -18,7 +18,7 @@ K = ['Privacy — ARIAgames','Support — ARIAgames','Games','Privacy','Support'
  'ARIAgames · Independent games made in Chile']
 T = {
 'es': ['Privacidad — ARIAgames','Soporte — ARIAgames','Juegos','Privacidad','Soporte','Inicio',
- 'Política de privacidad','Tus datos se quedan en tu reloj','Se aplica a Kart Watch GP y Star Ace : Watch Shooter. Última actualización: octubre de 2026.',
+ 'Política de privacidad','Tus datos se quedan en tu reloj','Se aplica a Kart Watch GP y Star Ace : Watch Shooter, Poppy Pop. Última actualización: octubre de 2026.',
  'Qué recopilamos','Nada. Los juegos no tienen cuentas, anuncios, analíticas ni rastreo. No recopilamos, almacenamos ni compartimos información personal.',
  'Qué queda en tu dispositivo','El progreso, los ajustes y las mejores puntuaciones se guardan localmente en tu Apple Watch y nunca salen de él.',
  'Multijugador local','Las carreras VS conectan los relojes directamente entre sí por tu red local. No hay servidores de juego, no se nos envía nada y no se intercambia información personal más allá de los datos de la carrera, que se descartan al terminar.',
@@ -31,7 +31,7 @@ T = {
  'con el nombre del juego, el modelo de tu reloj, la versión de watchOS y lo que ocurrió.',
  'ARIAgames · Juegos independientes hechos en Chile'],
 'pt': ['Privacidade — ARIAgames','Suporte — ARIAgames','Jogos','Privacidade','Suporte','Início',
- 'Política de privacidade','Seus dados ficam no seu relógio','Aplica-se a Kart Watch GP e Star Ace : Watch Shooter. Última atualização: outubro de 2026.',
+ 'Política de privacidade','Seus dados ficam no seu relógio','Aplica-se a Kart Watch GP e Star Ace : Watch Shooter, Poppy Pop. Última atualização: outubro de 2026.',
  'O que coletamos','Nada. Os jogos não têm contas, anúncios, análises nem rastreamento. Não coletamos, armazenamos nem compartilhamos informações pessoais.',
  'O que fica no seu dispositivo','Progresso, ajustes e recordes são salvos localmente no seu Apple Watch e nunca saem dele.',
  'Multijogador local','As corridas VS conectam os relógios diretamente entre si pela sua rede local. Não há servidores de jogo, nada é enviado a nós e nenhuma informação pessoal é trocada além dos dados da corrida, descartados ao final.',
@@ -44,7 +44,7 @@ T = {
  'com o nome do jogo, o modelo do relógio, a versão do watchOS e o que aconteceu.',
  'ARIAgames · Jogos independentes feitos no Chile'],
 'de': ['Datenschutz — ARIAgames','Support — ARIAgames','Spiele','Datenschutz','Support','Start',
- 'Datenschutzerklärung','Deine Daten bleiben auf deiner Uhr','Gilt für Kart Watch GP und Star Ace : Watch Shooter. Zuletzt aktualisiert: Oktober 2026.',
+ 'Datenschutzerklärung','Deine Daten bleiben auf deiner Uhr','Gilt für Kart Watch GP und Star Ace : Watch Shooter, Poppy Pop. Zuletzt aktualisiert: Oktober 2026.',
  'Was wir erfassen','Nichts. Die Spiele haben keine Konten, keine Werbung, keine Analysen und kein Tracking. Wir erfassen, speichern oder teilen keine personenbezogenen Daten.',
  'Was auf deinem Gerät bleibt','Fortschritt, Einstellungen und Highscores werden lokal auf deiner Apple Watch gespeichert und verlassen sie nie.',
  'Lokaler Mehrspieler','VS-Rennen verbinden die Uhren direkt über dein lokales Netzwerk. Es gibt keine Spielserver, nichts wird an uns gesendet, und außer den Rennspieldaten, die nach dem Rennen verworfen werden, werden keine personenbezogenen Daten ausgetauscht.',
@@ -57,7 +57,7 @@ T = {
  'mit dem Namen des Spiels, deinem Uhrenmodell, der watchOS-Version und was passiert ist.',
  'ARIAgames · Unabhängige Spiele aus Chile'],
 'fr': ['Confidentialité — ARIAgames','Assistance — ARIAgames','Jeux','Confidentialité','Assistance','Accueil',
- 'Politique de confidentialité','Vos données restent sur votre montre','S’applique à Kart Watch GP et Star Ace : Watch Shooter. Dernière mise à jour : octobre 2026.',
+ 'Politique de confidentialité','Vos données restent sur votre montre','S’applique à Kart Watch GP et Star Ace : Watch Shooter, Poppy Pop. Dernière mise à jour : octobre 2026.',
  'Ce que nous collectons','Rien. Les jeux n’ont ni compte, ni publicité, ni analyse, ni suivi. Nous ne collectons, ne stockons ni ne partageons aucune information personnelle.',
  'Ce qui reste sur votre appareil','La progression, les réglages et les meilleurs scores sont enregistrés localement sur votre Apple Watch et ne la quittent jamais.',
  'Multijoueur local','Les courses VS relient directement les montres entre elles via votre réseau local. Aucun serveur de jeu n’intervient, rien ne nous est envoyé et aucune information personnelle n’est échangée en dehors des données de course, supprimées à la fin de la course.',
