@@ -139,3 +139,5 @@ footer .aid{display:block;margin-top:6px;opacity:.65;font-size:12px}
 
 
 .cards{grid-template-columns:repeat(3,1fr)}.card{aspect-ratio:4/5}.card .glass{left:10px;right:10px;bottom:10px;padding:14px;gap:12px}.card .glass b{font-size:16px}.card .glass .pr{font-size:15px}@media(max-width:900px){.cards{grid-template-columns:1fr}.card{aspect-ratio:4/3}}
+
+footer .soc a{margin-left:0;margin-right:20px}footer .soc a:before{content:'';}
