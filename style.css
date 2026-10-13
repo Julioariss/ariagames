@@ -13,7 +13,7 @@ header .wrap{display:flex;align-items:center;gap:26px;height:68px}
 .search{flex:0 1 320px;display:flex;align-items:center;gap:10px;height:40px;padding:0 16px;border-radius:99px;background:var(--soft);color:var(--tx3);font-size:14px}
 .search svg{width:16px;height:16px;stroke:currentColor;fill:none;stroke-width:2}
 nav{display:flex;gap:6px;margin-left:8px}nav a{padding:8px 14px;border-radius:99px;font-size:14px;font-weight:600;color:var(--tx2);transition:.2s}nav a:hover{background:var(--soft);color:var(--tx)}
-.nav-cta{margin-left:auto;padding:11px 22px;border-radius:99px;background:var(--tx);color:#fff;font-weight:700;font-size:14px;transition:.25s}.nav-cta:hover{background:var(--red);transform:translateY(-1px)}
+.nav-cta{white-space:nowrap;margin-left:auto;padding:11px 22px;border-radius:99px;background:var(--tx);color:#fff;font-weight:700;font-size:14px;transition:.25s}.nav-cta:hover{background:var(--red);transform:translateY(-1px)}
 /* HERO SLIDER */
 .stage{display:grid;grid-template-columns:1fr 290px;gap:18px;padding:22px 0 10px}
 .feature{position:relative;height:min(62vh,600px);min-height:420px;border-radius:30px;overflow:hidden;background:#dfe6f2;box-shadow:0 40px 80px -40px rgba(0,0,0,.45);isolation:isolate}

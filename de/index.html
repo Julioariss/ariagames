@@ -20,7 +20,7 @@ addEventListener('message',e=>{if(e.data==='aria-intro-done'){const f=document.g
  <a class="brand" href="/de/">ARIA<b>games</b></a>
  <div class="search"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>Apple-Watch-Spiele suchen</div>
  <nav><a href="#games">Spiele</a><a href="#kart">Kart Watch GP</a><a href="#starwingace">Star Ace : Watch Shooter</a><a href="#petalpop">Poppy Pop</a><a href="#watch">Am Handgelenk</a></nav>
- <a class="nav-cta" href="#games">Bald im App Store</a>
+ <a class="nav-cta" href="https://apps.apple.com/app/id6821664713" rel="noopener">Poppy Pop · App Store</a>
 </div></header>
 
 <div class="wrap"><div class="stage">
@@ -30,7 +30,7 @@ addEventListener('message',e=>{if(e.data==='aria-intro-done'){const f=document.g
   <div class="slide" data-i="1"><img class="bg" src="/art/staracce.jpg" alt="Star Ace : Watch Shooter" style="object-position:70% 50%"><div class="shade"></div>
    <div class="info"><span class="tag">Weltraum-Shooter · Neu</span><h2>Star Ace : Watch Shooter</h2><p>Weiche aus, rolle dich und erfasse Ziele in fünf Welten — und stelle dich fünf einzigartigen Bossen mit vollem Orchester-Soundtrack.</p><div class="row"><a class="btn red" href="#starwingace">Spiel entdecken</a><span class="price">US$1.99</span></div></div></div>
    <div class="slide" data-i="2"><img class="bg" src="/art/petalpop.jpg" alt="Poppy Pop" style="object-position:50% 50%"><div class="shade"></div>
-   <div class="info"><span class="tag">Puzzle · Neu</span><h2>Poppy Pop</h2><p>Kombiniere niedliche Blumen in einer Märchenbuch-Aquarellwelt: große, hüpfende Steine für die Digital Crown und deinen Daumen.</p><div class="row"><a class="btn red" href="#petalpop">Spiel entdecken</a><span class="price">US$1.99</span></div></div></div>
+   <div class="info"><span class="tag">Puzzle · Neu</span><h2>Poppy Pop</h2><p>Kombiniere niedliche Blumen in einer Märchenbuch-Aquarellwelt: große, hüpfende Steine für die Digital Crown und deinen Daumen.</p><div class="row"><a class="badge" href="https://apps.apple.com/app/id6821664713" rel="noopener"><img src="/img/badges/de-de.svg" alt="Im App Store laden" height="48" style="height:48px;width:auto;display:block"></a><span class="price">US$1.99</span></div></div></div>
  </div> <div class="list">
   <button class="item on" data-go="0"><img src="/img/kart.png" alt=""><span><b>Kart Watch GP</b><small>Rennen · US$1.99</small></span><i></i></button>
   <button class="item" data-go="1"><img src="/img/staracce.png" alt=""><span><b>Star Ace : Watch Shooter</b><small>Weltraum-Shooter · US$1.99</small></span><i></i></button>
@@ -88,7 +88,7 @@ addEventListener('scroll',()=>$('#hd').classList.toggle('s',scrollY>8),{passive:
 // slider
 const slides=$$('.slide'),items=$$('.item');let cur=0,t;
 function go(i){cur=i;slides.forEach((s,k)=>s.classList.toggle('on',k===i));items.forEach((s,k)=>{s.classList.remove('on');if(k===i){void s.offsetWidth;s.classList.add('on')}});clearTimeout(t);t=setTimeout(()=>go((cur+1)%slides.length),7000)}
-items.forEach(b=>b.addEventListener('click',()=>go(+b.dataset.go)));go(0);
+items.forEach(b=>b.addEventListener('click',()=>go(+b.dataset.go)));go(2);
 // parallax on hero
 $('#feature').addEventListener('mousemove',e=>{const r=e.currentTarget.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;$$('.slide.on .bg').forEach(b=>b.style.transform=`translate(${x*-24}px,${y*-16}px)`)});
 // card tilt
