@@ -19,3 +19,8 @@
 - 12-oct 20:00: v4 FINAL del video, con la versión ACTUAL del juego (arte acuarela, Emperador Eclipse): promo/poppypop_epic_v4.mp4 (28s, 9:16). Gemini Veo quedó deshabilitado (límite diario); se usó imagen Gemini (key art) + gameplay del simulador compilado de fuentes actuales. Reemplaza v1-v3 (arte viejo). Subir manual a IG/TikTok.
 - 2026-10-12 Video v5: clip real Flow/Veo (acuarela, versión actual) + gameplay + outro, música bgm_boss. promo/poppypop_epic_v5.mp4
 - 2026-10-12 22:55: Reel EN (poppypop_en.mp4, etiqueta IA activada, link App Store en caption) publicado en IG; reel ES eliminado. Web: 15 idiomas + badges oficiales Apple + aviso de marcas. Pendiente: TikTok (sin permiso de dominio), links en bios (solo móvil), XHS (poppypop_zh.mp4) desde el celular.
+
+## 2026-10-13 (mar) — rutina automática
+- ASC: Poppy Pop 1.0.1 READY_FOR_SALE (id 6821664713, App Store 301/ok). Star Ace 1.0 y Kart Watch GP 1.0 = PENDING_DEVELOPER_RELEASE (aprobados, esperan liberación; NO liberados, requiere OK de Julio). Enlaces App Store de Star Ace/Kart aún 404 -> no publicar.
+- Sitio: ariagames.dev y privacy/support de los 3 juegos = 200.
+- Redes: no se publicó nada (histórico: IG sin carga automática, TikTok sin permiso de dominio). Pendiente manual: Reel Martes Kart Watch GP como teaser sin enlace hasta liberar.
