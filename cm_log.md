@@ -24,3 +24,61 @@
 - ASC: Poppy Pop 1.0.1 READY_FOR_SALE (id 6821664713, App Store 301/ok). Star Ace 1.0 y Kart Watch GP 1.0 = PENDING_DEVELOPER_RELEASE (aprobados, esperan liberación; NO liberados, requiere OK de Julio). Enlaces App Store de Star Ace/Kart aún 404 -> no publicar.
 - Sitio: ariagames.dev y privacy/support de los 3 juegos = 200.
 - Redes: no se publicó nada (histórico: IG sin carga automática, TikTok sin permiso de dominio). Pendiente manual: Reel Martes Kart Watch GP como teaser sin enlace hasta liberar.
+
+## 2026-10-14 (mié) — rutina automática
+- ASC: Poppy Pop 1.0.1 READY_FOR_SALE (1.0.2 WAITING_FOR_REVIEW). Star Ace 1.0 y Kart Watch GP 1.0 = READY_FOR_SALE (ya a la venta; páginas App Store resuelven con título). Star Ace 1.0.1 = PENDING_DEVELOPER_RELEASE (espera OK de Julio); Kart 1.0.1 = WAITING_FOR_REVIEW.
+- Sitio: ariagames.dev (EN/ES) ya tiene los 3 enlaces App Store y 0 "Coming soon"; privacy/support de los 3 juegos = 200.
+- AVISO: index.src.html local aún dice "US$1.99 · Coming soon" para Kart y Star Ace (líneas ~50 y ~59) mientras index.html/live ya tienen enlaces; correr i18n.py con ese src REGRESARÍA el sitio. Repo local "ahead 9" sin push. No toqué nada.
+- Redes: no revisadas/publicadas hoy (histórico: IG sin carga auto, TikTok sin permiso). Pendiente manual: Reel miércoles Star Ace (ya con enlace App Store id6821445432).
+
+## 2026-10-16 (vie) — rutina automática
+- ASC: Poppy Pop 1.0.2, Star Ace 1.0.1 y Kart Watch GP 1.0.1 = READY_FOR_SALE (los 3 a la venta). Star Ace 1.0.2 y Kart 1.0.2 = WAITING_FOR_REVIEW.
+- Sitio: ariagames.dev + privacy/support de los 3 = 200. Repo en sync con origin; index.src.html sin "Coming soon".
+- IG @ariagames.app: 27 seguidores (+11 vs 16 base), 8 posts, 171 seguidos; bio ya con 3 juegos / US$1.99 / link ariagames.dev/go. No publicado hoy (viernes = compilación 3 juegos): carga web de video sigue bloqueada. TikTok sin permiso de dominio. XHS no revisada.
+- Pendiente manual (Julio): subir compilación viernes (tiktok/ + promo/) a IG/TikTok/XHS desde el iPhone.
+- Texto listo (EN): "3 games. 1 wrist. Poppy Pop, Kart Watch GP & Star Ace: Apple Watch-only games, US$1.99, no ads. Link in bio. #AppleWatch #AppleWatchGames #indiedev #watchOS"
+- 2026-10-16: Video promo smartwatch realista (9:16, 8s) generado en Gemini normal (no Flow): https://gemini.google.com/app/ffac33d43471f7fa . Pendiente: descargar (OK de Julio) a promo/ y publicar manual.
+- 2026-10-16 SPOT DE VENTAS (25 s, 9:16, EN): promo/spot_3games_en.mp4 (21MB) y spot_3games_en_light.mp4 (liviano). Gameplay/clips reales: gancho + Star Ace + Kart Watch GP + Poppy Pop + cierre "3 games. 1 wrist. US$1.99 each, No ads, App Store, ariagames.dev". Script: _tools/build_spot.py. Pendiente: subir manual a IG/TikTok/XHS.
+  Caption: "3 games. 1 wrist. Star Ace, Kart Watch GP & Poppy Pop: Apple Watch-only games, US$1.99 each, no ads. Link in bio 👇 #AppleWatch #AppleWatchGames #indiedev #watchOS #gaming"
+- 2026-10-16 (pedido de Julio: 1 video nuevo por juego, imágenes nuevas, Gemini normal): 3 clips 9:16 8s generados, reloj realista + pantalla del juego.
+  Star Ace: https://gemini.google.com/app/ac8e2af713b7f746
+  Kart Watch GP: https://gemini.google.com/app/ecf478f005da74a1
+  Poppy Pop: https://gemini.google.com/app/e0b9ba4b407f87a7
+  Cuota de videos de Gemini agotada hasta las 22:32 (no usar "Probar"/upgrade = gasto). Pendiente: descargar (OK de Julio) y añadir cierre con precio/App Store.
+- 2026-10-16: Descargados 3 clips Gemini a content/2026-10-16/gem/. Kart de Gemini DESCARTADO (kart con emblema "M" tipo Mario Kart = riesgo copyright; personaje no real). Star Ace/Poppy Gemini montados (promo/spot_staracce_en.mp4, spot_poppypop_en.mp4) pero la pantalla NO muestra los personajes reales (nave tipo X-wing, flores genéricas) -> no publicar hasta rehacer con imágenes de referencia reales.
+  Kart con personaje REAL (zorro) y sin Mario: promo/spot_kartwatchgp_en.mp4 (13.5 s, cierre US$1.99/App Store). Scripts: _tools/build_gem_spots.py.
+  Pendiente tras 22:32 (cuota Gemini): regenerar Star Ace (Cosmo nutria + nave real) y Poppy Pop con la imagen real como referencia (image-to-video), sin emblemas ni letras.
+- 2026-10-16 SPOT KART 10 PERSONAJES (gameplay real del simulador, 27.5 s, 9:16): promo/spot_kart_10racers_en.mp4. Grabado con copia del proyecto (~/.zzk_copy, args -autorace/-critter/-autopilot; el proyecto original NO se tocó). Scripts: _tools/build_sim_race.py, ~/.zzk_rec.sh. Clips en content/2026-10-16/sim/clips. Mismo método sirve para Poppy Pop/Star Ace (simulador) cuando se quiera.
+  Caption: "10 racers. One wrist. Kart Watch GP, Apple Watch only, US$1.99, no ads. Link in bio #AppleWatch #AppleWatchGames #indiedev #watchOS #kartracing"
+- 2026-10-16 SPOT KART v2 (diseño con arte de personajes Gemini + gameplay real simulador + música de pista del juego track_6): promo/spot_kart_10racers_v2.mp4 (29.9 s). Variantes de música antiguas: spot_kart_10racers_music6/14.mp4 (versión sin arte). Script: _tools/build_sim_race_v2.py. Publicar a mano. Caption: "10 racers. One wrist. Kart Watch GP, Apple Watch only, US$1.99, no ads. Link in bio #AppleWatch #AppleWatchGames #indiedev #watchOS #kartracing"
+
+- 2026-10-16 (tarde): v3 del spot Kart Watch GP -> promo/spot_kart_10racers_v3.mp4 (29.9 s). Fondos ilustrados por Claude (sin Gemini): canon, bahia, ciudad neon x2, nieve, volcan, selva, mar, otono. Scripts: _tools/bgart.py + build_sim_race_v3.py. Gameplay real del simulador + personajes reales. Pendiente: Gemini 22:40 Chile (fondos 9:16 si hay cuota), spots Star Ace/Poppy con simulador. Publicar manual desde iPhone.
+- 2026-10-16 (noche): v4 spot Kart -> promo/spot_kart_10racers_v4.mp4. Tipografia Impact 3D degradado (_tools/textfx.py), portada 10 pilotos sobre ciudad neon, end card nueva. ChatGPT pide login (no puedo iniciar sesion); Julio puede loguearse en Chrome si quiere usarlo.
+- 2026-10-16 22:18 Chile: Gemini aun bloqueado (limite se restablece 22:32). Preparado chars/ref10_grid.jpg (10 personajes reales) para usar como referencia: generar poster 9:16 desde cero + animarlo a video (Julio pidio movimiento). Recordatorio 22:40 activo.
+
+## 2026-10-17 (sáb) — rutina automática
+- ASC: Poppy 1.0.2, Star Ace 1.0.1, Kart 1.0.1 = READY_FOR_SALE (sin cambios). Star Ace 1.0.2 y Kart 1.0.2 = WAITING_FOR_REVIEW.
+- Sitio: ariagames.dev + privacy/support de los 3 = 200. Repo en sync con origin.
+- IG @ariagames.app: 28 seguidores (+1), 8 posts, 172 seguidos. Notificaciones: solo nuevos seguidores y 1 comentario previo (lylyserey, positivo); nada que responder. Aviso Meta Verified "no se pudo confirmar identidad" (ignorar/Julio).
+- No publicado (sáb = reutilizar mejor clip): carga web de video bloqueada; TikTok sin permiso de dominio; XHS no revisada. Mejor clip listo: promo/spot_kart_10racers_v4.mp4 / spot_3games_en.mp4 -> subir manual.
+- Nota: tf_status.py no existe en ariagames/; ASC se consulta con Prospect/tools/asc/common.py (solo lectura).
+
+## 2026-10-18 (dom) — sesión con Julio
+- Julio autorizó actuar libremente sin gasto (preguntar solo si hay costo). Confirmado: Poppy 1.0.2 READY_FOR_SALE; Star Ace/Kart 1.0.2 en revisión.
+- Crecimiento IG: buscador/hashtags de Instagram web no cargan (error en /explore/tags; panel Buscar no abre tras 2 intentos). 0 follows/comentarios hoy. Reintentar desde otra ruta (perfiles de cuentas conocidas) en la próxima rutina.
+- Kit lunes listo: content/2026-10-19/KIT_lunes_poppypop.md (captions EN + zh-Hant + respuestas).
+- 2026-10-18: Julio pidió controlar Mac + iPhone vía "Duplicación del iPhone". computer_request_access falló 3 veces ("entries not resolved/expired") aunque resolve_access devolvía la app (com.apple.ScreenContinuity). Detenido. Opciones: Julio abre Duplicación del iPhone y reintenta, o sube manual con el kit content/2026-10-19/.
+- 2026-10-18: lista de objetivos de prensa + pitch en content/outreach/targets_2026-10-18.md (envío = Julio/OK). Código PetalPop local = 1.1.0 build 27 (tienda 1.0.2): NO se compiló ni subió nada (sin pruebas, riesgo de romper el juego live).
+
+## 2026-10-18 (dom) — rutina automática
+- ASC: Kart 1.0.2 y STAR Ace 1.0.2 = PENDING_DEVELOPER_RELEASE (aprobadas; publicar solo con OK de Julio). Poppy 1.0.2 READY_FOR_SALE; Poppy 1.1.0 = DEVELOPER_REJECTED (freemium aún no publicado -> web/bios siguen a US$1.99). Reseñas: Poppy 1 (5★ "Ingenioso"), Kart 0, STAR 0. /go = 200.
+- Chrome extension no conectada: IG/TikTok/XHS no revisadas, nada publicado.
+
+## 2026-10-18 — NOTA IMPORTANTE (Julio)
+- Poppy Pop y Kart Watch GP pasan a FREEMIUM (Poppy: mundo 1 gratis; Kart: primera copa gratis; desbloqueo único US$1.99). Se publican desde chats aparte.
+- Kart 1.0.2 y STAR Ace 1.0.2 publicadas hoy (keywords nuevas).
+- REGLA: cuando la API de ASC muestre el precio gratis (lookup itunes price 0.0) de un juego, actualizar web (index.src.html + i18n.py), /go, bios IG/TikTok/XHS a "Gratis · desbloquea el juego completo". Mientras cobre US$1.99, NO decir gratis. STAR Ace sigue US$1.99.
+- Con Kart gratis la primera copa, los videos de Kart pueden reanudarse (spot_kart_10racers_v4.mp4) solo cuando salga esa versión.
+- 2026-10-18 14:40 Julio: los 3 juegos pasan a freemium (STAR Ace también: primer mundo gratis + desbloqueo US$1.99). Misma regla: cambiar textos a "Gratis" solo cuando itunes lookup muestre price 0.0 por juego.
+- 2026-10-18 Julio: texto oficial para web/bios cuando sean gratis: "Gratis · con compras en la app" (EN: "Free · In-App Purchases"; zh-Hant: "免費 · 內含 App 內購買"). Reemplaza "Gratis · desbloquea el juego completo".
+- 2026-10-18 Julio (FINAL): etiqueta pública en TODOS los idiomas y redes = "In-App Purchases" (tal cual, en inglés). NO escribir "primer mundo/primeras pistas gratis". Formato: "Free · In-App Purchases" donde se muestre precio.
