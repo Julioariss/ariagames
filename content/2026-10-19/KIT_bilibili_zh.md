@@ -6,6 +6,7 @@ VIDEOS A USAR (solo los actualizados, sin precio US$1.99):
 - promo/poppypop_zh_free_s.mp4 (chino, ya dice 内含 App 内购买) -> Bilibili y Douyin
 - promo/poppypop_free_en.mp4 (inglés) -> YouTube / IG / Reels
 OK: promo/spot_3games_en_v3.mp4 (final corregido: Free to download · In-App Purchases).
+OK tambien: spot_staracce_en_v2.mp4, spot_poppypop_en_v2.mp4, spot_kartwatchgp_en_v2.mp4 (end card corregido).
 NO usar: spot_3games_en.mp4/_v2*, spot_kart_*, star_ace_reel.mp4, poppypop_zh.mp4 (muestran US$1.99/compra única). Pendiente rehacerlos.
 
 ## Bilibili — Poppy Pop (简体)
