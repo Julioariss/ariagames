@@ -155,3 +155,13 @@ nav a.gchip:hover{background:#fff;box-shadow:0 6px 18px -8px rgba(0,0,0,.35);tra
 .nav-soc{margin-left:auto;display:flex;gap:10px}.sn{width:44px;height:44px;border-radius:50%;background:var(--tx);color:#fff;display:grid;place-items:center;transition:.25s}.sn:hover{background:var(--red);transform:translateY(-1px)}.sn:nth-child(3){background:#fff;border:1px solid #eee}
 
 .card .pr{text-align:right;line-height:1.15}.card .pr::after{content:"App Store \203A";display:block;font-size:11px;font-weight:700;color:#0a84ff;letter-spacing:.2px;margin-top:2px}
+
+.lang{position:relative;display:flex;align-items:center;gap:6px;height:44px;padding:0 14px;border-radius:99px;background:#fff;border:1px solid #eee;font-weight:700;font-size:13px;color:var(--tx);cursor:pointer;white-space:nowrap;outline:none}
+.lang:hover{border-color:#ccc}
+.lang-menu{position:absolute;right:0;top:100%;padding-top:8px;display:none;min-width:190px;z-index:80}
+.lang:hover .lang-menu,.lang:focus-within .lang-menu{display:block}
+.lang-menu{max-height:70vh;overflow:auto}
+.lang-menu a{display:block;padding:10px 16px;background:#fff;color:var(--tx);font-weight:600;font-size:14px;border:1px solid #eee;border-top:0}
+.lang-menu a:first-child{border-top:1px solid #eee;border-radius:14px 14px 0 0}.lang-menu a:last-child{border-radius:0 0 14px 14px}
+.lang-menu a:hover{background:#f4f4f4}.lang-menu a.cur{color:var(--red)}
+@media(max-width:560px){.lang span{display:none}.lang{padding:0 12px}}
