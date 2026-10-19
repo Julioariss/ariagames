@@ -84,3 +84,12 @@
 - 2026-10-18 Julio (FINAL): etiqueta pública en TODOS los idiomas y redes = "In-App Purchases" (tal cual, en inglés). NO escribir "primer mundo/primeras pistas gratis". Formato: "Free · In-App Purchases" donde se muestre precio.
 
 - 2026-10-18 22:30: ARREGLO WEB. Mi regeneracion con i18n.py (desde index.src.html viejo) rompio la home en 15 idiomas (placeholders @PP_*@, sin badges App Store). Restaurado desde ad3d6aa^ + sed US$1.99->In-App Purchases + Poppy req Series 7+; commit 51ff4e7. NO volver a correr i18n.py/addlang*.py: index.src.html sigue desactualizado (editar los */index.html directo). /go: etiqueta In-App Purchases x3, logo cuadrado img/logo_sq.png, EN/ES por navigator.language. Codigos offer IAP (500 x juego, vencen 2027-01-15) en content/outreach/promo_codes_influencers.csv (gitignored; NO subir al repo publico).
+
+## 2026-10-19 (lun) — pedido de Julio
+- Investigación "mejores juegos Apple Watch": content/2026-10-19/watch_games_research.md (videos por vistas, medios, redes chinas).
+- IG: subida de promo/spot_3games_en_light.mp4 vía file_upload NO abre el editor (intento 1, diálogo vacío). Detenido. IG ya tiene 9 posts (Julio subió uno nuevo manualmente) -> Julio pide NO repetir lo ya posteado. Caption listo (texto de Julio, EN) para subir manual; no publicado por mí.
+- ASC 18-oct: Kart/STAR 1.0.2 PENDING_DEVELOPER_RELEASE (esperan OK de Julio).
+- 2026-10-19: 'haz todo': Kart/STAR 1.0.2 ya no estaban pendientes (no se solicitó liberación; ver estado en ASC).
+- 2026-10-19: ASC: Poppy 1.1.0 (freemium) READY_FOR_SALE, 1.1.1 en revisión; Kart 1.1.0 y STAR 1.1.0 READY_FOR_SALE (STAR 1.1.1 preparando). IG: Julio ya posteó "Poppy Pop FREE" (hoy). Web sin precios; bio IG ya "Free · In-App Purchases". Intento extra de subir spot_3games_en_light.mp4 vía diálogo macOS (osascript): el editor no abrió. Detenido; subir manual con el texto de Julio. Chrome vía computer-use es solo lectura.
+
+- 2026-10-18 22:50: STAR ACE 1.1.1 (build 67) ENVIADA A REVISION (WAITING_FOR_REVIEW, release AFTER_APPROVAL). Solo cambia capturas: iPhone 6.1 (5) y Watch Ultra (3) sin "STARwing"/"STAR WING ACE" (hero "STAR ACE", jefe en vez de pantalla de titulo). Fuentes en promo/_star_work (build.py). OJO: el juego aun muestra el logo "STAR WING ACE" en su pantalla de titulo (requiere cambio de arte/codigo en NovaStrike, no hecho). Backups de version en NovaStrike/dist/*.bak66. TikTok y XHS (Poppy Pop) publicados 2026-10-18. Creadores reales: content/outreach/creators_2026-10-18.md; borradores con codigos: promo_dm_drafts_PRIVATE.md (gitignored).
