@@ -5,7 +5,8 @@ Reglas: etiqueta oficial "App 内购买 / App 內購買" (= In-App Purchases). N
 VIDEOS A USAR (solo los actualizados, sin precio US$1.99):
 - promo/poppypop_zh_free_s.mp4 (chino, ya dice 内含 App 内购买) -> Bilibili y Douyin
 - promo/poppypop_free_en.mp4 (inglés) -> YouTube / IG / Reels
-NO usar: spot_3games_en*.mp4, spot_kart_*, star_ace_reel.mp4, poppypop_zh.mp4 (muestran US$1.99/compra única). Pendiente rehacerlos.
+OK: promo/spot_3games_en_v3.mp4 (final corregido: Free to download · In-App Purchases).
+NO usar: spot_3games_en.mp4/_v2*, spot_kart_*, star_ace_reel.mp4, poppypop_zh.mp4 (muestran US$1.99/compra única). Pendiente rehacerlos.
 
 ## Bilibili — Poppy Pop (简体)
 分区：游戏 > 手机游戏（备选：科技 > 数码）
