@@ -93,3 +93,21 @@
 - 2026-10-19: ASC: Poppy 1.1.0 (freemium) READY_FOR_SALE, 1.1.1 en revisión; Kart 1.1.0 y STAR 1.1.0 READY_FOR_SALE (STAR 1.1.1 preparando). IG: Julio ya posteó "Poppy Pop FREE" (hoy). Web sin precios; bio IG ya "Free · In-App Purchases". Intento extra de subir spot_3games_en_light.mp4 vía diálogo macOS (osascript): el editor no abrió. Detenido; subir manual con el texto de Julio. Chrome vía computer-use es solo lectura.
 
 - 2026-10-18 22:50: STAR ACE 1.1.1 (build 67) ENVIADA A REVISION (WAITING_FOR_REVIEW, release AFTER_APPROVAL). Solo cambia capturas: iPhone 6.1 (5) y Watch Ultra (3) sin "STARwing"/"STAR WING ACE" (hero "STAR ACE", jefe en vez de pantalla de titulo). Fuentes en promo/_star_work (build.py). OJO: el juego aun muestra el logo "STAR WING ACE" en su pantalla de titulo (requiere cambio de arte/codigo en NovaStrike, no hecho). Backups de version en NovaStrike/dist/*.bak66. TikTok y XHS (Poppy Pop) publicados 2026-10-18. Creadores reales: content/outreach/creators_2026-10-18.md; borradores con codigos: promo_dm_drafts_PRIVATE.md (gitignored).
+- 2026-10-19: TikTok (ahora SÍ funciona la subida vía extensión en tiktokstudio/upload): publicado promo/spot_3games_en_v2_light.mp4 (cierre corregido: "Poppy Pop: FREE · Kart & Star: US$1.99") con el texto de Julio ("Think your Apple Watch is only for notifications?..."). Estado: en revisión. No usar spot_3games_en*.mp4 antiguos (dicen US$1.99 each). TikTok 7 seguidores. Otro Poppy FREE de Julio: 396 vistas.
+- Pendiente: IG (editor no abre), XHS no revisada.
+- 2026-10-19 YouTube (pedido Julio: comentar su texto en videos de juegos Apple Watch, idioma según canal, con divulgación de desarrollador): (1) AppleWatchDave "¿Qué hace que jugar en el Apple Watch Ultra 3 sea realmente bueno?" (youtube.com/watch?v=_8CfmNclIQg) comentario ES; (2) Arthur Brs "Top 35 Best FREE Apple Watch Games" (watch?v=Dz9crnsBKmw, 39K vistas) comentario EN, confirmado visible. No comentado: WATCHVERSE Top 5 (4Zc-eGKGZxU, 892 vistas). Pendiente: más canales (TechRadar/iMore/HotshotTek "5 NUEVOS juegos de Apple Watch").
+- 2026-10-19 YouTube (cuenta personal de Julio @julicaris, aprobado "1"): comentarios con divulgación, distintos por video, idioma según canal: Arthur Brs Top10 (V0whJJucSn0, EN), HotshotTek "5 NUEVOS juegos" (jA-imA1HVmw, ES), HelloChen "7 Apps" (vXfyS9cAHI8, EN). Total hoy: 5-6 comentarios. Candidatos apps siguientes: eSavants 10 apps (70K ES), MacVince Top10 apps (99K EN), HotshotTek "CADA Apple Watch necesita estas apps" (127K ES). Límite sano: 3-4/día.
+
+## 2026-10-19 (lun) — rutina automática 13:32 UTC
+- iTunes lookup US: Poppy/Kart/STAR 1.1.0 = price 0.0 (gratis, 0 ratings visibles). Web: poppypop, kartwatchgp, staracce, starwingace privacy/support = 200 (ojo: /starace = 404, la ruta real es /staracce).
+- IG @ariagames.app: 28 seguidores, 11 posts, 208 seguidos; bio ya "Free · In-App Purchases". Sin publicar (Julio ya posteó hoy; no repetir).
+- ASC: sesión CERRADA (login FAILED) -> informe semanal de embudo NO generado. Necesita login de Julio en Chrome.
+- TikTok/XHS no revisadas en esta pasada.
+
+## 2026-10-23 (vie) — sesión con Julio
+- TikTok: publicada compilación Poppy Pop + STAR Ace (sin Kart) promo/fri_compilation_en.mp4 (14.5 s, hook + CTA "Free · In-App Purchases · ariagames.dev/go"). Script: PIL overlays + ffmpeg (este ffmpeg NO tiene drawtext).
+- IG: no subido (editor web no abre); subir manual fri_compilation_en.mp4 con el mismo caption.
+- Gemini (pedido Julio): imagen 9:16 margarita kawaii generada en https://gemini.google.com/app/14ea5e4a23352afa — falta descargar (pide OK de Julio). Siguiente: STAR Ace nutria piloto, animar a video si hay cuota.
+- ASC/XHS no revisadas hoy.
+- 2026-10-23 (noche): Julio pide videos diarios originales de los 3 juegos (gameplay, menús, animación Gemini), música de los juegos sin repetir, y SIEMPRE iniciar con el logo ARIAgames. Prompt de la tarea diaria actualizado (trig_01QT55...). Intro lista: promo/intro_ariagames.mp4 (5 s, de reel_v2_en). Música usada hasta hoy: spot Poppy/STAR v2 (audio propio), reel_v2 = starwing-menu. Libres: kart-menu, petalpop-menu, NovaStrike bgm0-14, Kart track_4..17.
+- Aviso: la corrida automática de las 08:47 de hoy FALLÓ por límite de uso (USAGE_LIMIT_REACHED).
