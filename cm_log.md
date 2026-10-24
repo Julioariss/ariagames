@@ -118,3 +118,8 @@
 ## 2026-10-24 (sáb) — rutina diaria
 - Videos: daily_20261024_kart_en (ya hecho 23-oct), daily_20261024_staracce_en (18.5 s, anime Cosmo real de cosmo_epic5 + gameplay real stills + bgm3), daily_20261024_poppypop_en (15.6 s, icono Daisy + gameplay real, petalpop-menu). Script _tools/build_daily_20261024.py. Captions en content/2026-10-24/captions.md.
 - Gemini NO usado hoy (animación nueva requiere sesión interactiva; Poppy sin anime). Gameplay en clips = capturas reales (sin grabación de video nueva).
+
+## 2026-10-24 (Claude)
+- Gemini video (STAR Ace, 9:16): 3 intentos -> "alto tráfico / try again later". Sin clips Gemini aún. Reintento programado ~17:54 UTC. Kart y Poppy sin intentar (misma cuota). No se usó Probar/upgrade.
+- Web: quitado "no ads"/"one purchase" (15 idiomas + go), pills/marquee/meta = "Free · In-App Purchases", banner "ya en App Store", requisitos Poppy Series 7 / Kart y STAR Series 10, renombrados poppypop/staracce (img, art, music, anclas). Carpeta /starwingace/ intacta. Push OK (07a2009).
+- Faltan en el repo: PROMPT_gestion_diaria_v2.md, anime_prompts.md, captions_poppy_anime.md, poppy_anime_style_ref.jpg, poppy_anime_girl_emperor_20261012.mp4, build_poppy_anime.py, build_originals.py, build_daily_cloud.py.
