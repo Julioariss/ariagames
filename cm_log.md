@@ -132,3 +132,4 @@
 - Julio rechazó v2: estilo distinto a STAR, Kart sin intro/Gemini, música repetida. Nuevo estándar en PROMPT_gestion_diaria_v3.md (v2 = copia de v3 para el trigger de las 9:30).
 - Poppy v3: gem2 (3 cortes) + gameplay n_boss + end card; música ~/Downloads/ppmusic/Floating_Garden.mp3. Kart v3: clip Gemini nuevo kartwatchgp_gem1.mp4 (zorro original en buggy, texto sin imagen) + gameplay c0/c5/c9; música Cornering_the_Sky.mp3 (del juego). Scripts: _tools/build_poppy_v3_20261024.py, build_kart_v3_20261024.py.
 - Estado: videos enviados a Julio, pendiente aprobación/publicación (Poppy 17:00, Kart ~19:00).
+- 17:15 Kart Watch GP v3 PUBLICADO: TikTok (7700314162995531028, etiqueta IA, comentario dev puesto; fijarlo desde iPhone) e Instagram (reel De422pzvSvw, etiqueta IA, FB off, comentario dev). Música Cornering_the_Sky. Tarea de las 19:00 desactivada. Poppy se rehace con clip nuevo cuando Gemini restablezca (20:32).
