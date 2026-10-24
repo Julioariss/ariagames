@@ -57,3 +57,16 @@ Skills instaladas en ~/.claude/skills (ig-reel, ig-caption, ig-human, ig-comment
 - Ejemplo: "Your Apple Watch can do THIS? 🚀 STAR Ace: dodge, roll, lock on. Free on the App Store (Series 10+). Link in bio. #AppleWatchGames #watchOS #indiedev #spaceshooter #AppleWatch"
 - Comentarios/respuestas: usar criterio de ig-comment/ig-reply (específicos, sin frases de relleno); pasar el texto por ig-human (`python3 ~/.claude/skills/ig-human/humanize.py`) si suena genérico.
 - /ig-viral (swipe.py) puede usarse para listar patrones de reels virales del nicho al elegir hooks; el skill NO publica, comenta ni sigue: eso lo seguimos haciendo nosotros con Chrome bajo las reglas duras.
+
+## CAPA EXPERTA (skills de instagram-agent-skill + growth) — obligatoria en cada ejecución
+Antes de actuar, lee los SKILL.md necesarios en ~/.claude/skills/ig-*/SKILL.md y templates de voz ~/.claude/instagram/voice.md.
+1. ig-viral (swipe.py): al DESCUBRIR, buscar patrones de reels virales del nicho (hooks, formatos, duración) y anotar 3 hallazgos en el log; los usa el contenido del día siguiente.
+2. ig-reel (hookscore.py, beats.py): puntuar 3 ganchos antes de armar cada video nuevo y elegir el mejor (≥ umbral del skill); los beats deben cuadrar con la estructura STAR (hook 2.4 s → Gemini → gameplay → end card).
+3. ig-caption (caption.py): lint obligatorio de cada caption (estándar de captions de arriba). Línea 1 ≤125 caracteres con palabra clave; un solo CTA; ≤5 hashtags.
+4. ig-human (humanize.py/detect.py): pasar captions y comentarios por el skill; reescribir si suena genérico/IA. Comentarios: siempre específicos al video.
+5. ig-comment / ig-reply: usar sus criterios para comentarios en cuentas clave y respuestas a los nuestros (responder todo, pregunta de vuelta).
+6. ig-story: preparar la historia diaria (copy corto + link sticker ariagames.dev/go).
+7. SEMANAL (lunes): ig-audit de los últimos 7 posts (qué retuvo, qué cayó, qué repetir), ig-profile (puntaje de la bio/perfil; proponer cambios a Julio, no aplicarlos) e ig-plan (calendario de la semana: 3 videos/día-red y temas). Resultado → growth_log.md (Projects) y reporte.
+8. Skill ariagames-growth-agent: cada lunes medir ASC Analytics/visitas y cerrar el ciclo MEDIR→DIAGNOSTICAR→OPTIMIZAR del embudo; reportar el mayor cuello de botella.
+9. Medición de conversión: registrar cada link de comentario con URL y revisar al día siguiente visibilidad/clics; doblar lo que funciona (juego y tipo de video) y apagar lo que no.
+10. Límites: los skills solo redactan/analizan; publicar, comentar y seguir se hace con Chrome bajo las reglas duras y cuotas. Nunca prometer resultados ni inventar métricas.
