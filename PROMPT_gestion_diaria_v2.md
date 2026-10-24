@@ -96,3 +96,14 @@ Antes de actuar, lee los SKILL.md necesarios en ~/.claude/skills/ig-*/SKILL.md y
 8. Skill ariagames-growth-agent: cada lunes medir ASC Analytics/visitas y cerrar el ciclo MEDIR→DIAGNOSTICAR→OPTIMIZAR del embudo; reportar el mayor cuello de botella.
 9. Medición de conversión: registrar cada link de comentario con URL y revisar al día siguiente visibilidad/clics; doblar lo que funciona (juego y tipo de video) y apagar lo que no.
 10. Límites: los skills solo redactan/analizan; publicar, comentar y seguir se hace con Chrome bajo las reglas duras y cuotas. Nunca prometer resultados ni inventar métricas.
+
+## ESTÁNDAR EXPERTO MULTI-RED (aplica a IG, TikTok, Xiaohongshu, Bilibili y YouTube)
+Los skills ig-* son de Instagram pero sus principios (gancho concreto en 2 s, línea 1 que sobrevive al corte, UN solo CTA, pocas etiquetas, voz humana, comentarios específicos, medir y repetir lo que funciona) se aplican a TODAS las redes. Para cada red, redactar con ese método y luego adaptar:
+- Instagram (EN): caption.py con límite 125; ≤5 hashtags; CTA "Link in bio"; link en comentario del dev.
+- TikTok (EN): línea 1 ≤ 80 caracteres con gancho + palabra clave; 3–5 hashtags; CTA "Link in bio"; texto en pantalla = gancho; comentario del dev con link.
+- YouTube Shorts (EN): título ≤ 60 caracteres con palabra clave ("Apple Watch game") + #Shorts; descripción: 1 línea de valor + links App Store + ariagames.dev/go (en YouTube el link de la descripción SÍ es clicable) + 3–5 hashtags; comentario fijado propio con links. Solo en el canal que defina Julio (marca ARIAgames cuando exista).
+- Bilibili (ZH): título ≤ 40 caracteres con gancho en chino + palabra clave (苹果手表/手表游戏); 创作声明 含AI生成内容; 分区 游戏; 3–5 etiquetas relevantes (quitar las irrelevantes); 简介 con link App Store + ariagames.dev/go; responder todos los comentarios; sin coins.
+- Xiaohongshu (ZH): título ≤ 20 caracteres, gancho + emoji, 3–5 etiquetas #; texto corto con valor primero, "免费下载，含内购"; sin precios ni promesas; comentarios naturales y específicos en chino; si pide login/QR → avisar a Julio.
+- Para cada caption/título nuevo: puntuar 3 variantes de gancho (criterio ig-reel/hookscore), elegir la mejor, pasar por ig-human (naturalidad) y revisar contra voice.md; en chino pedir revisión de naturalidad a sí mismo (sin traducción literal del inglés).
+- Medición por red cada día: vistas, likes, comentarios, guardados/compartidos, seguidores y clics/visitas; registrar en log y growth_log; doblar lo que funcione (juego, gancho, formato) y apagar lo que no.
+- ig-viral / ig-audit / ig-plan / ig-profile: los lunes extender el análisis a las 5 redes (qué video rindió dónde y por qué) y planificar la semana por red.
