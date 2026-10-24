@@ -126,3 +126,4 @@
 - 14:10 STAR Ace: clip Gemini OK (content/2026-10-24/gem/staracce_gem1.mp4, ref img/staracce.png, intento 4) -> promo/daily_20261024_staracce_en.mp4 (20.9s, 7.3MB, música novastrike-bgm3). Subido a TikTok (etiqueta IA, en revisión de TikTok). Kart: 5 intentos, Gemini sin capacidad. Poppy: pendiente. IG: pendiente.
 - 14:40 Poppy Pop: clip Gemini OK (gem/poppypop_gem1.mp4, ref art/poppypop.jpg, intento 3) -> promo/daily_20261024_poppypop_en.mp4 (20.4s, 5.1MB, música poppypop-menu). IG STAR Ace publicado 14:20 (+comentario dev; fijar solo desde iPhone).
 - 15:45 Poppy v2: clip gem2 (imagen nueva), gameplay en video n_boss, música sintetizada original -> promo/daily_20261024_poppypop_en.mp4 (15.6s).
+- 16:00 Kart: Gemini rechazó 3 intentos (con ref y sin ref: 'intereses de terceros') -> montaje solo con gameplay en video + música original: promo/daily_20261024_kartwatchgp_en.mp4 (15.8s). Poppy v2 listo.

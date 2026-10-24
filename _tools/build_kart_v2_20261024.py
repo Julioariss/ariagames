@@ -14,9 +14,9 @@ def end_anim(out, img, dur):
     sh(f'ffmpeg -v error -y -loop 1 -t {dur} -i "{img}" -vf "zoompan=z=\'1+0.04*sin(on/6)\':x=\'iw/2-(iw/zoom/2)\':y=\'ih/2-(ih/zoom/2)\':d=1:s=1080x1920:fps=30" -pix_fmt yuv420p -an "{out}"')
 
 segs = [intro('kt2_h', ['POV: your wrist','is a racetrack'])]
-for i, (ss, t) in enumerate([(0.3, 2.4), (3.0, 2.4)]):
+for i, (f, ss, t) in enumerate([('c0.mp4', 2.0, 'Meet Blaze'), ('c0.mp4', 11.0, 'Race 8 drivers')]):
     segs.append(f'{O}/kt2_a{i}.mp4')
-    clip_seg(segs[-1], ANIME, ss, t, txt(f'kt2_t{i}', [['Meet Blaze','Race 8 drivers'][i]], 1330, 76))
+    game_seg(segs[-1], f'{EP}/{f}', ss, 2.4, txt(f'kt2_t{i}', [t], 1620, 84))
 G = [('c0.mp4', 6.0, 'Drift every corner'), ('c5.mp4', 9.0, 'Grab power-ups'), ('c9.mp4', 11.0, 'Win the cup')]
 for i, (f, ss, t) in enumerate(G):
     segs.append(f'{O}/kt2_g{i}.mp4')
@@ -48,7 +48,7 @@ cuts = [2.4+4.8 + 2.0*i for i in range(3)]
 for c in cuts:
     m = (t >= c) & (t < c+0.25); tt = t[m]-c
     out[m] += 0.45*np.sin(2*np.pi*(900*np.exp(-tt*14)+300)*tt)*np.exp(-tt*16)
-out *= 1.0/np.max(np.abs(out)); out *= 0.8
+out *= 1.0/np.max(np.abs(out)); out *= 1.0
 fade = np.minimum(1, np.minimum(t/0.3, (dur-t)/0.6)); out *= fade
 wav = f'{O}/kt2_music.wav'
 w = wave.open(wav, 'wb'); w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR); w.writeframes((out*32767).astype(np.int16).tobytes()); w.close()
