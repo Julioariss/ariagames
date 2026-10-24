@@ -75,3 +75,11 @@ Commit (git -c user.name=Julio -c user.email=julio.aris.s@gmail.com), push, regi
 - zsh no separa variables en palabras: usar arrays.
 - Julio quiere en Chrome su sesión "Julio Aris Serey", nunca el navegador integrado.
 - El navegador no puede borrar ni fijar comentarios en IG web; borrados definitivos los hace Julio.
+
+## Estándar de captions IG/TikTok (skill instagram-agent-skill aplicado, 24-oct-2026)
+Skills instaladas en ~/.claude/skills (ig-reel, ig-caption, ig-human, ig-comment, ig-reply, ig-viral, ig-audit, ig-plan, ig-profile…) y voz de marca en ~/.claude/instagram/voice.md. Repo en _tools/instagram-agent-skill.
+- ANTES de publicar: guardar el caption en un .txt y correr `python3 _tools/instagram-agent-skill/skills/ig-caption/caption.py cap.txt --keywords "apple watch games,watchos,<juego>"`; corregir hasta VERDICT ≠ REVIEW grave.
+- Formato: línea 1 ≤125 caracteres (lo que se ve antes de "… más"): gancho concreto + palabra clave ("Apple Watch game") ; luego 1 línea de valor (qué se hace en el juego + requisito Series); UN solo CTA: "Link in bio 👆" (IG) / "Link in bio" (TikTok); máximo 5 hashtags, al final; 1–2 emojis. Sin URL cruda en el caption (no es clicable): el link va en el comentario del dev (fijado por Julio) y en bio.
+- Ejemplo: "Your Apple Watch can do THIS? 🚀 STAR Ace: dodge, roll, lock on. Free on the App Store (Series 10+). Link in bio. #AppleWatchGames #watchOS #indiedev #spaceshooter #AppleWatch"
+- Comentarios/respuestas: usar criterio de ig-comment/ig-reply (específicos, sin frases de relleno); pasar el texto por ig-human (`python3 ~/.claude/skills/ig-human/humanize.py`) si suena genérico.
+- /ig-viral (swipe.py) puede usarse para listar patrones de reels virales del nicho al elegir hooks; el skill NO publica, comenta ni sigue: eso lo seguimos haciendo nosotros con Chrome bajo las reglas duras.

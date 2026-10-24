@@ -49,3 +49,11 @@ Mismas reglas duras y la misma rutina (responder → analizar → descubrir/inte
 - YouTube (Shorts): publicar los videos del día como Shorts en el canal definido por Julio (pendiente: confirmar si es personal o de marca; hasta entonces NO publicar, solo interactuar si ya hay sesión). Responder todos los comentarios, dar like y comentar con valor en Shorts/videos del nicho (Apple Watch games, indie dev), links solo en descripción y comentario fijado propio, no en comentarios ajenos.
 - Para las tres: si no hay sesión iniciada en el Chrome de Julio, anotarlo en el reporte ("necesita login: X") y seguir con las demás redes; nunca ingresar contraseñas ni escanear/aceptar QR por él.
 - Registrar acciones por red también en content/community/log_<fecha>.md.
+
+## Estándar de captions IG/TikTok (skill instagram-agent-skill aplicado, 24-oct-2026)
+Skills instaladas en ~/.claude/skills (ig-reel, ig-caption, ig-human, ig-comment, ig-reply, ig-viral, ig-audit, ig-plan, ig-profile…) y voz de marca en ~/.claude/instagram/voice.md. Repo en _tools/instagram-agent-skill.
+- ANTES de publicar: guardar el caption en un .txt y correr `python3 _tools/instagram-agent-skill/skills/ig-caption/caption.py cap.txt --keywords "apple watch games,watchos,<juego>"`; corregir hasta VERDICT ≠ REVIEW grave.
+- Formato: línea 1 ≤125 caracteres (lo que se ve antes de "… más"): gancho concreto + palabra clave ("Apple Watch game") ; luego 1 línea de valor (qué se hace en el juego + requisito Series); UN solo CTA: "Link in bio 👆" (IG) / "Link in bio" (TikTok); máximo 5 hashtags, al final; 1–2 emojis. Sin URL cruda en el caption (no es clicable): el link va en el comentario del dev (fijado por Julio) y en bio.
+- Ejemplo: "Your Apple Watch can do THIS? 🚀 STAR Ace: dodge, roll, lock on. Free on the App Store (Series 10+). Link in bio. #AppleWatchGames #watchOS #indiedev #spaceshooter #AppleWatch"
+- Comentarios/respuestas: usar criterio de ig-comment/ig-reply (específicos, sin frases de relleno); pasar el texto por ig-human (`python3 ~/.claude/skills/ig-human/humanize.py`) si suena genérico.
+- /ig-viral (swipe.py) puede usarse para listar patrones de reels virales del nicho al elegir hooks; el skill NO publica, comenta ni sigue: eso lo seguimos haciendo nosotros con Chrome bajo las reglas duras.
