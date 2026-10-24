@@ -83,10 +83,11 @@ if which == 'star':
 else:
     P = os.path.expanduser('~/Developer/PetalPop/shots')
     s = [intro('pp_h', ['Match. Pop. Chain.','in 10 seconds'])]
-    ic = f'{R}/img/petalpop.png'
-    s.append(f'{O}/pp_a.mp4'); still_seg(s[-1], ic, 3.0, txt('pp_t0', ['Meet Daisy','& the Poppy Pop garden'], 1500, 70), framed=True)
+    ic = f'{R}/img/poppypop.png'
+    for i,(ss,t) in enumerate([(0.2,3.0),(3.2,3.0),(6.2,3.0)]):
+        s.append(f'{O}/pp_a{i}.mp4'); clip_seg(s[-1], f'{R}/content/2026-10-24/gem/poppypop_gem1.mp4', ss, t, txt(f'pp_t{i}', [['Cozy flower puzzle','Built for the Digital Crown','Match. Pop. Chain.'][i]], 1330, 76))
     for i,(f,t) in enumerate([('p2.jpg',"Match 3 flowers"),('g1.png','Chain combos'),('g2.png','Beat the bosses')]):
-        s.append(f'{O}/pp_g{i}.mp4'); still_seg(s[-1], f'{R}/shots/{f}' if f.startswith('p') else f'{P}/{f}', 2.4, txt(f'pp_gt{i}', [t], 1560, 84))
-    e = endcard('pp_end', 'Poppy Pop', 'petalpop.png', 'Series 7+', (190,90,170))
+        s.append(f'{O}/pp_g{i}.mp4'); still_seg(s[-1], f'{R}/shots/{f}' if f.startswith('p') else f'{P}/{f}', 2.0, txt(f'pp_gt{i}', [t], 1560, 84))
+    e = endcard('pp_end', 'Poppy Pop', 'poppypop.png', 'Series 7+', (190,90,170))
     s.append(f'{O}/pp_e.mp4'); still_seg(s[-1], e, 3.0, framed=False)
-    finish(s, f'{R}/music/petalpop-menu.m4a', 0, f'{R}/promo/daily_{D}_poppypop_en.mp4')
+    finish(s, f'{R}/music/poppypop-menu.m4a', 0, f'{R}/promo/daily_{D}_poppypop_en.mp4')

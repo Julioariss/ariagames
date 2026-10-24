@@ -1,1 +1,2 @@
 staracce_gem1.mp4 | ref: img/staracce.png | prompt: same blue otter pilot+blue/gold ship, 8s vertical anime neon space dash (intento 4, ship ok, otter no visible)
+poppypop_gem1.mp4 | ref: art/poppypop.jpg (girl+halo boss+crystals) | prompt: girl throws glowing flower, 8s vertical kawaii | intento 3
