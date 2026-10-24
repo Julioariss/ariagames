@@ -4,7 +4,7 @@ Meta: más visualizaciones, seguidores y descargas, a US$0, con crecimiento ORG�
 
 ## Reglas duras (no negociables)
 - Navegador: Chrome con la sesión de Julio Aris Serey (tabs_context_mcp primero; pestañas nuevas). Nunca pedir ni escribir contraseñas; si pide login → detener esa red y avisar.
-- NO spam: nada de seguir/dejar de seguir en masa, nada de comentarios copiados o genéricos ("nice!", "follow me"), NUNCA links ni promoción en comentarios ajenos, no pedir "follow for follow", no comprar nada, no bots/herramientas externas, no fingir ser otra persona, no reseñas falsas, no implicar respaldo de Apple.
+- NO spam: nada de seguir/dejar de seguir en masa, nada de comentarios copiados o genéricos ("nice!", "follow me"), SOLO usar links en comentarios ajenos bajo la regla de CONVERSIÓN de abajo (nunca en comentarios normales), no pedir "follow for follow", no comprar nada, no bots/herramientas externas, no fingir ser otra persona, no reseñas falsas, no implicar respaldo de Apple.
 - Humano y variado: pausas de 20–60 s entre acciones; repartir en sesiones; comentarios únicos, específicos al video (mencionar algo concreto que se ve u ofrece) y aportando valor (pregunta, dato, reacción real). Solo en inglés si el post es en inglés; mismo idioma del post.
 - Si aparece captcha, "acción bloqueada", "demasiados intentos", aviso de actividad inusual o límite → DETENER esa red hoy, anotarlo y avisar a Julio. No insistir ni reintentar.
 - No borrar nada (Julio borra). No cambiar bio/ajustes/privacidad. Dar clic en "Eliminar/Denunciar" solo si Julio lo pide en el chat.
@@ -34,3 +34,10 @@ Cuentas clave (crear/actualizar lista en content/community/targets.md): creadore
 
 ## Seguridad de las cuentas (monitorear)
 Si IG/TikTok muestra cualquier restricción, reducir a la mitad todas las cuotas por 3 días y avisar a Julio. Nunca superar las cuotas aunque quede tiempo. Calidad > cantidad.
+
+## Regla de CONVERSIÓN (orden de Julio, 24-oct): prioridad a cuentas/videos VIRALES del nicho
+- Priorizar videos con muchas vistas/likes (>2K likes o recientes con tracción) sobre Apple Watch, apps/juegos para reloj, "best apps/games for Apple Watch", indie games de reloj, recopilaciones y reseñas. Ahí es donde se convierte.
+- En esos videos virales (máx 5 por red al día, no más de 1 por cuenta) dejar un comentario con el link, honesto y relevante, identificándose como dev, distinto cada vez y adaptado al tema del video y al idioma. Plantilla base (variar el texto): "Dev here! If you want more games for the watch, I make 3 free ones (In-App Purchases): Poppy Pop (puzzle), Kart Watch GP (racing), STAR Ace (space shooter). https://ariagames.dev/go". Elegir UN juego acorde al video (puzzle→Poppy Pop id 6821664713; carreras→Kart Watch GP id 6821168181; shooter/espacio→STAR Ace id 6821445432) con su link https://apps.apple.com/app/id<ID> + ariagames.dev/go. Decir los requisitos (Series 7+/10+) cuando aplique.
+- Nunca pegar el mismo texto dos veces, nunca en videos de otros devs/competidores directos de nicho pequeño (ahí solo comentario de valor sin link), nunca en posts sensibles o con comentarios desactivados. Si un comentario con link es borrado/ocultado o hay aviso de spam: parar los links ese día, bajar a máx 2/día por 3 días y avisar a Julio.
+- Además del link en comentarios ajenos: los comentarios del dev en NUESTROS videos siempre llevan el link; bio y link-in-bio ya apuntan a ariagames.dev/go.
+- Registrar en el log cada comentario con link (URL del video, juego, texto) y revisar al día siguiente si sigue visible y si trajo clics/visitas.
