@@ -125,3 +125,4 @@
 - Faltan en el repo: PROMPT_gestion_diaria_v2.md, anime_prompts.md, captions_poppy_anime.md, poppy_anime_style_ref.jpg, poppy_anime_girl_emperor_20261012.mp4, build_poppy_anime.py, build_originals.py, build_daily_cloud.py.
 - 14:10 STAR Ace: clip Gemini OK (content/2026-10-24/gem/staracce_gem1.mp4, ref img/staracce.png, intento 4) -> promo/daily_20261024_staracce_en.mp4 (20.9s, 7.3MB, música novastrike-bgm3). Subido a TikTok (etiqueta IA, en revisión de TikTok). Kart: 5 intentos, Gemini sin capacidad. Poppy: pendiente. IG: pendiente.
 - 14:40 Poppy Pop: clip Gemini OK (gem/poppypop_gem1.mp4, ref art/poppypop.jpg, intento 3) -> promo/daily_20261024_poppypop_en.mp4 (20.4s, 5.1MB, música poppypop-menu). IG STAR Ace publicado 14:20 (+comentario dev; fijar solo desde iPhone).
+- 15:45 Poppy v2: clip gem2 (imagen nueva), gameplay en video n_boss, música sintetizada original -> promo/daily_20261024_poppypop_en.mp4 (15.6s).

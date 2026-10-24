@@ -1,2 +1,4 @@
 staracce_gem1.mp4 | ref: img/staracce.png | prompt: same blue otter pilot+blue/gold ship, 8s vertical anime neon space dash (intento 4, ship ok, otter no visible)
 poppypop_gem1.mp4 | ref: art/poppypop.jpg (girl+halo boss+crystals) | prompt: girl throws glowing flower, 8s vertical kawaii | intento 3
+poppy_anime_new.jpg | imagen Gemini (nueva, sin ref) kawaii: niña con coletas + margarita sobre flor rosa, criaturas flor, amanecer
+poppypop_gem2.mp4 | ref: gem/poppy_anime_new.jpg (imagen nueva Gemini) | niña ríe, criaturas flor rebotan, brillos | intento 1
