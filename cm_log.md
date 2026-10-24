@@ -135,3 +135,4 @@
 - 17:15 Kart Watch GP v3 PUBLICADO: TikTok (7700314162995531028, etiqueta IA, comentario dev puesto; fijarlo desde iPhone) e Instagram (reel De422pzvSvw, etiqueta IA, FB off, comentario dev). Música Cornering_the_Sky. Tarea de las 19:00 desactivada. Poppy se rehace con clip nuevo cuando Gemini restablezca (20:32).
 - IG: reels salían recortados 1:1 (paso Recortar). Kart republicado en 9:16 (reel De45tm7MTwk); el anterior (De422pzvSvw) recortado: Julio debe archivarlo/borrarlo. Prompt actualizado.
 - STAR republicado 9:16 en IG (reel De459WStGg9) con comentario dev. Reels viejos recortados (STAR anterior y De422pzvSvw Kart): Julio debe archivarlos.
+- 17:20 Creado PROMPT_comunidad_diaria.md + tarea diaria ~10:00 (IG+TikTok: responder, descubrir, comentar, repostear, cuentas clave, métricas).
