@@ -127,3 +127,8 @@
 - 14:40 Poppy Pop: clip Gemini OK (gem/poppypop_gem1.mp4, ref art/poppypop.jpg, intento 3) -> promo/daily_20261024_poppypop_en.mp4 (20.4s, 5.1MB, música poppypop-menu). IG STAR Ace publicado 14:20 (+comentario dev; fijar solo desde iPhone).
 - 15:45 Poppy v2: clip gem2 (imagen nueva), gameplay en video n_boss, música sintetizada original -> promo/daily_20261024_poppypop_en.mp4 (15.6s).
 - 16:00 Kart: Gemini rechazó 3 intentos (con ref y sin ref: 'intereses de terceros') -> montaje solo con gameplay en video + música original: promo/daily_20261024_kartwatchgp_en.mp4 (15.8s). Poppy v2 listo.
+
+## 2026-10-24 (tarde) rehechos Poppy y Kart
+- Julio rechazó v2: estilo distinto a STAR, Kart sin intro/Gemini, música repetida. Nuevo estándar en PROMPT_gestion_diaria_v3.md (v2 = copia de v3 para el trigger de las 9:30).
+- Poppy v3: gem2 (3 cortes) + gameplay n_boss + end card; música ~/Downloads/ppmusic/Floating_Garden.mp3. Kart v3: clip Gemini nuevo kartwatchgp_gem1.mp4 (zorro original en buggy, texto sin imagen) + gameplay c0/c5/c9; música Cornering_the_Sky.mp3 (del juego). Scripts: _tools/build_poppy_v3_20261024.py, build_kart_v3_20261024.py.
+- Estado: videos enviados a Julio, pendiente aprobación/publicación (Poppy 17:00, Kart ~19:00).
