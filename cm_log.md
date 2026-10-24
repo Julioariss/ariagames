@@ -133,3 +133,5 @@
 - Poppy v3: gem2 (3 cortes) + gameplay n_boss + end card; música ~/Downloads/ppmusic/Floating_Garden.mp3. Kart v3: clip Gemini nuevo kartwatchgp_gem1.mp4 (zorro original en buggy, texto sin imagen) + gameplay c0/c5/c9; música Cornering_the_Sky.mp3 (del juego). Scripts: _tools/build_poppy_v3_20261024.py, build_kart_v3_20261024.py.
 - Estado: videos enviados a Julio, pendiente aprobación/publicación (Poppy 17:00, Kart ~19:00).
 - 17:15 Kart Watch GP v3 PUBLICADO: TikTok (7700314162995531028, etiqueta IA, comentario dev puesto; fijarlo desde iPhone) e Instagram (reel De422pzvSvw, etiqueta IA, FB off, comentario dev). Música Cornering_the_Sky. Tarea de las 19:00 desactivada. Poppy se rehace con clip nuevo cuando Gemini restablezca (20:32).
+- IG: reels salían recortados 1:1 (paso Recortar). Kart republicado en 9:16 (reel De45tm7MTwk); el anterior (De422pzvSvw) recortado: Julio debe archivarlo/borrarlo. Prompt actualizado.
+- STAR republicado 9:16 en IG (reel De459WStGg9) con comentario dev. Reels viejos recortados (STAR anterior y De422pzvSvw Kart): Julio debe archivarlos.

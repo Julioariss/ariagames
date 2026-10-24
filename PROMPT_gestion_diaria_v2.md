@@ -59,7 +59,7 @@ Commit (git -c user.name=Julio -c user.email=julio.aris.s@gmail.com), push, regi
 - Queda "Contenido en revisión" un rato (solo visible para Julio). Cuando salga: abrir el video → comentar "I'm the dev! …" + link y fijarlo.
 
 ## 4. Publicar en Instagram
-- instagram.com → Crear → Publicación → `find "input type=file"` → file_upload (mp4 staged). Aceptar recorte/Siguiente ×2 (se vuelve Reel; sonido activado).
+- instagram.com → Crear → Publicación → `find "input type=file"` → file_upload (mp4 staged). EN EL PASO "Recortar" abrir el icono de proporción (abajo-izquierda, ~392,752) y elegir 9:16 (por defecto queda 1:1 y el reel sale CORTADO; verificar que se vea el video completo con el marco de gameplay) → Siguiente ×2 (se vuelve Reel; sonido activado).
 - Caption (puede tardar en teclearse). "Agregar etiqueta de IA" ON. "Compartir en Facebook" OFF → elegir "No compartir este reel". Compartir. Esperar "Se compartió tu reel" (≈30–40 s).
 - Abrir el reel (instagram.com/ariagames.app/reels/) → comentar "I'm the dev! …" + link. El web NO permite fijar comentarios propios (solo Eliminar) → pedir a Julio fijarlo desde el iPhone.
 - Máx 2 intentos si falla; si no, dejar listo y reportar ruta + caption.
