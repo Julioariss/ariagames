@@ -137,3 +137,4 @@
 - STAR republicado 9:16 en IG (reel De459WStGg9) con comentario dev. Reels viejos recortados (STAR anterior y De422pzvSvw Kart): Julio debe archivarlos.
 - 17:20 Creado PROMPT_comunidad_diaria.md + tarea diaria ~10:00 (IG+TikTok: responder, descubrir, comentar, repostear, cuentas clave, métricas).
 - 2026-10-24 Bilibili: Kart v3 + STAR Ace v3 subidos (en revisión). YouTube/XHS pendientes (canal / QR).
+- 2026-10-24 Rednote: Kart + STAR publicados (creator center). Interacción pendiente de login en xiaohongshu.com.
