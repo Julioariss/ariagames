@@ -138,3 +138,12 @@
 - 17:20 Creado PROMPT_comunidad_diaria.md + tarea diaria ~10:00 (IG+TikTok: responder, descubrir, comentar, repostear, cuentas clave, métricas).
 - 2026-10-24 Bilibili: Kart v3 + STAR Ace v3 subidos (en revisión). YouTube/XHS pendientes (canal / QR).
 - 2026-10-24 Rednote: Kart + STAR publicados (creator center). Interacción pendiente de login en xiaohongshu.com.
+
+## 2026-10-25 (dom) — rutina diaria (Claude)
+- Gemini: cuota OK para 2 videos (STAR e Kart); Poppy "Crear video" gris (cuota agotada, sin Probar/upgrade) -> re-edición de poppypop_gem4 (heroina capa verde, escena distinta de ayer: cortes 5-10 s). Notas en content/2026-10-25/gem/NOTES.txt.
+- Gameplay STAR en VIDEO real: grabado con simctl recordVideo (sim "StarAce Ultra", env SIMCTL_CHILD_SF_DBG_BOSS=3/6/9, -AppleLanguages (en)) -> content/2026-10-25/sim/en3|en6|en9.mov. Titulo del juego ya dice "STAR ACE".
+- Videos (script _tools/build_daily_20261025.py star|kart|poppy): promo/daily_20261025_staracce_en.mp4 (18.6 s, hook "Beat this boss in 60 seconds" 81.4, musica Orbit_of_Defiance), daily_20261025_kartwatchgp_en.mp4 (18.2 s, "You'll lose this race in 3 turns" 77.8, Summit_of_Cinders, gameplay c1/c7/c3), daily_20261025_poppypop_en.mp4 (18.2 s, "The Emperor stole every garden" 59.6, Sea_King_s_Ballroom). Poppy v1 con hook "Save the garden. Beat the Emperor." descartado por repetir el de ayer (queda _v1_dup, no publicar).
+- Captions job A, caption.py sin FAIL.
+- PUBLICADO STAR Ace: TikTok (etiqueta IA, en revision) + IG reel De6wflPy188 (9:16, IA ON, FB off, comentario dev). Comentario dev TikTok: pendiente a que salga de revision. Fijar comentarios solo desde iPhone.
+- Kart y Poppy: enviados a Julio; publicacion programada mas tarde (Kart ~14:00, Poppy ~19:00 hora Chile).
+- Hallazgo ig-viral: no ejecutado hoy (sin tiempo); pendiente.
