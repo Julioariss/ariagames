@@ -27,3 +27,6 @@ Sin dinero, sin credenciales ni captchas, sin borrar contenido, sin spam, sin im
 1. Actualizar `content/STATE.md` (hecho/pendiente, seguidores por red, bloqueos, proximo tramo).
 2. Anotar en `content/community/log_<fecha>.md` y `cm_log.md`; commit + push (usuario Julio; trailers Co-Authored-By y Claude-Session si aplica).
 3. Reporte a Julio de ≤8 lineas en español: que se hizo, numeros (seguidores por red y cambio vs ayer, publicaciones, interacciones), 1 cuello de botella, lo que necesitas de el. Si el Mac esta apagado o Chrome no responde, decirlo y no inventar resultados.
+
+## 5. Autonomia otorgada por Julio (25/10/2026)
+Libertad total para crear, publicar, comentar e interactuar para generar likes, visitas y compras en la App Store de Poppy Pop, STAR Ace y Kart Watch GP. Ya no hace falta esperar su aprobacion para publicar un video: enviarselo con SendUserFile y publicar enseguida (si objeta despues, se corrige). Sigue prohibido: gastar dinero, usar credenciales/captchas, spam, borrar contenido. Mide conversion (visitas a ariagames.dev/go, paginas de App Store en ASC cuando haya datos) y prioriza lo que mas descargas trae.
