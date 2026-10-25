@@ -33,3 +33,6 @@ Libertad total para crear, publicar, comentar e interactuar para generar likes, 
 
 ## 6. Status matutino para Julio (canal: este chat + notificacion push, NO WhatsApp)
 En el tramo MAÑANA, al terminar, enviar a Julio un mensaje corto, natural y en primera persona (como una colega que le cuenta como va), maximo 6 lineas, con: que publique/hice, numeros clave (seguidores por red y cambio vs ayer, vistas/likes del mejor video), lo que viene hoy, y solo si hace falta algo que solo el pueda hacer. Usar SendUserMessage y, si esta disponible, PushNotification con el titulo "ARIAgames · status" y la primera linea. Sin jerga ni listas largas.
+
+## Regla IP de personajes (25/10)
+Nunca usar en prompts de Gemini ni en videos personajes que recuerden a otros conocidos (p.ej. zorro naranja con bufanda = Tails). Usar solo los personajes originales del juego (Remi el pulpo en Kart). Revisar fotogramas antes de publicar; si hay duda, descartar el clip.
