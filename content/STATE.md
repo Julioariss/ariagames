@@ -29,3 +29,9 @@
 - Kart nuevo con Remi (pulpo) montado: promo/daily_20261025_kartwatchgp_en.mp4 (script _tools/build_kart_v4_remi_20261025.py; el viejo del zorro -> _v1_zorro_descartado). ENVIADO A JULIO, esperando su si antes de publicar (TikTok+IG+YouTube+Bilibili+Rednote). Ojo: 3 cortes de gameplay muestran el zorro del propio juego.
 - STAR de manana: clip galaxia content/2026-10-25/gem/staracce_galaxia.mp4 (nebulosa, jefe leviatan; sin lookalikes). Usar con build_daily_gem_*.py; debe verse distinto al de hoy.
 - Tareas programadas utiles: solo las 3 Head of Growth. Las otras 3 estan apagadas (borrar si Julio dice "borra las 3").
+
+## Actualizacion 12:15 (25/10)
+- Julio aprobo el Kart (Remy): publicado en TikTok (revision, IA ON), IG reel De6_O4FhfU4 (IA + comentario dev), YouTube Short. Falta Bilibili + Rednote (ZH).
+- Poppy 25/10 con Lila equivocada: TikTok -> Solo yo, IG reel eliminado. Rehecho como v5 con Lila oficial (imagenes content/2026-10-25/gem/lila_*.jpg + gameplay); ENVIADO A JULIO, esperando su si. Gemini video agotado hoy: usar Crear imagen con art/lila_ref.jpg.
+- Los videos de Poppy del 24/10 (Save the garden, anime verde) tambien tienen heroina distinta: pendiente decidir si ocultarlos (TikTok, YouTube, Bilibili, Rednote, IG De5TsJghC9U).
+- Fichas oficiales: FICHAS_PERSONAJES.md. El video dice "Meet Remi" pero el nombre oficial es Remy.
