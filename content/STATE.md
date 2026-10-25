@@ -14,3 +14,8 @@
 - ALERTA IP: el zorro naranja con bufanda roja del clip de Kart se parece demasiado a Tails (Sonic). No reutilizar ese clip ni prompts de zorro; en los prompts de Gemini usar personajes claramente originales.
 - Poppy 25/10 sigue pendiente para el tramo NOCHE.
 - Status matutino: por este chat + push (no WhatsApp).
+
+## Actualizacion 11:40 (25/10)
+- Kart 25/10: TikTok en "Solo yo"; reel IG De67STtJ4Co eliminado. NO republicar Kart hoy: Gemini rechazo el clip del pulpo Remi (politica de contenido) y el skill indica pausar Kart hasta la version 3D.
+- Kart 24/10: video TikTok fijado (zorro) sigue visible en la lista tras el borrado que indico Julio -> verificar; IG De45tm7MTwk, Bilibili y Rednote pendientes de ocultar.
+- MEDIODIA: ronda de comunidad + Rednote, sin Kart. NOCHE: Poppy.
