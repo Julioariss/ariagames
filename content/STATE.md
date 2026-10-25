@@ -19,3 +19,7 @@
 - Kart 25/10: TikTok en "Solo yo"; reel IG De67STtJ4Co eliminado. NO republicar Kart hoy: Gemini rechazo el clip del pulpo Remi (politica de contenido) y el skill indica pausar Kart hasta la version 3D.
 - Kart 24/10: video TikTok fijado (zorro) sigue visible en la lista tras el borrado que indico Julio -> verificar; IG De45tm7MTwk, Bilibili y Rednote pendientes de ocultar.
 - MEDIODIA: ronda de comunidad + Rednote, sin Kart. NOCHE: Poppy.
+
+## Actualizacion 12:05 (25/10)
+- Zorro Kart ocultado: Rednote (25/10 y 24/10) -> solo yo; YouTube Short Kart -> Privado; Bilibili Kart (BV1thHu6bEEp) -> solo yo; TikTok 25/10 -> solo yo. Pendiente: TikTok fijado 24/10 (Julio dice que lo borro; verificar), IG De45tm7MTwk.
+- Hoy publicado: Rednote Poppy v4+STAR; Bilibili Poppy+STAR; YouTube STAR (Short subido 12:00). YouTube Poppy hoy: NOCHE.
