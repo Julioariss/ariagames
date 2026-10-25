@@ -23,3 +23,9 @@
 ## Actualizacion 12:05 (25/10)
 - Zorro Kart ocultado: Rednote (25/10 y 24/10) -> solo yo; YouTube Short Kart -> Privado; Bilibili Kart (BV1thHu6bEEp) -> solo yo; TikTok 25/10 -> solo yo. Pendiente: TikTok fijado 24/10 (Julio dice que lo borro; verificar), IG De45tm7MTwk.
 - Hoy publicado: Rednote Poppy v4+STAR; Bilibili Poppy+STAR; YouTube STAR (Short subido 12:00). YouTube Poppy hoy: NOCHE.
+
+## Actualizacion 12:00 (25/10)
+- Poppy 25/10 publicado: TikTok (en revision) + IG reel (IA ON, FB off). Falta: YouTube, Bilibili, Rednote ya tenian Poppy v4.
+- Kart nuevo con Remi (pulpo) montado: promo/daily_20261025_kartwatchgp_en.mp4 (script _tools/build_kart_v4_remi_20261025.py; el viejo del zorro -> _v1_zorro_descartado). ENVIADO A JULIO, esperando su si antes de publicar (TikTok+IG+YouTube+Bilibili+Rednote). Ojo: 3 cortes de gameplay muestran el zorro del propio juego.
+- STAR de manana: clip galaxia content/2026-10-25/gem/staracce_galaxia.mp4 (nebulosa, jefe leviatan; sin lookalikes). Usar con build_daily_gem_*.py; debe verse distinto al de hoy.
+- Tareas programadas utiles: solo las 3 Head of Growth. Las otras 3 estan apagadas (borrar si Julio dice "borra las 3").
