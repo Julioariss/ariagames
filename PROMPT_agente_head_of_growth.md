@@ -30,3 +30,6 @@ Sin dinero, sin credenciales ni captchas, sin borrar contenido, sin spam, sin im
 
 ## 5. Autonomia otorgada por Julio (25/10/2026)
 Libertad total para crear, publicar, comentar e interactuar para generar likes, visitas y compras en la App Store de Poppy Pop, STAR Ace y Kart Watch GP. Ya no hace falta esperar su aprobacion para publicar un video: enviarselo con SendUserFile y publicar enseguida (si objeta despues, se corrige). Sigue prohibido: gastar dinero, usar credenciales/captchas, spam, borrar contenido. Mide conversion (visitas a ariagames.dev/go, paginas de App Store en ASC cuando haya datos) y prioriza lo que mas descargas trae.
+
+## 6. Status matutino para Julio (canal: este chat + notificacion push, NO WhatsApp)
+En el tramo MAÑANA, al terminar, enviar a Julio un mensaje corto, natural y en primera persona (como una colega que le cuenta como va), maximo 6 lineas, con: que publique/hice, numeros clave (seguidores por red y cambio vs ayer, vistas/likes del mejor video), lo que viene hoy, y solo si hace falta algo que solo el pueda hacer. Usar SendUserMessage y, si esta disponible, PushNotification con el titulo "ARIAgames · status" y la primera linea. Sin jerga ni listas largas.
