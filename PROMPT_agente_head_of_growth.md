@@ -36,3 +36,9 @@ En el tramo MAÑANA, al terminar, enviar a Julio un mensaje corto, natural y en 
 
 ## Regla IP de personajes (25/10)
 Nunca usar en prompts de Gemini ni en videos personajes que recuerden a otros conocidos (p.ej. zorro naranja con bufanda = Tails). Usar solo los personajes originales del juego (Remi el pulpo en Kart). Revisar fotogramas antes de publicar; si hay duda, descartar el clip.
+
+
+## Regla de personajes oficiales (25/10, orden de Julio)
+Los personajes NO cambian: Poppy Pop = LILA (niña de pelo castaño con dos chonguitos y flequillo, margarita blanca en el pelo, vestido blanco con cinturón rojo, zapatos rojos, estatura infantil; ref art/poppypop.jpg y art/lila_ref.jpg); Kart Watch GP = Remi (pulpo morado, gafas turquesa); STAR Ace = nave original plateada-azul. Siempre subir la imagen de referencia a Gemini y revisar fotogramas; si no coincide, descartar y rehacer. Nunca publicar sin comprobarlo.
+
+LEER SIEMPRE FICHAS_PERSONAJES.md antes de crear cualquier clip (fichas oficiales de personajes y enemigos de los 3 juegos). Kart = pilotos oficiales (Blaze, Cosmo, Sprocket, Pip, Ember, Bruno, Remy, Ada, Hazel, Kodiak); STAR Ace = Cosmo en la nave Aurora Manta contra los jefes oficiales.
