@@ -42,3 +42,10 @@
 - Ocultos (Lila equivocada 24/10): TikTok "Save the garden" -> Solo yo; YouTube Short "Save the garden" -> Privado.
 - PENDIENTE: Rednote pide login (SMS/QR) -> Julio; Bilibili/Rednote 24/10 Poppy hide; IG De5TsJghC9U (borrar solo si Julio ok); TikTok fijado 24/10 Kart zorro sigue publico (no se puede ocultar fijado).
 - Nota: Flow aprobar 12 puntos/clip del plan Plus (sin costo extra). Prompt texto-solo con descripcion exacta de Lila funciona bien.
+
+## Actualizacion 13:50 (25/10) - tramo MEDIODIA (agente)
+- Los 3 videos de hoy ya estaban publicados (STAR, Kart Remy, Poppy v6): no se republico nada.
+- TikTok: Kart 25/10 (7700621274862898453) sin comentarios -> comentario dev con link App Store id6821168181 publicado 13:45. Poppy v6 ya tenia el suyo. STAR 24/10 sigue siendo el mejor: 3.291 vistas, 544 likes.
+- IG: 50 seguidores (ayer 49), 322 seguidos. Reels de hoy (Kart/STAR/Poppy) solo con nuestro comentario dev; sin comentarios ajenos que responder. Hay un comentario "Brillante" de mariabagioli (15 h) en un post que no pude ubicar; sin respuesta aun.
+- Rednote: redirige a login -> necesita login (Julio). No se pudo revisar la nota Poppy v4 ni poner comentario dev.
+- Ronda de descubrimiento: hashtag #applewatchgames solo trae posts viejos/poca traccion; 0 comentarios con link hoy (conversion pendiente, buscar videos con >2K likes en NOCHE).

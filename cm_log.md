@@ -150,3 +150,4 @@
 
 ## 2026-10-25 13:00 UTC — ronda comunidad programada (Claude)
 - TikTok 7d 33.6K vistas; 1 comentario con link en video viral (@buckleandband 21.8K likes); IG 49 seg., 1 comentario valor. XHS sin sesion (necesita QR de Julio). Bilibili/YouTube OK sin pendientes. IG: Meta Verified cancelado (identidad). Detalle: content/community/log_2026-10-25.md
+- 2026-10-25 mediodia: dev comment Kart en TikTok; Rednote requiere login; IG 50 seg.
