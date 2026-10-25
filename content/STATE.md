@@ -8,3 +8,9 @@
 - Verificar canal en YouTube Studio (fijar comentarios); fijar comentarios en IG desde iPhone (Poppy De5TsJghC9U, STAR De459WStGg9, Kart De45tm7MTwk) y TikTok; correo de HelloChen (captcha).
 ## Notas
 - Sin tareas puntuales: los tramos mañana/mediodia/noche son los 3 cron del agente. Los envios a creadores se revisan el 28/10.
+
+## Actualizacion 11:55 (hecha en el chat con Julio)
+- Kart 25/10 PUBLICADO: TikTok (IA ON, en revision) + Instagram reel De67STtJ4Co (IA ON, FB OFF) + comentario dev con link id6821168181 en IG. Falta comentario dev en TikTok cuando salga de revision. El tramo MEDIODIA NO debe volver a publicar Kart.
+- ALERTA IP: el zorro naranja con bufanda roja del clip de Kart se parece demasiado a Tails (Sonic). No reutilizar ese clip ni prompts de zorro; en los prompts de Gemini usar personajes claramente originales.
+- Poppy 25/10 sigue pendiente para el tramo NOCHE.
+- Status matutino: por este chat + push (no WhatsApp).
