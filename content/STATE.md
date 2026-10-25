@@ -35,3 +35,10 @@
 - Poppy 25/10 con Lila equivocada: TikTok -> Solo yo, IG reel eliminado. Rehecho como v5 con Lila oficial (imagenes content/2026-10-25/gem/lila_*.jpg + gameplay); ENVIADO A JULIO, esperando su si. Gemini video agotado hoy: usar Crear imagen con art/lila_ref.jpg.
 - Los videos de Poppy del 24/10 (Save the garden, anime verde) tambien tienen heroina distinta: pendiente decidir si ocultarlos (TikTok, YouTube, Bilibili, Rednote, IG De5TsJghC9U).
 - Fichas oficiales: FICHAS_PERSONAJES.md. El video dice "Meet Remi" pero el nombre oficial es Remy.
+
+## 25/10 12:45 - Poppy Pop v6 (Flow, animado) PUBLICADO
+- Video: promo/daily_20261025_poppypop_en.mp4 (Lila oficial + Weed King, Queen Orchid, Emperor Eclipse; clips Google Flow en content/2026-10-25/gem/lila_flow1.mp4 y lila_flow2.mp4; script _tools/build_poppy_v6_flow_20261025.py). Aprobado por Julio.
+- Publicado: TikTok (AI label), Instagram reel De7CN8wh08- (AI label, FB off), YouTube Short NX-2pnVpdZg, Bilibili (含AI生成内容, 游戏). Comentario con link App Store id6821664713 en TikTok, IG y YouTube.
+- Ocultos (Lila equivocada 24/10): TikTok "Save the garden" -> Solo yo; YouTube Short "Save the garden" -> Privado.
+- PENDIENTE: Rednote pide login (SMS/QR) -> Julio; Bilibili/Rednote 24/10 Poppy hide; IG De5TsJghC9U (borrar solo si Julio ok); TikTok fijado 24/10 Kart zorro sigue publico (no se puede ocultar fijado).
+- Nota: Flow aprobar 12 puntos/clip del plan Plus (sin costo extra). Prompt texto-solo con descripcion exacta de Lila funciona bien.
