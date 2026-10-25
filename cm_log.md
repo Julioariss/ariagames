@@ -147,3 +147,6 @@
 - PUBLICADO STAR Ace: TikTok (etiqueta IA, en revision) + IG reel De6wflPy188 (9:16, IA ON, FB off, comentario dev). Comentario dev TikTok: pendiente a que salga de revision. Fijar comentarios solo desde iPhone.
 - Kart y Poppy: enviados a Julio; publicacion programada mas tarde (Kart ~14:00, Poppy ~19:00 hora Chile).
 - Hallazgo ig-viral: no ejecutado hoy (sin tiempo); pendiente.
+
+## 2026-10-25 13:00 UTC — ronda comunidad programada (Claude)
+- TikTok 7d 33.6K vistas; 1 comentario con link en video viral (@buckleandband 21.8K likes); IG 49 seg., 1 comentario valor. XHS sin sesion (necesita QR de Julio). Bilibili/YouTube OK sin pendientes. IG: Meta Verified cancelado (identidad). Detalle: content/community/log_2026-10-25.md
