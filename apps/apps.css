@@ -55,7 +55,7 @@
 @media(max-width:860px){.grid3,.dl{grid-template-columns:1fr}}
 .js .rv{opacity:0;transform:translateY(24px);transition:.8s cubic-bezier(.2,.8,.2,1)}.js .rv.in{opacity:1;transform:none}
 
-.hud svg.ecg{position:absolute;left:-6%;width:112%;height:90px;bottom:-22%;top:auto}
+.hud svg.ecg{position:absolute;left:-4%;width:108%;height:64px;bottom:-1%;top:auto}
 
 .shotband{position:relative;border-radius:34px;overflow:hidden;margin:10px 0 0;box-shadow:0 40px 90px -40px rgba(0,0,0,.6);background:#0d0d0f}
 .shotband img{width:100%;height:auto;display:block;transform:scale(1.04);transition:transform 1.6s cubic-bezier(.2,.8,.2,1)}
