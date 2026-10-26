@@ -1,0 +1,51 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ARIAmouse — your Apple Watch as a trackpad for Android</title><meta name="description" content="Turn your Apple Watch into a trackpad for Android phones and smart glasses. Private, no accounts, no ads.">
+<meta property="og:title" content="ARIAmouse — your Apple Watch as a trackpad for Android"><meta property="og:description" content="Turn your Apple Watch into a trackpad for Android phones and smart glasses. Private, no accounts, no ads."><meta property="og:image" content="https://ariagames.dev/ariamouse/hero.jpg">
+<script>document.documentElement.className+=" js"</script><link rel="stylesheet" href="/style.css?v=19"><link rel="stylesheet" href="/apps/apps.css?v=4"></head><body>
+<canvas id="bgw" aria-hidden="true"></canvas>
+<script>(function(){var c=document.getElementById('bgw'),x=c.getContext('2d'),W,H,D=Math.min(devicePixelRatio||1,2);
+function rs(){W=innerWidth;H=innerHeight;c.width=W*D;c.height=H*D;x.setTransform(D,0,0,D,0,0)}rs();addEventListener('resize',rs);
+var L=[[38,1.25,.22,.55,.13,0],[26,.9,-.31,.62,.10,0],[48,1.6,.14,.70,.09,0],[18,.7,.42,.58,0,1.2]];
+function f(ms){var t=ms/1000;x.clearRect(0,0,W,H);L.forEach(function(l){var by=H*l[3],a=l[0]*1.4;x.beginPath();
+for(var i=0;i<=80;i++){var px=W*i/80,ph=px/W*Math.PI*2/l[1],y=by+Math.sin(ph+t*l[2]*2)*a+Math.sin(ph*2.3-t*l[2])*a*.35;i?x.lineTo(px,y):x.moveTo(px,y)}
+if(l[5]){x.strokeStyle='rgba(229,9,20,.30)';x.lineWidth=l[5];x.stroke()}else{x.lineTo(W,H);x.lineTo(0,H);x.closePath();var g=x.createLinearGradient(0,by-a,0,H);g.addColorStop(0,'rgba(229,9,20,'+l[4]*1.7+')');g.addColorStop(1,'rgba(229,9,20,'+l[4]*.25+')');x.fillStyle=g;x.fill()}});requestAnimationFrame(f)}
+requestAnimationFrame(f)})();</script>
+<header id="hd"><div class="wrap">
+<article class="acard rv" style="margin-top:46px"><div><span class="tag">New</span>
+<h1 style="font-size:clamp(40px,6vw,76px);letter-spacing:-.045em;line-height:1;margin:18px 0 14px;font-weight:900">ARIA<em style="font-style:normal;background:linear-gradient(90deg,#f1d98a,#c8973a);-webkit-background-clip:text;background-clip:text;color:transparent">mouse</em></h1>
+<p>Your Apple Watch becomes a trackpad for Android. Tap to click, slide to move the cursor, swipe the edges to go back or forward. Works with Android phones and smart glasses.</p>
+<div class="btns"><a class="gold" href="#get">Get ARIAmouse</a><a class="ghost" href="#how">How it works</a></div></div>
+<div class="hud"><img src="/ariamouse/hero.jpg" alt="" style="width:100%;border-radius:18px"></div></article>
+<figure class="shotband rv"><img src="/ariamouse/hero.jpg" alt="Apple Watch used as a trackpad with a glowing cursor moving on an Android phone and smart glasses over Bluetooth" loading="lazy">
+<figcaption><div><span>Apple Watch + Android</span><br><b>Turn your Apple Watch into a trackpad for Android.</b></div><div class="hudcap"><i>Trackpad</i><i>Bluetooth</i><i>No account</i></div></figcaption></figure>
+<section class="sec rv"><span class="mono">What you get</span><h2>One gesture set,<br><i>every</i> screen.</h2>
+<div class="grid3">
+<div class="feat"><div class="ic">☝</div><b>Tap to click</b><p>1 tap click, 2 taps right-click, 3 taps double-click, hold and move to drag.</p></div>
+<div class="feat"><div class="ic">⌚</div><b>Edge swipes</b><p>Swipe the edges for back and forward. Smooth acceleration curve.</p></div>
+<div class="feat"><div class="ic">◎</div><b>Phones and glasses</b><p>Android phones and smart glasses (including the Rokid touchpad).</p></div>
+<div class="feat"><div class="ic">ᛒ</div><b>Direct Bluetooth</b><p>Watch to Android. No cloud, no relay server.</p></div>
+<div class="feat"><div class="ic">🔋</div><b>Light on battery</b><p>Does not log workouts and stops itself after 10 minutes without use.</p></div>
+<div class="feat"><div class="ic">🔒</div><b>Private by design</b><p>No accounts, no ads, no tracking, no data collected.</p></div>
+</div></section>
+<section class="sec rv" id="how"><span class="mono">Setup</span><h2>Ready in <i>three</i> steps.</h2>
+<div class="steps">
+<div class="step"><div><b>Install on Android</b><span>Download the .apk below, allow installs from this source once, and open ARIAmouse.</span></div></div>
+<div class="step"><div><b>Install the Apple Watch app</b><span>ARIAmouse for Apple Watch (App Store, or TestFlight while it is in review).</span></div></div>
+<div class="step"><div><b>Pair and use</b><span>Pick your Android device on the Watch. Tap and slide on the screen.</span></div></div>
+</div></section>
+<section class="sec rv" id="get"><span class="mono">Get it</span><h2>Pick your <i>device</i>.</h2>
+<div class="dl">
+<div class="dlc"><span class="pill ok">Available now</span><h3>Android</h3><p>Android app v1.3.0 · 6 MB · free. Needs Android 8 or later with Bluetooth.</p><a class="gold" href="https://github.com/Julioariss/ariagames/raw/main/ariamouse/ARIAmouse.apk" download>Download .apk</a></div>
+<div class="dlc"><span class="pill">App Store</span><h3>Apple Watch</h3><p>Free download for Apple Watch.</p><span class="off">Coming to the App Store</span></div>
+</div>
+<div class="ver"><b>Verify your download.</b> SHA-256: <code>c70b0c66585376f3a216698736e2116390604f4264ab14c0d8ecc388b5fe20f4</code><br>Signing certificate: CN=ARIAgames. SHA-256 starts with <code>8e8d3db8</code>. If it doesn't match, don't install it. If you installed an earlier test build, uninstall it first (the signing key changed).</div>
+<div class="lic"><b>Privacy.</b> ARIAmouse collects no data: no accounts, ads, analytics or tracking. Gestures from the Watch go directly to your Android device over Bluetooth and are never stored or sent anywhere else. Bluetooth permissions are used only to connect your Watch. Notifications are used only for the "connected" notice while the service runs.<br>
+<b>Accessibility service (Android).</b> The optional accessibility service is used only to perform the pointer, click, scroll and back/forward actions you make on the Watch, and to relaunch ARIAmouse from a glasses gesture. It does not read, record or transmit screen content or anything you type. You can turn it off any time in Android Settings.<br>
+<b>Open-source notices.</b> Kotlin © JetBrains and Jetpack Compose © Google (Apache License 2.0).<br>
+ARIAmouse is an independent product of ARIAgames. Apple, Apple Watch, Android and Rokid are trademarks of their respective owners; this app is not an official product of, nor endorsed by, any of them.</div>
+</section>
+</div>
+<div class="foot">© 2026 ARIAgames · Independent apps made in Chile · <a href="/privacy.html">Privacy</a> · <a href="/support.html">Support</a></div>
+<script>var h=document.getElementById('hd');addEventListener('scroll',function(){h.classList.toggle('s',scrollY>8)});
+var io=new IntersectionObserver(function(e){e.forEach(function(x){if(x.isIntersecting){x.target.classList.add('in')}})},{threshold:.12});document.querySelectorAll('.rv').forEach(function(n){io.observe(n);if(/[?&]s=1/.test(location.search))n.classList.add('in')});</script>
+</body></html>
