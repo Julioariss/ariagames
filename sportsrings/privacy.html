@@ -1,0 +1,25 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SportsRings — Privacy Policy</title><meta name="description" content="Live rings, heart rate and a 3D map on your Rokid Glasses, straight from your Apple Watch. Free, private, no accounts.">
+<meta property="og:title" content="SportsRings — your workout on Rokid Glasses"><meta property="og:description" content="Live rings, heart rate and a 3D map on your Rokid Glasses, straight from your Apple Watch. Free, private, no accounts."><meta property="og:image" content="https://ariagames.dev/sportsrings/hero.jpg">
+<script>document.documentElement.className+=" js"</script><link rel="stylesheet" href="/style.css?v=19"><link rel="stylesheet" href="/apps/apps.css?v=5"></head><body>
+<canvas id="bgw" aria-hidden="true"></canvas>
+<script>(function(){var c=document.getElementById('bgw'),x=c.getContext('2d'),W,H,D=Math.min(devicePixelRatio||1,2);
+function rs(){W=innerWidth;H=innerHeight;c.width=W*D;c.height=H*D;x.setTransform(D,0,0,D,0,0)}rs();addEventListener('resize',rs);
+var L=[[38,1.25,.22,.55,.13,0],[26,.9,-.31,.62,.10,0],[48,1.6,.14,.70,.09,0],[18,.7,.42,.58,0,1.2]];
+function f(ms){var t=ms/1000;x.clearRect(0,0,W,H);L.forEach(function(l){var by=H*l[3],a=l[0]*1.4;x.beginPath();
+for(var i=0;i<=80;i++){var px=W*i/80,ph=px/W*Math.PI*2/l[1],y=by+Math.sin(ph+t*l[2]*2)*a+Math.sin(ph*2.3-t*l[2])*a*.35;i?x.lineTo(px,y):x.moveTo(px,y)}
+if(l[5]){x.strokeStyle='rgba(229,9,20,.30)';x.lineWidth=l[5];x.stroke()}else{x.lineTo(W,H);x.lineTo(0,H);x.closePath();var g=x.createLinearGradient(0,by-a,0,H);g.addColorStop(0,'rgba(229,9,20,'+l[4]*1.7+')');g.addColorStop(1,'rgba(229,9,20,'+l[4]*.25+')');x.fillStyle=g;x.fill()}});requestAnimationFrame(f)}
+requestAnimationFrame(f)})();</script>
+<header id="hd"><div class="wrap"><section class="sec" style="max-width:760px;margin:0 auto"><span class="mono">SportsRings</span><h2>Privacy <i>Policy</i></h2><p style="color:var(--tx2)">Last updated: October 26, 2026. ARIAgames (“we”) makes SportsRings for iPhone, Apple Watch and Rokid Glasses.</p>
+<h3>Short version</h3><p>We do not collect, store, sell or share your health or workout data. There are no accounts, ads, analytics or trackers.</p>
+<h3>Apple Health</h3><p>With your permission SportsRings reads activity, heart rate and workout data from Apple Health to show your rings, and saves the workouts you start in the app back to Apple Health. This data stays on your devices under your control. Heart rate and metrics travel by Bluetooth from your Apple Watch to your glasses and are discarded; the glasses do not store them. You can revoke access anytime in Settings › Health › Data Access &amp; Devices.</p>
+<h3>Location</h3><p>Your Apple Watch/iPhone location is used during a workout (or while the 3D map is open) to show your position and route. Location is not sent to us. Routes are saved only to Apple Health, if you start a workout.</p>
+<h3>Maps and the internet</h3><p>To draw maps, the app downloads map tiles from third-party providers (OpenFreeMap / OpenStreetMap data, AWS terrain data and Apple Maps). These requests contain approximate tile coordinates (an area of about 2 km) and your IP address, never health or workout data. Those providers have their own privacy policies.</p>
+<h3>Children</h3><p>The app is not directed to children under 13 and collects no personal information from anyone.</p>
+<h3>Not a medical device</h3><p>SportsRings does not diagnose, treat or prevent any condition. The pulse line is a visualization of heart rate, not an electrocardiogram. Consult a health professional about symptoms.</p>
+<h3>Your rights</h3><p>Because we hold no personal data, there is nothing to access, correct or delete on our side. To delete workouts, use the Health app.</p>
+<h3>Contact</h3><p>Questions: <a href="mailto:julio.aris.s@gmail.com" style="text-decoration:underline">julio.aris.s@gmail.com</a></p></section></div>
+<div class="foot">© 2026 ARIAgames · Independent apps made in Chile · <a href="/privacy.html">Privacy</a> · <a href="/support.html">Support</a></div>
+<script>var h=document.getElementById('hd');addEventListener('scroll',function(){h.classList.toggle('s',scrollY>8)});
+var io=new IntersectionObserver(function(e){e.forEach(function(x){if(x.isIntersecting){x.target.classList.add('in')}})},{threshold:.12});document.querySelectorAll('.rv').forEach(function(n){io.observe(n);if(/[?&]s=1/.test(location.search))n.classList.add('in')});</script>
+</body></html>
