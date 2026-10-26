@@ -1,0 +1,38 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ARIA Apps — apps beyond games</title><meta name="description" content="SportsRings and more apps from ARIAgames: made in Chile, private by design.">
+<meta property="og:title" content="ARIA Apps — apps beyond games"><meta property="og:description" content="SportsRings and more apps from ARIAgames: made in Chile, private by design."><meta property="og:image" content="https://ariagames.dev/img/logo.jpg">
+<script>document.documentElement.className+=" js"</script><link rel="stylesheet" href="/style.css?v=19"><link rel="stylesheet" href="/apps/apps.css?v=3"></head><body>
+<canvas id="bgw" aria-hidden="true"></canvas>
+<script>(function(){var c=document.getElementById('bgw'),x=c.getContext('2d'),W,H,D=Math.min(devicePixelRatio||1,2);
+function rs(){W=innerWidth;H=innerHeight;c.width=W*D;c.height=H*D;x.setTransform(D,0,0,D,0,0)}rs();addEventListener('resize',rs);
+var L=[[38,1.25,.22,.55,.13,0],[26,.9,-.31,.62,.10,0],[48,1.6,.14,.70,.09,0],[18,.7,.42,.58,0,1.2]];
+function f(ms){var t=ms/1000;x.clearRect(0,0,W,H);L.forEach(function(l){var by=H*l[3],a=l[0]*1.4;x.beginPath();
+for(var i=0;i<=80;i++){var px=W*i/80,ph=px/W*Math.PI*2/l[1],y=by+Math.sin(ph+t*l[2]*2)*a+Math.sin(ph*2.3-t*l[2])*a*.35;i?x.lineTo(px,y):x.moveTo(px,y)}
+if(l[5]){x.strokeStyle='rgba(229,9,20,.30)';x.lineWidth=l[5];x.stroke()}else{x.lineTo(W,H);x.lineTo(0,H);x.closePath();var g=x.createLinearGradient(0,by-a,0,H);g.addColorStop(0,'rgba(229,9,20,'+l[4]*1.7+')');g.addColorStop(1,'rgba(229,9,20,'+l[4]*.25+')');x.fillStyle=g;x.fill()}});requestAnimationFrame(f)}
+requestAnimationFrame(f)})();</script>
+<header id="hd"><div class="wrap">
+ <a class="brand" href="/">ARIA<b>games</b></a>
+ <nav><a href="/#games">Games</a><a href="/apps/" style="background:var(--soft);color:var(--tx)">Apps</a></nav>
+ <a class="nav-cta" href="/#games">Watch games</a>
+</div></header>
+
+<div class="wrap">
+<section class="ahero"><span class="mono">ARIA Apps</span><h1>More than <i>games</i>.</h1><p>Apps built with the same care as our Apple Watch games: fast, private, no ads and no accounts.</p></section>
+<article class="acard rv"><div><span class="tag">Sport · Rokid Glasses · Apple Watch</span>
+<h2>Sports<em>Rings</em></h2>
+<p>Your workout in real time, right in front of your eyes. Three rings, your heart rate and a 3D map of where you are — straight from your Apple Watch to your Rokid Glasses.</p>
+<div class="chips"><span>Live rings</span><span>Heart rate</span><span>3D map</span><span>Offline maps</span><span>25+ sports</span><span>No data stored</span></div>
+<div class="btns"><a class="gold" href="/sportsrings/">Explore SportsRings →</a><a class="ghost" href="/sportsrings/SportsRings-Rokid.apk" download>Download for glasses (.apk)</a></div></div>
+<div class="hud"><svg viewBox="0 0 300 300"><g>
+<circle class="ring bg" cx="150" cy="150" r="100" stroke="#e8c25a"/><circle class="ring r1" cx="150" cy="150" r="100"/>
+<circle class="ring bg" cx="150" cy="150" r="80" stroke="#c9ccd2"/><circle class="ring r2" cx="150" cy="150" r="80"/>
+<circle class="ring bg" cx="150" cy="150" r="60" stroke="#ffe9a8"/><circle class="ring r3" cx="150" cy="150" r="60"/></g></svg>
+<div class="hr"><i>♥</i><b id="bpm">128</b><span>BPM</span></div>
+<svg class="ecg" viewBox="0 0 420 90" preserveAspectRatio="none"><path d="M0 50 H60 L72 50 L82 20 L94 80 L104 50 H170 L182 50 L192 10 L204 85 L214 50 H290 L302 50 L312 22 L324 78 L334 50 H420 M420 50 H480 L492 50 L502 20 L514 80 L524 50 H600"/></svg></div>
+<script>var b=document.getElementById('bpm');if(b){setInterval(function(){b.textContent=124+Math.round(Math.sin(Date.now()/1700)*7+Math.random()*3)},900)}</script></article>
+<div class="soon rv"><b>More apps are on the way.</b>Each one gets its own page here as it reaches the App Store.</div>
+</div>
+<div class="foot">© 2026 ARIAgames · Independent apps made in Chile · <a href="/privacy.html">Privacy</a> · <a href="/support.html">Support</a></div>
+<script>var h=document.getElementById('hd');addEventListener('scroll',function(){h.classList.toggle('s',scrollY>8)});
+var io=new IntersectionObserver(function(e){e.forEach(function(x){if(x.isIntersecting){x.target.classList.add('in')}})},{threshold:.12});document.querySelectorAll('.rv').forEach(function(n){io.observe(n);if(/[?&]s=1/.test(location.search))n.classList.add('in')});</script>
+</body></html>
