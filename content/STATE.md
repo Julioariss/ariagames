@@ -49,3 +49,9 @@
 - IG: 50 seguidores (ayer 49), 322 seguidos. Reels de hoy (Kart/STAR/Poppy) solo con nuestro comentario dev; sin comentarios ajenos que responder. Hay un comentario "Brillante" de mariabagioli (15 h) en un post que no pude ubicar; sin respuesta aun.
 - Rednote: redirige a login -> necesita login (Julio). No se pudo revisar la nota Poppy v4 ni poner comentario dev.
 - Ronda de descubrimiento: hashtag #applewatchgames solo trae posts viejos/poca traccion; 0 comentarios con link hoy (conversion pendiente, buscar videos con >2K likes en NOCHE).
+
+## Fecha 2026-10-26 (lunes) - tramo MAÑANA (agente)
+- Seguidores: IG 50 (ayer 50), 339 seguidos. TikTok no medido (perfil bloqueado para lectura).
+- STAR Ace 26/10 (nebulosa + leviatan, hook "Can a watch beat a leviathan?", musica Gravity_Breach, _tools/build_daily_20261026.py): enviado a Julio, PUBLICADO TikTok (IA ON, en revision) + IG reel De9T3CQS9DO (9:16, IA ON, FB off, comentario dev con link id6821445432).
+- No se crearon Kart ni Poppy hoy (sin clips nuevos de Gemini/Flow ni sesion de Gemini; Kart pausado hasta 3D). MEDIODIA/NOCHE: Kart/Poppy con clips Flow (lila_flow*, remi) re-editados con otra hook/escena si hay cupo.
+- DMs IG: solo reacciones a historia (Ricardo Javier); nada que responder. Pendiente: comentario dev en TikTok cuando salga de revision; Rednote sigue pidiendo login (Julio); fijar comentarios desde iPhone.
