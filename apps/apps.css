@@ -56,3 +56,11 @@
 .js .rv{opacity:0;transform:translateY(24px);transition:.8s cubic-bezier(.2,.8,.2,1)}.js .rv.in{opacity:1;transform:none}
 
 .hud svg.ecg{position:absolute;left:-6%;width:112%;height:90px;bottom:-22%;top:auto}
+
+.shotband{position:relative;border-radius:34px;overflow:hidden;margin:10px 0 0;box-shadow:0 40px 90px -40px rgba(0,0,0,.6);background:#0d0d0f}
+.shotband img{width:100%;height:auto;display:block;transform:scale(1.04);transition:transform 1.6s cubic-bezier(.2,.8,.2,1)}
+.shotband:hover img{transform:scale(1.09)}
+.shotband figcaption{position:absolute;left:0;right:0;bottom:0;padding:70px 34px 26px;background:linear-gradient(transparent,rgba(0,0,0,.78));color:#f4efe3;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;align-items:flex-end}
+.shotband figcaption b{font-size:clamp(20px,2.6vw,30px);letter-spacing:-.03em;line-height:1.1}
+.shotband figcaption span{font:700 11px ui-monospace,Menlo,monospace;letter-spacing:.18em;text-transform:uppercase;color:#d8b45a}
+.hudcap{display:flex;gap:10px;flex-wrap:wrap}.hudcap i{font-style:normal;font-size:12px;font-weight:700;padding:6px 12px;border-radius:99px;background:rgba(120,255,140,.14);color:#9dffb0;border:1px solid rgba(120,255,140,.35)}
