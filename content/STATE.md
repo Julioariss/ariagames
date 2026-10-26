@@ -55,3 +55,10 @@
 - STAR Ace 26/10 (nebulosa + leviatan, hook "Can a watch beat a leviathan?", musica Gravity_Breach, _tools/build_daily_20261026.py): enviado a Julio, PUBLICADO TikTok (IA ON, en revision) + IG reel De9T3CQS9DO (9:16, IA ON, FB off, comentario dev con link id6821445432).
 - No se crearon Kart ni Poppy hoy (sin clips nuevos de Gemini/Flow ni sesion de Gemini; Kart pausado hasta 3D). MEDIODIA/NOCHE: Kart/Poppy con clips Flow (lila_flow*, remi) re-editados con otra hook/escena si hay cupo.
 - DMs IG: solo reacciones a historia (Ricardo Javier); nada que responder. Pendiente: comentario dev en TikTok cuando salga de revision; Rednote sigue pidiendo login (Julio); fijar comentarios desde iPhone.
+
+## Actualizacion 26/10 ~14:30 - tramo MEDIODIA (agente)
+- Segundo video del dia: Poppy Pop v7 remix (promo/daily_20261026_poppypop_en.mp4, script _tools/build_poppy_v7_remix_20261026.py, musica Frost_Petal_Logic, Lila oficial verificada). PUBLICADO: TikTok (IA ON, 7701036019877088532, comentario dev con link id6821664713) + IG reel De93b6hBFar (IA ON, FB off, comentario dev con link). Enviado a Julio por chat. No publicados: YouTube/Bilibili/Rednote (Rednote sigue pidiendo login).
+- IG: 52 seguidores (antes 50). TikTok Studio: STAR 24/10 sigue de mejor (3.3K vistas, 544 likes).
+- Comunidad: ironmazewatch (dev pequeno de juego Watch) respondio nuestro comentario y nos sigue -> PENDIENTE responder su hilo (no ubique el post; buscar en NOCHE). javi.robz comento "Que buen juego" en un reel nuestro (no ubicado) -> responder en NOCHE y dar like.
+- Incidencia: el Mac se desconecto ~15 min a mitad del tramo; para subir videos Chrome necesita la carpeta ariagames concedida con device_request_folder_access y el archivo preparado con device_stage_files (usar la ruta /mnt/user-data/uploads/... en file_upload).
+- NOCHE: no hay Kart/Poppy nuevo; considerar remix Kart con clips Remy si hay cupo; responder hilos pendientes; medir seguidores.
