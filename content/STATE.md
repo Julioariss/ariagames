@@ -62,3 +62,11 @@
 - Comunidad: ironmazewatch (dev pequeno de juego Watch) respondio nuestro comentario y nos sigue -> PENDIENTE responder su hilo (no ubique el post; buscar en NOCHE). javi.robz comento "Que buen juego" en un reel nuestro (no ubicado) -> responder en NOCHE y dar like.
 - Incidencia: el Mac se desconecto ~15 min a mitad del tramo; para subir videos Chrome necesita la carpeta ariagames concedida con device_request_folder_access y el archivo preparado con device_stage_files (usar la ruta /mnt/user-data/uploads/... en file_upload).
 - NOCHE: no hay Kart/Poppy nuevo; considerar remix Kart con clips Remy si hay cupo; responder hilos pendientes; medir seguidores.
+
+## Fecha 2026-10-27 (martes) - tramo MAÑANA (agente, corrida tardia ~18:20 Chile)
+- Seguidores: IG 54 (ayer 52), 356 seguidos. TikTok no medido.
+- Habia un Kart ya montado a las 13:35 (promo/daily_20261027_kartwatchgp_en.mp4, hook "3 corners left. Don't brake.", script _tools/build_kart_v5_remix_20261027.py) sin publicar ni registrar. Revisado (Remy ok, sin lookalikes), enviado a Julio y PUBLICADO: TikTok (IA ON, en revision) + IG reel DfA0ftoN1eA (9:16, IA ON, FB off) con comentario dev + link id6821168181. Falta comentario dev en TikTok cuando salga de revision.
+- STAR y Poppy de hoy NO creados (sin clips nuevos Gemini/Flow); NOCHE: remix con clips existentes (staracce_galaxia/gem1, lila_flow*) si hay cupo.
+- Comunidad: respondido a javi.robz (reel STAR De459WStGg9, ES) y like a su comentario. Pendiente: ironmazewatch (su respuesta es en su propio post, no ubicado), mariabagioli.
+- Pendientes de Julio: Rednote login; fijar comentarios en iPhone. Proximo tramo: MEDIODIA/NOCHE.
+- Nota tecnica: file_upload requiere device_request_folder_access + device_stage_files (ruta /mnt/user-data/uploads/ariagames/...). En IG web los toggles IA/FB quedan fuera de vista: usar find y verificar.

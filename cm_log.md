@@ -154,3 +154,6 @@
 
 ## 2026-10-26 manana (agente)
 - STAR Ace v26/10: clip staracce_galaxia.mp4, gameplay en9/en3/en6, musica Gravity_Breach, hook "Can a watch beat a leviathan?". promo/daily_20261026_staracce_en.mp4. Publicado TikTok + IG De9T3CQS9DO. Kart/Poppy: pendientes.
+
+## 2026-10-27 manana (agente)
+- Kart 27/10 (Remy, hook "3 corners left. Dont brake.") publicado TikTok + IG DfA0ftoN1eA. STAR/Poppy no creados hoy (sin clips nuevos).
