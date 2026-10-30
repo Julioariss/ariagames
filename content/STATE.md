@@ -70,3 +70,10 @@
 - Comunidad: respondido a javi.robz (reel STAR De459WStGg9, ES) y like a su comentario. Pendiente: ironmazewatch (su respuesta es en su propio post, no ubicado), mariabagioli.
 - Pendientes de Julio: Rednote login; fijar comentarios en iPhone. Proximo tramo: MEDIODIA/NOCHE.
 - Nota tecnica: file_upload requiere device_request_folder_access + device_stage_files (ruta /mnt/user-data/uploads/ariagames/...). En IG web los toggles IA/FB quedan fuera de vista: usar find y verificar.
+
+## Fecha 2026-10-30 (viernes) - tramo MAÑANA (agente, corrida ~12:50 Chile)
+- Seguidores: IG 55 (ultimo registro 54 el 27/10), 366 seguidos. TikTok no medido; mejor video sigue STAR 24/10 (3.3K vistas, 545 likes). Ultima publicacion previa en TikTok: 27/10 (28 y 29/10 sin corridas registradas).
+- STAR Ace 28/10 (promo/daily_20261028_staracce_en.mp4, hook "Find this boss's weak spot in 10 seconds", script _tools/build_daily_20261028.py) estaba montado sin publicar: revisado (Cosmo, sin lookalikes), enviado a Julio y PUBLICADO: TikTok (IA ON, en revision) + IG reel DfH9GX3hZAY (9:16, IA ON, FB off) con comentario dev + link id6821445432. Falta comentario dev en TikTok cuando salga de revision.
+- Kart y Poppy NO creados hoy (sin clips nuevos de Gemini/Flow; Gemini/Flow requiere sesion interactiva). MEDIODIA/NOCHE: remix con clips existentes (lila_flow*, remy) si hay cupo.
+- DMs IG: solo perfiles compartidos (Carla Siles); nada que responder. YouTube/Bilibili/Rednote no tocados (Rednote necesita login de Julio).
+- Nota tecnica: file_upload necesita device_request_folder_access + device_stage_files (funciono al primer intento).
