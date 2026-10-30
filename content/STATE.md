@@ -77,3 +77,8 @@
 - Kart y Poppy NO creados hoy (sin clips nuevos de Gemini/Flow; Gemini/Flow requiere sesion interactiva). MEDIODIA/NOCHE: remix con clips existentes (lila_flow*, remy) si hay cupo.
 - DMs IG: solo perfiles compartidos (Carla Siles); nada que responder. YouTube/Bilibili/Rednote no tocados (Rednote necesita login de Julio).
 - Nota tecnica: file_upload necesita device_request_folder_access + device_stage_files (funciono al primer intento).
+
+## Actualizacion 30/10 ~13:10 (Chile) - tramo MEDIODIA (agente)
+- DUPLICADO: el tramo MAÑANA (corrida tardia) y MEDIODIA publicaron el MISMO video STAR Ace (promo/daily_20261028_staracce_en.mp4) casi a la vez. IG: reel DfH9GX3hZAY (con comentario dev) y DfH9O5TN_Nl (duplicado, sin comentario; Julio debe archivar/borrar el DfH9O5TN_Nl). TikTok: 2 publicaciones del mismo video (en revision): "Find this boss's weak spot..." y "Dodge 3 missiles in 10 seconds?"; Julio puede ocultar/borrar una.
+- No hay segundo video nuevo (sin clips Gemini/Flow nuevos): nada mas publicado. Lecciones: antes de publicar, revisar log_<fecha>.md y la lista de TikTok/IG (corridas pueden solaparse).
+- IG 55 seguidores (54 el 27/10). Notificaciones: sin comentarios nuevos que responder; mr.numencio nos sigue. Rednote: sin permiso/login (Julio). Pendiente: comentario dev en TikTok tras revision; hilos ironmazewatch/mariabagioli.
