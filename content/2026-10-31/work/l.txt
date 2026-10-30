@@ -1,0 +1,8 @@
+file '/Users/julioarisserey/Documents/Claude/Projects/ariagames/content/2026-10-31/work/s31_h_i.mp4'
+file '/Users/julioarisserey/Documents/Claude/Projects/ariagames/content/2026-10-31/work/s31_a0.mp4'
+file '/Users/julioarisserey/Documents/Claude/Projects/ariagames/content/2026-10-31/work/s31_a1.mp4'
+file '/Users/julioarisserey/Documents/Claude/Projects/ariagames/content/2026-10-31/work/s31_a2.mp4'
+file '/Users/julioarisserey/Documents/Claude/Projects/ariagames/content/2026-10-31/work/s31_g0.mp4'
+file '/Users/julioarisserey/Documents/Claude/Projects/ariagames/content/2026-10-31/work/s31_g1.mp4'
+file '/Users/julioarisserey/Documents/Claude/Projects/ariagames/content/2026-10-31/work/s31_g2.mp4'
+file '/Users/julioarisserey/Documents/Claude/Projects/ariagames/content/2026-10-31/work/s31_e.mp4'
