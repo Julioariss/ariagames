@@ -82,3 +82,6 @@
 - DUPLICADO: el tramo MAÑANA (corrida tardia) y MEDIODIA publicaron el MISMO video STAR Ace (promo/daily_20261028_staracce_en.mp4) casi a la vez. IG: reel DfH9GX3hZAY (con comentario dev) y DfH9O5TN_Nl (duplicado, sin comentario; Julio debe archivar/borrar el DfH9O5TN_Nl). TikTok: 2 publicaciones del mismo video (en revision): "Find this boss's weak spot..." y "Dodge 3 missiles in 10 seconds?"; Julio puede ocultar/borrar una.
 - No hay segundo video nuevo (sin clips Gemini/Flow nuevos): nada mas publicado. Lecciones: antes de publicar, revisar log_<fecha>.md y la lista de TikTok/IG (corridas pueden solaparse).
 - IG 55 seguidores (54 el 27/10). Notificaciones: sin comentarios nuevos que responder; mr.numencio nos sigue. Rednote: sin permiso/login (Julio). Pendiente: comentario dev en TikTok tras revision; hilos ironmazewatch/mariabagioli.
+
+## Actualizacion 30/10 ~14:50 (Chile) - 2a corrida MEDIODIA (agente)
+- Ya habia corrida MEDIODIA a las 13:10: no se publico nada nuevo (sin segundo video ni clips nuevos; evita duplicados). Notificaciones IG revisadas: sin comentarios nuevos que responder (solo likes de carlasiles, follow de mr.numencio). Rednote sin login (Julio). Pendientes: archivar IG DfH9O5TN_Nl y ocultar 1 TikTok duplicado (Julio), comentario dev TikTok tras revision, hilos ironmazewatch/mariabagioli.
