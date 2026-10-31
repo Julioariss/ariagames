@@ -94,3 +94,9 @@
 - Comunidad: notificaciones IG revisadas, sin comentarios que responder (likes de mariabagioli/ricardo_aris_s); followback a mr.numencio. Rednote/YouTube/Bilibili no tocados (Rednote necesita login).
 - Pendiente: comentario dev en TikTok (STAR, Poppy, Kart) cuando salgan de revision; fijar comentarios desde iPhone; archivar IG DfH9O5TN_Nl y ocultar TikTok duplicado del 28/10 (Julio). MEDIODIA: ronda comunidad (sin videos nuevos); NOCHE: preparar clips de mañana.
 - Nota: Gemini "Crear video" SI estaba disponible hoy (clip Kart en ~2 min). Poppy devices dura 23 s (>19 s recomendado).
+
+## Actualizacion 31/10 ~13:50 (Chile) - tramo MEDIODIA (agente)
+- No se publico video nuevo: los 3 videos de hoy ya estaban publicados (STAR anoche, Poppy devices y Kart neon en MAÑANA) y no hay clip nuevo (regla de originalidad + anti-duplicado). Sin segundo video = no repetir.
+- IG: 55 seguidores (igual). Notificaciones: sin comentarios/DMs que responder (likes bibe03/carlasiles/mariabagioli; follow de ras_maninov, perfil privado de 2 seguidores y no del nicho -> sin follow back). TikTok Studio: 28 publicaciones; 3 videos recientes ya publicos (Kart 57 vistas, Poppy 61, STAR 30/10 171); sin comentarios ajenos que responder.
+- Rednote: creator.xiaohongshu.com redirige a login (401) -> necesita login de Julio; no se pudo revisar la nota Poppy v4 ni poner comentario dev.
+- Pendiente: comentario dev con link en TikTok Kart 31/10 (7700282780516683029), Poppy devices (7700588048261729556) y STAR 30/10 (7701461719163374868): la pagina del video en tiktok.com da error de carga en Chrome (2 intentos) y Studio no permite comentar; reintentar en NOCHE o que Julio los ponga desde el iPhone. Julio: login Rednote, fijar comentarios, archivar IG DfH9O5TN_Nl y ocultar TikTok duplicado 28/10.
