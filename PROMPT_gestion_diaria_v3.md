@@ -1,3 +1,5 @@
+
+**DECISION (31/10/2026, Julio): el proyecto Kart Watch GP 3D esta CANCELADO (funcionaba mal). Se sigue con la version actual del juego; ignorar cualquier regla o nota que diga "esperar a la 3D" o "no promocionar Kart". Los videos de Kart se hacen con el gameplay actual y la rotacion de pilotos.**
 # PROMPT FIJO · Gestión diaria ARIAgames (v3.1, 24-oct-2026 · incorpora ig-reel, ig-caption e ig-profile)
 
 ## REGLA MAESTRA DE CLIPS (30/10/2026, orden de Julio) — manda sobre cualquier otra línea de estos prompts
