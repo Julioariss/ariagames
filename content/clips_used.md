@@ -27,3 +27,4 @@
 2026-10-31 | poppypop | historia app: vid_intro, vid_boss9, vid_boss14 (Gemini 3D de la app) + gameplay iPhone sim + watch | - | promo/daily_20261031_poppypop_devices_en.mp4
 2026-10-31 | kartwatchgp | escena 5 ciudad de neon de noche | c2a5277917733f8479e9c9e51733e155 | content/2026-10-31/gem/kartwatchgp_neon.mp4
 # KART ROTACION: ultimo piloto usado = Remy; PROXIMO = Ada (luego Hazel, Pip, Ember, Kodiak, Bruno, Cosmo, Remy)
+2026-10-31 | poppypop | trailer: clips Gemini 3D (jardin, eclipse, jaguar, octopus, weed king, emperador) + modos iPhone (duelo, fever, infinito, historia) | - | promo/trailer_20261031_poppypop_en.mp4
