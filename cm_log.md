@@ -168,3 +168,6 @@
 - STAR Ace 31/10: clip NUEVO Gemini staracce_gem_slalom.mp4 (escena 2 slalom asteroides, Cosmo + Aurora Manta fieles), gameplay en3/en9/en6, musica Breach_of_the_Titan, hook "Can your wrist fly through asteroids?". promo/daily_20261031_staracce_en.mp4 (script _tools/build_daily_20261031.py). Publicado TikTok (IA ON, en revision). IG pendiente.
 
 - 2026-10-30: STAR Ace slalom reel publicado en IG (@ariagames.app) y TikTok.
+
+## 2026-10-31 manana (agente)
+- Poppy devices (clips 3D de la app) publicado TikTok + IG DfKLBcQBdP6. Kart neon (clip nuevo Gemini escena 5, Remy, musica Apex_Pursuit) publicado TikTok + IG DfKL1JGBP2p. STAR 31/10 ya estaba publicado anoche. Captions job A, caption.py sin FAIL.

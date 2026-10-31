@@ -85,3 +85,12 @@
 
 ## Actualizacion 30/10 ~14:50 (Chile) - 2a corrida MEDIODIA (agente)
 - Ya habia corrida MEDIODIA a las 13:10: no se publico nada nuevo (sin segundo video ni clips nuevos; evita duplicados). Notificaciones IG revisadas: sin comentarios nuevos que responder (solo likes de carlasiles, follow de mr.numencio). Rednote sin login (Julio). Pendientes: archivar IG DfH9O5TN_Nl y ocultar 1 TikTok duplicado (Julio), comentario dev TikTok tras revision, hilos ironmazewatch/mariabagioli.
+
+## Fecha 2026-10-31 (sabado) - tramo MAÑANA (agente, ~09:30-10:00 Chile)
+- Seguidores: IG 55 (igual), 380 seguidos. TikTok no medido; STAR 30/10 noche: 168 vistas; mejor sigue STAR 24/10 (3.3K).
+- STAR Ace 31/10 (clip nuevo slalom) ya publicado anoche en TikTok + IG DfItOBvsZ62: no se republico.
+- Poppy Pop devices (clips 3D de la app + iPhone/iPad/watch, promo/daily_20261031_poppypop_devices_en.mp4): enviado a Julio y PUBLICADO TikTok (IA ON, en revision) + IG reel DfKLBcQBdP6 (IA ON, FB off, comentario dev id6821664713).
+- Kart Watch GP: clip NUEVO Gemini (escena 5 ciudad de neon, Remy; md5 en clips_used.md), montado con Apex_Pursuit (script _tools/build_kart_v6_neon_20261031.py): enviado a Julio y PUBLICADO TikTok (IA ON, en revision) + IG reel DfKL1JGBP2p (IA ON, FB off, comentario dev id6821168181).
+- Comunidad: notificaciones IG revisadas, sin comentarios que responder (likes de mariabagioli/ricardo_aris_s); followback a mr.numencio. Rednote/YouTube/Bilibili no tocados (Rednote necesita login).
+- Pendiente: comentario dev en TikTok (STAR, Poppy, Kart) cuando salgan de revision; fijar comentarios desde iPhone; archivar IG DfH9O5TN_Nl y ocultar TikTok duplicado del 28/10 (Julio). MEDIODIA: ronda comunidad (sin videos nuevos); NOCHE: preparar clips de mañana.
+- Nota: Gemini "Crear video" SI estaba disponible hoy (clip Kart en ~2 min). Poppy devices dura 23 s (>19 s recomendado).

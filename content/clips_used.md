@@ -24,3 +24,5 @@
 2026-10-25 | staracce | (histórico) | 34b8071325e580172bc4438229ce955f | content/2026-10-25/gem/staracce_galaxia.mp4
 2026-10-25 | staracce | (histórico) | 4dee79469dab8fe5734d4b9a49716593 | content/2026-10-25/gem/staracce_gem1.mp4
 2026-10-31 | staracce | escena 2 slalom asteroides | 52701b10cff7200853ce97ece57f52ef | content/2026-10-31/gem/staracce_gem_slalom.mp4
+2026-10-31 | poppypop | historia app: vid_intro, vid_boss9, vid_boss14 (Gemini 3D de la app) + gameplay iPhone sim + watch | - | promo/daily_20261031_poppypop_devices_en.mp4
+2026-10-31 | kartwatchgp | escena 5 ciudad de neon de noche | c2a5277917733f8479e9c9e51733e155 | content/2026-10-31/gem/kartwatchgp_neon.mp4
