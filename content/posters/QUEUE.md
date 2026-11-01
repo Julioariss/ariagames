@@ -12,5 +12,7 @@ ESTADO: [x]=publicado, [ ]=pendiente (publicar SOLO el primer [ ] por corrida, l
 - [ ] yuki_poster.jpg — "Yeti Yuki ❄️ every world has a guardian. Boss duels in Poppy Pop on iPhone, iPad and Apple Watch. Link in bio." + POPPY
 - [ ] scorpion_poster.jpg — "Sun Scorpion ☀️🦂 giant bosses block Lila's way in Poppy Pop. iPhone, iPad and Apple Watch. Link in bio." + POPPY
 - [ ] pip_poster.jpg — "Meet Pip 🐧 cool head, hot laps. One of 10 original racers in Kart Watch GP — all on your Apple Watch. Link in bio." + KART
+- [ ] ember_poster.jpg — "Meet Ember 🔥 small dragon, big flames. One of 10 original racers in Kart Watch GP — all on your Apple Watch. Link in bio." + KART
+- [ ] sprocket_poster.jpg — "Meet Sprocket 🔧 the tinkerer on turbo. One of 10 original racers in Kart Watch GP — all on your Apple Watch. Link in bio." + KART
 (Mas posters se agregan al final de esta lista cuando esten listos: Pip, Ember, Sprocket, mas jefes de Poppy.)
 CUANDO NO QUEDEN [ ]: avisa a Julio y desactiva esta tarea.
