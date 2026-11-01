@@ -11,3 +11,5 @@ Publicados IG: Meet Lila, Meet Ada (4:5, IA ON). Cola en content/2026-11-01/post
 
 ## 2026-11-01 TikTok ronda manual
 Comentarios (sin links ajenos): @cosygamereviews (oferta codigo gratis, revisor), @livcharetteisagamer, @yeishaplays, @redbarklabsios; likes + follows a los 3 primeros. Comentario dev con link App Store en nuestro tráiler v4 (via Studio, max 150 chars). Evitar contenido de emuladores/piratería (ej. @chrisdavidchai). Pendiente: bio con "Apple Watch · iPhone · iPad games"; busquedas utiles: "cozy iphone games", "match 3 puzzle game iphone", "apple watch games".
+
+2026-11-01 POSTERS: Lila y Ada publicados; cola de posters en content/posters/QUEUE.md; tarea programada horaria (10:14-23:14) publica 1 poster/hora en IG.
