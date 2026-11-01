@@ -14,3 +14,5 @@ Comentarios (sin links ajenos): @cosygamereviews (oferta codigo gratis, revisor)
 
 2026-11-01 POSTERS: Lila y Ada publicados; cola de posters en content/posters/QUEUE.md; tarea programada horaria (10:14-23:14) publica 1 poster/hora en IG.
 2026-11-01 POSTERS: Hazel publicado en IG (13:2x UTC, etiqueta IA ON, 4:5).
+
+2026-11-01 IG ronda manual: comentarios+like en @dugcanlift (dev juegos watch, Texas) y @daisyyhoneyy (cozy games). Bio TikTok no guardo (2 intentos). Tag IG cozygames/applewatchgames devuelve posts viejos: preferir posts <1 semana.

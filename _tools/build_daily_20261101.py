@@ -28,5 +28,5 @@ elif which == 'kart':
 else:
     build('p1101', ['1 flower starts', 'a chain of 12'], f'{G}/lila_flow_sunflowers.mp4',
       [(0.0, 2.4, 'Lila walks the sunflowers'), (2.8, 2.4, 'Flowers wake up'), (5.4, 2.4, 'Pop. Chain. Repeat.')],
-      [(f'{EPIC}/n_story_en.mov', 3.2, 'Real gameplay', 2.0), (f'{EPIC}/n_boss_en.mov', 3.5, 'Beat 29 chapters', 2.0)],
+      [(f'{EPIC}/n_story_en.mov', 3.2, 'Real gameplay', 2.0), (f'{EPIC}/n_boss_en.mov', 3.5, 'Beat 50 chapters', 2.0)],
       ('Poppy Pop', 'poppypop.png', 'Series 7+', (190, 90, 170)), f'{DL}/Sunlit_Petals.mp3', f'{R}/promo/daily_20261101_poppypop_en.mp4')
