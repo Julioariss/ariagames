@@ -5,7 +5,7 @@ BLOQUES LEGALES: KART = "Free to download, In-App Purchases. Apple Watch Series 
 ESTADO: [x]=publicado, [ ]=pendiente (publicar SOLO el primer [ ] por corrida, luego marcarlo [x]).
 - [x] lila_poster.jpg — Meet Lila (Poppy)
 - [x] ada_poster.jpg — Meet Ada (Kart)
-- [ ] hazel_poster.jpg — "Meet Hazel 🐿️ the fastest squirrel alive in Kart Watch GP. 10 original racers, 5 cups, all on your Apple Watch. Link in bio." + KART
+- [x] hazel_poster.jpg — "Meet Hazel 🐿️ the fastest squirrel alive in Kart Watch GP. 10 original racers, 5 cups, all on your Apple Watch. Link in bio." + KART
 - [ ] weedking_poster.jpg — "Weed King 👑🌿 lord of the dark garden. Beat him in a boss duel in Poppy Pop — on iPhone, iPad and Apple Watch. Link in bio." + POPPY
 - [ ] eclipse_poster.jpg — "Emperor Eclipse 🌑 the final boss of Poppy Pop. Can you beat the dark? On iPhone, iPad and Apple Watch. Link in bio." + POPPY
 - [ ] jazmin_poster.jpg — "Jaguar Jazmin 🐆 guardian of the jungle — a boss duel waiting in Poppy Pop on iPhone, iPad and Apple Watch. Link in bio." + POPPY
