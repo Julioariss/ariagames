@@ -8,3 +8,6 @@ PENDIENTE: posters de personajes (Kart: faltan Ada, Hazel, Pip y otros; Poppy Po
 
 ## 2026-11-01 POSTERS PERSONAJES
 Publicados IG: Meet Lila, Meet Ada (4:5, IA ON). Cola en content/2026-11-01/posters/COLA.md (Hazel, Weed King, Emperor Eclipse, Jaguar Jazmin, Yeti Yuki, Sun Scorpion). Faltan por arte: Pip, Ember, Remy (cupo imagen Gemini agotado). Ya habia posters IG de Cosmo, Bruno, Kodiak, Blaze.
+
+## 2026-11-01 TikTok ronda manual
+Comentarios (sin links ajenos): @cosygamereviews (oferta codigo gratis, revisor), @livcharetteisagamer, @yeishaplays, @redbarklabsios; likes + follows a los 3 primeros. Comentario dev con link App Store en nuestro tráiler v4 (via Studio, max 150 chars). Evitar contenido de emuladores/piratería (ej. @chrisdavidchai). Pendiente: bio con "Apple Watch · iPhone · iPad games"; busquedas utiles: "cozy iphone games", "match 3 puzzle game iphone", "apple watch games".
