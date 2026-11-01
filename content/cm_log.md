@@ -16,3 +16,4 @@ Comentarios (sin links ajenos): @cosygamereviews (oferta codigo gratis, revisor)
 2026-11-01 POSTERS: Hazel publicado en IG (13:2x UTC, etiqueta IA ON, 4:5).
 
 2026-11-01 IG ronda manual: comentarios+like en @dugcanlift (dev juegos watch, Texas) y @daisyyhoneyy (cozy games). Bio TikTok no guardo (2 intentos). Tag IG cozygames/applewatchgames devuelve posts viejos: preferir posts <1 semana.
+2026-11-01 DM: plantillas en content/dm_templates.md; tarea programada "Responder DMs" (09:43-21:43 cada 2h) para TikTok/IG/RedNote/Bilibili. RedNote: sesion NO iniciada en Chrome (pide login) -> pendiente subir trailer4 con texto ZH de content/2026-10-31/poppy_iphone/PUBLICACION.md cuando Julio inicie sesion. Bilibili: por revisar.
