@@ -28,3 +28,7 @@
 2026-10-31 | kartwatchgp | escena 5 ciudad de neon de noche | c2a5277917733f8479e9c9e51733e155 | content/2026-10-31/gem/kartwatchgp_neon.mp4
 # KART ROTACION: ultimo piloto usado = Remy; PROXIMO = Ada (luego Hazel, Pip, Ember, Kodiak, Bruno, Cosmo, Remy)
 2026-10-31 | poppypop | trailer: clips Gemini 3D (jardin, eclipse, jaguar, octopus, weed king, emperador) + modos iPhone (duelo, fever, infinito, historia) | - | promo/trailer_20261031_poppypop_en.mp4
+2026-11-01 | staracce | escena 4 anillos de planeta gaseoso (Flow) | 83f5582cc5934e577605ca13acacb1ab | content/2026-11-01/gem/staracce_gem_rings.mp4
+2026-11-01 | poppypop | escena 9 campo de girasoles al atardecer (Flow) | 0674d69ffd69fa42e965a08dd8d5593a | content/2026-11-01/gem/lila_flow_sunflowers.mp4
+2026-11-01 | kartwatchgp | escena 7 circuito entre nubes, piloto Ada (Flow) | 38cdbe117749357b13c2fd71a8183913 | content/2026-11-01/gem/kartwatchgp_ada_clouds.mp4
+# KART ROTACION: ultimo piloto usado = Ada; PROXIMO = Hazel (luego Pip, Ember, Kodiak, Bruno, Cosmo, Remy)

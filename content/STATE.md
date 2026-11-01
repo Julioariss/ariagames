@@ -100,3 +100,11 @@
 - IG: 55 seguidores (igual). Notificaciones: sin comentarios/DMs que responder (likes bibe03/carlasiles/mariabagioli; follow de ras_maninov, perfil privado de 2 seguidores y no del nicho -> sin follow back). TikTok Studio: 28 publicaciones; 3 videos recientes ya publicos (Kart 57 vistas, Poppy 61, STAR 30/10 171); sin comentarios ajenos que responder.
 - Rednote: creator.xiaohongshu.com redirige a login (401) -> necesita login de Julio; no se pudo revisar la nota Poppy v4 ni poner comentario dev.
 - Pendiente: comentario dev con link en TikTok Kart 31/10 (7700282780516683029), Poppy devices (7700588048261729556) y STAR 30/10 (7701461719163374868): la pagina del video en tiktok.com da error de carga en Chrome (2 intentos) y Studio no permite comentar; reintentar en NOCHE o que Julio los ponga desde el iPhone. Julio: login Rednote, fijar comentarios, archivar IG DfH9O5TN_Nl y ocultar TikTok duplicado 28/10.
+
+## Fecha 2026-11-01 (domingo) - tramo MAÑANA (agente, ~09:30-10:05 Chile)
+- Seguidores: IG 57 (55 el 31/10), 414 seguidos. TikTok no medido (Studio: 31 publicaciones; mejor sigue STAR 24/10, 3.3K vistas).
+- Gemini "Crear video" gris (sin cuota) -> usado Google Flow (12 puntos/clip, plan Plus): 3 clips NUEVOS en content/2026-11-01/gem/ (STAR escena 4 anillos, Poppy escena 9 girasoles con Lila fiel, Kart escena 7 nubes piloto ADA). md5 en clips_used.md. Proximo piloto Kart = HAZEL.
+- Videos montados con _tools/build_daily_20261101.py {star|kart|poppy}: promo/daily_20261101_{staracce,kartwatchgp,poppypop}_en.mp4 (18.8/18.2/16.9 s, hooks puntuados 50.6/62.6/50.6). Enviados a Julio (SendUserFile). Captions en content/2026-11-01/cap_*.txt.
+- PUBLICADO STAR Ace 01/11: TikTok (IA ON, en revision) + IG reel DfMwa6DhsVk (IA ON) con comentario dev + link id6821445432.
+- MEDIODIA: publicar Kart (daily_20261101_kartwatchgp_en.mp4, cap_kart.txt) en TikTok+IG. NOCHE: Poppy (daily_20261101_poppypop_en.mp4, cap_poppy.txt) y preparar clips de mañana (Flow). No republicar STAR.
+- DMs IG: sin nada urgente. Pendiente: comentario dev en TikTok (STAR 01/11 y los 3 del 31/10) tras revision; Rednote login; fijar comentarios (Julio). Poster-cola de personajes la gestiona otra tarea (no tocada).

@@ -1,0 +1,3 @@
+Dodge 3 planet rings in 8 seconds
+Miss one ring and you lose
+3 rings. 1 second each. Don't crash.

@@ -172,3 +172,6 @@
 ## 2026-10-31 manana (agente)
 - Poppy devices (clips 3D de la app) publicado TikTok + IG DfKLBcQBdP6. Kart neon (clip nuevo Gemini escena 5, Remy, musica Apex_Pursuit) publicado TikTok + IG DfKL1JGBP2p. STAR 31/10 ya estaba publicado anoche. Captions job A, caption.py sin FAIL.
 - 2026-10-31 MEDIODIA: sin video nuevo (3 ya publicados), IG sin comentarios, Rednote necesita login, dev comments TikTok pendientes.
+
+## 2026-11-01 manana (agente)
+- 3 clips nuevos Flow (STAR anillos, Kart Ada nubes, Poppy girasoles). STAR publicado TikTok + IG DfMwa6DhsVk. Kart/Poppy listos para mediodia/noche. IG 57 seg.
