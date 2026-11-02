@@ -21,3 +21,4 @@ Comentarios (sin links ajenos): @cosygamereviews (oferta codigo gratis, revisor)
 ## 2026-11-01 12:17 (agente cloud)
 - RedNote sin sesion (pide login/QR). Poster weedking_poster.jpg NO publicado: la sesion cloud no tiene carpeta conectada para subir el archivo a IG (file_upload exige archivo compartido). Bilibili/YouTube/DMs no revisados en esta corrida. Pendiente Julio: login RedNote y conectar carpeta ariagames en la app.
 2026-11-01 17:1x POSTERS: Weed King publicado en IG (manual desde sesion Julio; 4:5, IA ON). Quedan 7 en cola.
+2026-11-01 21:5x POSTERS: Eclipse publicado en IG (manual, 4:5, IA ON). Quedan 6. NOTA RUTA: la carpeta Documents/Claude se movio a 'Documents/Documentos - MacBook Air M4 2026/Claude'; se creo symlink ~/Documents/Claude. Para subir archivos a IG: copiar a ~/Downloads y device_stage_files (carpetas conectadas: Downloads, Developer, Documents/Claude/Projects).
