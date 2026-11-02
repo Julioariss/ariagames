@@ -23,3 +23,6 @@ Reglas: US$0; sin credenciales/captchas (si piden login, avisar y seguir con otr
 - Videos con autos/karts: vehiculos SIEMPRE hacia adelante, nunca en reversa; usar la frase literal de APPS_STATUS.md en prompts y revisar el movimiento antes de publicar.
 - Leer tambien PROMPT_agente_head_of_growth.md, PROMPT_gestion_diaria_v3.md, PROMPT_comunidad_diaria.md y content/STATE.md; actualizar STATE.md, log, commit/push.
 - Bloque 21:17 incluye: revisar respuestas de creadores, medir seguidores vs ayer, preparar clip de manana.
+
+## PRIORIDAD 2026-11-02: SEGUIDORES (orden de Julio)
+Cada hora, ademas de lo asignado: 2 comentarios reales en videos/posts recientes del nicho (TikTok o IG), sin links ajenos; 1 clip corto de gameplay por dia como minimo. Creadores: max 3 DMs/dia con codigo promo divulgado. Registrar en cm_log.md. Gasto US$0.
