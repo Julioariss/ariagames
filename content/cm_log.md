@@ -23,3 +23,4 @@ Comentarios (sin links ajenos): @cosygamereviews (oferta codigo gratis, revisor)
 2026-11-01 17:1x POSTERS: Weed King publicado en IG (manual desde sesion Julio; 4:5, IA ON). Quedan 7 en cola.
 2026-11-01 21:5x POSTERS: Eclipse publicado en IG (manual, 4:5, IA ON). Quedan 6. NOTA RUTA: la carpeta Documents/Claude se movio a 'Documents/Documentos - MacBook Air M4 2026/Claude'; se creo symlink ~/Documents/Claude. Para subir archivos a IG: copiar a ~/Downloads y device_stage_files (carpetas conectadas: Downloads, Developer, Documents/Claude/Projects).
 2026-11-02 00:1x POSTERS: Jazmin publicado en IG (manual, 4:5, IA ON). Quedan 5 (yuki, scorpion, pip, ember, sprocket): recordatorios horarios 09:00-13:00 Chile en la sesion.
+2026-11-02 00:3x POSTERS: Yuki, Scorpion, Sprocket publicados en IG (4:5, IA ON). Pip y Ember NO publicados: el arte no coincide (Pip=flores; Ember=pinguino). Hay que regenerar arte. Cola terminada salvo esos dos.

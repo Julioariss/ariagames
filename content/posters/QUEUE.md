@@ -9,10 +9,10 @@ ESTADO: [x]=publicado, [ ]=pendiente (publicar SOLO el primer [ ] por corrida, l
 - [x] weedking_poster.jpg — "Weed King 👑🌿 lord of the dark garden. Beat him in a boss duel in Poppy Pop — on iPhone, iPad and Apple Watch. Link in bio." + POPPY
 - [x] eclipse_poster.jpg — "Emperor Eclipse 🌑 the final boss of Poppy Pop. Can you beat the dark? On iPhone, iPad and Apple Watch. Link in bio." + POPPY
 - [x] jazmin_poster.jpg — "Jaguar Jazmin 🐆 guardian of the jungle — a boss duel waiting in Poppy Pop on iPhone, iPad and Apple Watch. Link in bio." + POPPY
-- [ ] yuki_poster.jpg — "Yeti Yuki ❄️ every world has a guardian. Boss duels in Poppy Pop on iPhone, iPad and Apple Watch. Link in bio." + POPPY
-- [ ] scorpion_poster.jpg — "Sun Scorpion ☀️🦂 giant bosses block Lila's way in Poppy Pop. iPhone, iPad and Apple Watch. Link in bio." + POPPY
-- [ ] pip_poster.jpg — "Meet Pip 🐧 cool head, hot laps. One of 10 original racers in Kart Watch GP — all on your Apple Watch. Link in bio." + KART
-- [ ] ember_poster.jpg — "Meet Ember 🔥 small dragon, big flames. One of 10 original racers in Kart Watch GP — all on your Apple Watch. Link in bio." + KART
-- [ ] sprocket_poster.jpg — "Meet Sprocket 🔧 the tinkerer on turbo. One of 10 original racers in Kart Watch GP — all on your Apple Watch. Link in bio." + KART
+- [x] yuki_poster.jpg — "Yeti Yuki ❄️ every world has a guardian. Boss duels in Poppy Pop on iPhone, iPad and Apple Watch. Link in bio." + POPPY
+- [x] scorpion_poster.jpg — "Sun Scorpion ☀️🦂 giant bosses block Lila's way in Poppy Pop. iPhone, iPad and Apple Watch. Link in bio." + POPPY
+- [!] pip_poster (ARTE ERRONEO: salen flores, no pinguino; regenerar).jpg — "Meet Pip 🐧 cool head, hot laps. One of 10 original racers in Kart Watch GP — all on your Apple Watch. Link in bio." + KART
+- [!] ember_poster (ARTE ERRONEO: sale el pinguino, no un dragon; regenerar).jpg — "Meet Ember 🔥 small dragon, big flames. One of 10 original racers in Kart Watch GP — all on your Apple Watch. Link in bio." + KART
+- [x] sprocket_poster.jpg — "Meet Sprocket 🔧 the tinkerer on turbo. One of 10 original racers in Kart Watch GP — all on your Apple Watch. Link in bio." + KART
 (Mas posters se agregan al final de esta lista cuando esten listos: Pip, Ember, Sprocket, mas jefes de Poppy.)
 CUANDO NO QUEDEN [ ]: avisa a Julio y desactiva esta tarea.
