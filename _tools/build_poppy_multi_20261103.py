@@ -43,13 +43,13 @@ INTRO=f'{R}/promo/intro_ariagames.mp4'
 plan=[]
 def add(name,d): plan.append((f'{O}/{name}.mp4',d)); return plan[-1][0]
 sh(f'ffmpeg -v error -y -i "{INTRO}" -vf "scale=1080:1920,fps={FPS},format=yuv420p" -an -t 5 "{add("i0",5.0-XF)}"')
-vclip(add('a0',3.0),B14,0.5,3.0,txt('T1',['Poppy Pop','goes multiplayer.'],330,92),0.06)
+vclip(add('a0',3.4),f'{R}/content/2026-11-03/gem/lila_friends_garden.mp4',0.8,3.4,txt('T1',['Poppy Pop','goes multiplayer.'],330,92),0.06)
 phone_scene(add('p1',3.0),RM,1.0,3.0,B14,3.5,txt('T2',['LIVE DUELS.'],245,84))
 vclip(add('a1',3.0),B24,0.4,3.0,txt('T3',['Chain combos.','Send garbage.'],330,92),0.06)
 phone_scene(add('p2',3.0),RM,5.0,3.0,B24,3.5,txt('T4',['BEAT YOUR','RIVALS.'],245,84))
 vclip(add('a2',3.0),B50,5.0,3.0,txt('T5',['Who is your','co-op partner?'],330,92),0.05)
 phone_scene(add('p3',3.0),RV,2.0,3.0,B50,2.0,txt('T6',['PLAY WORLDWIDE.'],245,84))
-devices_seg(add('dv',3.0),3.0+XF,txt('T7',['iPhone  ·  iPad','+ Apple Watch'],245,96))
+vclip(add('dv',3.4),f'{R}/content/2026-11-02/versus/gem/c2.mp4',11.0,3.4,txt('T7',['iPhone  ·  iPad','+ Apple Watch'],245,96),0.04)
 title_card(add('t1',1.4),1.4,txt('T8',['POPPY POP'],880,150))
 e=endcard('T_end','Poppy Pop','poppypop.png','+ iPhone & iPad',(190,90,170))
 still_seg(add('e',3.0),e,3.0+XF,framed=False)
@@ -60,6 +60,6 @@ for k in range(1,len(files)):
     t+=durs[k-1]
     fc+=f"{prev}[{k}:v]xfade=transition=fade:duration={XF}:offset={t:.3f}[x{k}];";prev=f'[x{k}]'
 total=sum(durs)+XF
-OUT=f'{R}/content/2026-11-03/poppypop_multiplayer_v2.mp4'
+OUT=f'{R}/content/2026-11-03/poppypop_multiplayer_v4.mp4'
 sh(f'ffmpeg -v error -y {inp} -stream_loop -1 -i "{MUSIC}" -filter_complex "{fc.rstrip(";")}" -map "{prev}" -map {len(files)}:a -af "afade=t=in:st=0:d=0.8,afade=t=out:st={total-1.6:.2f}:d=1.6,volume=1.1" -c:v libx264 -preset veryfast -crf 19 -pix_fmt yuv420p -r {FPS} -c:a aac -b:a 192k -t {total:.2f} -movflags +faststart "{OUT}"')
 print(OUT,round(total,1))

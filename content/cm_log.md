@@ -38,3 +38,4 @@ Comentarios (sin links ajenos): @cosygamereviews (oferta codigo gratis, revisor)
 - v1 (Gemini inventado, logo y musica incorrectos) RETIRADO: IG eliminado, TikTok eliminado (recuperable 30 d), YouTube Short en Privado.
 - v2: content/2026-11-03/poppypop_multiplayer_v2.mp4 (script _tools/build_poppy_multi_20261103.py): intro oficial promo/intro_ariagames.mp4 + clips 3D oficiales de Lila (iOSApp/Video) + gameplay real (-iolivehud -iofuzz) + musica bgm_fever. Enviado a Julio; PENDIENTE su ok para publicar IG/TikTok/YT + comentario dev con link.
 - Regla: copiar siempre el estandar trailer4 (intro oficial + clips oficiales + gameplay real + musica del juego), nada de logos/diseños inventados.
+- v4 (con clip Gemini nuevo lila_friends_garden + escena dispositivos del video anterior) enviada a Julio; esperando ok. Archivo: content/2026-11-03/poppypop_multiplayer_v4.mp4
