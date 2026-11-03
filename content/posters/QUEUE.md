@@ -11,8 +11,8 @@ ESTADO: [x]=publicado, [ ]=pendiente (publicar SOLO el primer [ ] por corrida, l
 - [x] jazmin_poster.jpg — "Jaguar Jazmin 🐆 guardian of the jungle — a boss duel waiting in Poppy Pop on iPhone, iPad and Apple Watch. Link in bio." + POPPY
 - [x] yuki_poster.jpg — "Yeti Yuki ❄️ every world has a guardian. Boss duels in Poppy Pop on iPhone, iPad and Apple Watch. Link in bio." + POPPY
 - [x] scorpion_poster.jpg — "Sun Scorpion ☀️🦂 giant bosses block Lila's way in Poppy Pop. iPhone, iPad and Apple Watch. Link in bio." + POPPY
-- [!] pip_poster (ARTE ERRONEO: salen flores, no pinguino; regenerar).jpg — "Meet Pip 🐧 cool head, hot laps. One of 10 original racers in Kart Watch GP — all on your Apple Watch. Link in bio." + KART
-- [!] ember_poster (ARTE ERRONEO: sale el pinguino, no un dragon; regenerar).jpg — "Meet Ember 🔥 small dragon, big flames. One of 10 original racers in Kart Watch GP — all on your Apple Watch. Link in bio." + KART
+- [x] pip_poster (publicado IG 2026-11-03).jpg — "Meet Pip 🐧 cool head, hot laps. One of 10 original racers in Kart Watch GP — all on your Apple Watch. Link in bio." + KART
+- [x] ember_poster (publicado IG 2026-11-03).jpg — "Meet Ember 🔥 small dragon, big flames. One of 10 original racers in Kart Watch GP — all on your Apple Watch. Link in bio." + KART
 - [x] sprocket_poster.jpg — "Meet Sprocket 🔧 the tinkerer on turbo. One of 10 original racers in Kart Watch GP — all on your Apple Watch. Link in bio." + KART
 (Mas posters se agregan al final de esta lista cuando esten listos: Pip, Ember, Sprocket, mas jefes de Poppy.)
 CUANDO NO QUEDEN [ ]: avisa a Julio y desactiva esta tarea.
