@@ -31,3 +31,5 @@ Comentarios (sin links ajenos): @cosygamereviews (oferta codigo gratis, revisor)
 
 ## 2026-11-03 Posters Pip y Ember
 - Arte regenerado en Gemini (pinguino Pip, dragon Ember), compuestos con compose.py, publicados en IG 4:5 con etiqueta IA.
+- 2026-11-03: comentario dev con link App Store publicado en Reel multijugador (IG) y video TikTok (ya aprobado, 67 vistas).
+- Pendiente: Julio debe loguear RedNote/Bilibili (QR) y decir "listo".
