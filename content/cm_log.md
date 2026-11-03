@@ -33,3 +33,8 @@ Comentarios (sin links ajenos): @cosygamereviews (oferta codigo gratis, revisor)
 - Arte regenerado en Gemini (pinguino Pip, dragon Ember), compuestos con compose.py, publicados en IG 4:5 con etiqueta IA.
 - 2026-11-03: comentario dev con link App Store publicado en Reel multijugador (IG) y video TikTok (ya aprobado, 67 vistas).
 - Pendiente: Julio debe loguear RedNote/Bilibili (QR) y decir "listo".
+
+## 2026-11-03 Rehecho video multijugador
+- v1 (Gemini inventado, logo y musica incorrectos) RETIRADO: IG eliminado, TikTok eliminado (recuperable 30 d), YouTube Short en Privado.
+- v2: content/2026-11-03/poppypop_multiplayer_v2.mp4 (script _tools/build_poppy_multi_20261103.py): intro oficial promo/intro_ariagames.mp4 + clips 3D oficiales de Lila (iOSApp/Video) + gameplay real (-iolivehud -iofuzz) + musica bgm_fever. Enviado a Julio; PENDIENTE su ok para publicar IG/TikTok/YT + comentario dev con link.
+- Regla: copiar siempre el estandar trailer4 (intro oficial + clips oficiales + gameplay real + musica del juego), nada de logos/diseños inventados.
