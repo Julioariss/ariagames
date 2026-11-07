@@ -26,3 +26,10 @@ Reglas: US$0; sin credenciales/captchas (si piden login, avisar y seguir con otr
 
 ## PRIORIDAD 2026-11-02: SEGUIDORES (orden de Julio)
 Cada hora, ademas de lo asignado: 2 comentarios reales en videos/posts recientes del nicho (TikTok o IG), sin links ajenos; 1 clip corto de gameplay por dia como minimo. Creadores: max 3 DMs/dia con codigo promo divulgado. Registrar en cm_log.md. Gasto US$0.
+
+## CUENTAS CLAVE 2026-11-07 (orden de Julio; integrado en el bloque 11:17 INTERACCION, sin tarea nueva)
+- Cada dia en el bloque 11:17 revisar primero estas cuentas de Instagram y comentar posts de las ultimas 48 h (1 comentario por post, sin repetir texto, idioma de la cuenta): valencia.s7 (Conchetufight, Chile, ES), festigame (evento gamer Chile 10-13 dic, ES), amelievonb (tech Apple Watch, ES, DM enviado el 7/11 sin codigos; esperar respuesta). Mencionar de pasada nuestro juego (STAR Ace/Poppy Pop/Kart Watch GP) solo si calza, max 1 mencion por cuenta cada 3 dias, sin links ajenos.
+- Pendiente: DM a festigame pidiendo espacio/mencion en el evento (avisar a Julio antes de enviar si ofrece algo mas que presentarnos).
+- Idioma y audiencia: ES para Chile/LatAm; EN para devs indie y Apple Watch global. Ubicacion en posts solo en reels en español para Chile. 3-5 hashtags especificos.
+- Hashtags sirven para encontrar cuentas, no para crecer. Ignorar posts de mas de 1 semana. Seguir de a pocos (max 10/dia, ya en regla), sin follow masivo.
+- Plan completo: claude/plan_seguidores_expertos_2026-11-07.md (Projects).
