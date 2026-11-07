@@ -1,7 +1,7 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>ARIA Apps — apps beyond games</title><meta name="description" content="AriaNotes, SportsRings and more apps from ARIAgames: made in Chile, private by design.">
 <meta property="og:title" content="ARIA Apps — apps beyond games"><meta property="og:description" content="AriaNotes, SportsRings and more apps from ARIAgames: made in Chile, private by design."><meta property="og:image" content="https://ariagames.dev/sportsrings/hero.jpg">
-<script>document.documentElement.className+=" js"</script><link rel="stylesheet" href="/style.css?v=19"><link rel="stylesheet" href="/apps/apps.css?v=6"></head><body>
+<script>document.documentElement.className+=" js"</script><link rel="stylesheet" href="/style.css?v=19"><link rel="stylesheet" href="/apps/apps.css?v=7"></head><body>
 <canvas id="bgw" aria-hidden="true"></canvas>
 <script>(function(){var c=document.getElementById('bgw'),x=c.getContext('2d'),W,H,D=Math.min(devicePixelRatio||1,2);
 function rs(){W=innerWidth;H=innerHeight;c.width=W*D;c.height=H*D;x.setTransform(D,0,0,D,0,0)}rs();addEventListener('resize',rs);
@@ -18,35 +18,25 @@ requestAnimationFrame(f)})();</script>
 
 <div class="wrap">
 <section class="ahero"><span class="mono">ARIA Apps</span><h1>More than <i>games</i>.</h1><p>Apps built with the same care as our Apple Watch games: fast, private, no ads and no accounts.</p></section>
-<article class="acard rv"><div><span class="tag">Productivity · iPhone · iPad · Apple Watch</span><span class="tag" style="background:#e8c25a22;color:#e8c25a;border:1px solid #e8c25a66;margin-left:8px">New · Free</span>
-<h2>Aria<em>Notes</em></h2>
-<p>Notes that listen, understand and organize themselves. Record a meeting and get the full transcript, who said what, and an expert minutes report — all on your device. Your Apple Watch shows live suggestions and fact-checks while you talk.</p>
-<div class="chips"><span>Live transcription</span><span>Speaker detection</span><span>Meeting minutes</span><span>Live copilot</span><span>Apple Watch sync</span><span>On-device &amp; private</span></div>
-<div class="btns"><span class="gold" style="opacity:.85;cursor:default">Coming soon to the App Store</span></div></div>
-<div class="hud"><svg viewBox="0 0 300 300" style="width:100%;max-width:300px"><rect x="55" y="40" width="190" height="230" rx="26" fill="#14161c" stroke="#e8c25a" stroke-width="3"/><g stroke="#c9ccd2" stroke-width="5" stroke-linecap="round" opacity=".75"><path d="M85 95h130M85 130h110M85 165h125M85 200h80"/></g><circle cx="205" cy="225" r="22" fill="#e50914"/><rect x="198" y="212" width="14" height="22" rx="7" fill="#fff"/></svg></div></article>
-<figure class="shotband rv"><img src="/sportsrings/hero.jpg" alt="SportsRings on Apple Watch, smart glasses and iPhone" loading="lazy">
-<figcaption><div><span>One workout · three screens</span><br><b>Apple Watch. Glasses. iPhone.</b></div><div class="hudcap"><i>Live</i><i>Private</i><i>Free</i></div></figcaption></figure>
-<article class="acard rv"><div><span class="tag">Sport · Rokid Glasses · Apple Watch</span><span class="tag" style="background:#e5091422;color:#ff6b73;border:1px solid #e5091466;margin-left:8px">Under development</span>
-<h2>Sports<em>Rings</em></h2>
-<p>Your workout in real time, right in front of your eyes. Three rings, your heart rate and a 3D map of where you are — straight from your Apple Watch to your Rokid Glasses.</p>
-<div class="chips"><span>Live rings</span><span>Heart rate</span><span>3D map</span><span>Offline maps</span><span>25+ sports</span><span>No data collected</span></div>
-<div class="btns"><span class="ghost" style="opacity:.7;cursor:default">Under development</span></div></div>
-<div class="hud"><svg viewBox="0 0 300 300"><g>
-<circle class="ring bg" cx="150" cy="150" r="100" stroke="#e8c25a"/><circle class="ring r1" cx="150" cy="150" r="100"/>
-<circle class="ring bg" cx="150" cy="150" r="80" stroke="#c9ccd2"/><circle class="ring r2" cx="150" cy="150" r="80"/>
-<circle class="ring bg" cx="150" cy="150" r="60" stroke="#ffe9a8"/><circle class="ring r3" cx="150" cy="150" r="60"/></g></svg>
-<div class="hr"><i>♥</i><b id="bpm">128</b><span>BPM</span></div>
-<svg class="ecg" viewBox="0 0 420 90" preserveAspectRatio="none"><path d="M0 50 H60 L72 50 L82 20 L94 80 L104 50 H170 L182 50 L192 10 L204 85 L214 50 H290 L302 50 L312 22 L324 78 L334 50 H420 M420 50 H480 L492 50 L502 20 L514 80 L524 50 H600"/></svg></div>
-<script>var b=document.getElementById('bpm');if(b){setInterval(function(){b.textContent=124+Math.round(Math.sin(Date.now()/1700)*7+Math.random()*3)},900)}</script></article>
-<article class="acard rv"><div><span class="tag">Utility · Apple Watch · Android</span><span class="tag" style="background:#e5091422;color:#ff6b73;border:1px solid #e5091466;margin-left:8px">Under development</span>
-<h2>ARIA<em>mouse</em></h2>
-<p>Turn your Apple Watch into a trackpad for Android phones and smart glasses. Tap, slide, swipe — straight over Bluetooth.</p>
-<div class="chips"><span>Trackpad</span><span>Bluetooth</span><span>Phones + glasses</span><span>No data collected</span></div>
-<div class="btns"><span class="ghost" style="opacity:.7;cursor:default">Under development</span></div></div>
-<div class="hud"><img src="/ariamouse/hero.jpg" alt="Apple Watch as a trackpad for Android" style="width:100%;border-radius:18px"></div></article>
+<div class="wgrid">
+<button class="wg rv" data-id="ariafiles" aria-haspopup="dialog"><span class="wimg"><img src="/apps/img/ariafiles.jpg" alt="ARIAfiles" loading="lazy"></span><span class="wb"><span class="st soon">Coming soon</span><b>ARIA<em>files</em></b><span class="ws">Your files on iPhone, iPad and Apple Watch.</span><span class="wc">Files · iPhone · iPad · Apple Watch</span><span class="go">View details →</span></span></button>
+<button class="wg rv" data-id="arianotes" aria-haspopup="dialog"><span class="wimg"><img src="/apps/img/arianotes.jpg" alt="AriaNotes" loading="lazy"></span><span class="wb"><span class="st soon">Coming soon</span><b>Aria<em>Notes</em></b><span class="ws">Notes that listen and organize themselves.</span><span class="wc">Productivity · iPhone · iPad · Apple Watch</span><span class="go">View details →</span></span></button>
+<button class="wg rv" data-id="sportsrings" aria-haspopup="dialog"><span class="wimg"><img src="/sportsrings/hero.jpg" alt="SportsRings" loading="lazy"></span><span class="wb"><span class="st dev">In development</span><b>Sports<em>Rings</em></b><span class="ws">Your workout, in front of your eyes.</span><span class="wc">Sport · Rokid Glasses · Apple Watch</span><span class="go">View details →</span></span></button>
+<button class="wg rv" data-id="ariamouse" aria-haspopup="dialog"><span class="wimg"><img src="/ariamouse/hero.jpg" alt="ARIAmouse" loading="lazy"></span><span class="wb"><span class="st dev">In development</span><b>ARIA<em>mouse</em></b><span class="ws">Your Apple Watch as a trackpad.</span><span class="wc">Utility · Apple Watch · Android</span><span class="go">View details →</span></span></button>
+</div>
 <div class="soon rv" style="margin-top:40px"><b>More apps are on the way.</b>Each one gets its own page here as it reaches the App Store.</div>
 </div>
+<dialog class="md" id="m-ariafiles"><div class="mbox"><button class="x" aria-label="Close">×</button><div class="mimg"><img src="/apps/img/ariafiles.jpg" alt=""></div><div class="mt"><span class="tag">Files · iPhone · iPad · Apple Watch</span><span class="st soon">Coming soon</span><h2>ARIA<em>files</em></h2><p>A fast file manager with an e‑reader inside. Keep files in iCloud or on the device, move them freely between iPhone and Apple Watch, read PDF and EPUB with page‑turn effect and listen with read‑aloud, and play audio and video on repeat in the background.</p><div class="chips"><span>iCloud sync</span><span>Folders & move/copy</span><span>PDF & EPUB reader</span><span>Read aloud</span><span>Audio & video loop</span><span>Cloud & WebDAV</span><span>Apple Watch</span></div><div class="btns"><span class="ghost" style="opacity:.8;cursor:default">Coming soon to the App Store</span></div></div></div></dialog>
+<dialog class="md" id="m-arianotes"><div class="mbox"><button class="x" aria-label="Close">×</button><div class="mimg"><img src="/apps/img/arianotes.jpg" alt=""></div><div class="mt"><span class="tag">Productivity · iPhone · iPad · Apple Watch</span><span class="st soon">Coming soon</span><h2>Aria<em>Notes</em></h2><p>Record a meeting and get the full transcript, who said what, and an expert minutes report — all on your device. Your Apple Watch shows live suggestions and fact‑checks while you talk.</p><div class="chips"><span>Live transcription</span><span>Speaker detection</span><span>Meeting minutes</span><span>Live copilot</span><span>Apple Watch sync</span><span>On‑device & private</span></div><div class="btns"><span class="ghost" style="opacity:.8;cursor:default">Coming soon to the App Store</span></div></div></div></dialog>
+<dialog class="md" id="m-sportsrings"><div class="mbox"><button class="x" aria-label="Close">×</button><div class="mimg"><img src="/sportsrings/hero.jpg" alt=""></div><div class="mt"><span class="tag">Sport · Rokid Glasses · Apple Watch</span><span class="st dev">In development</span><h2>Sports<em>Rings</em></h2><p>Three rings, your heart rate and a 3D map of where you are — straight from your Apple Watch to your Rokid Glasses.</p><div class="chips"><span>Live rings</span><span>Heart rate</span><span>3D map</span><span>Offline maps</span><span>25+ sports</span><span>No data collected</span></div><div class="btns"><a class="gold" href="/sportsrings/">Open page &amp; download</a></div></div></div></dialog>
+<dialog class="md" id="m-ariamouse"><div class="mbox"><button class="x" aria-label="Close">×</button><div class="mimg"><img src="/ariamouse/hero.jpg" alt=""></div><div class="mt"><span class="tag">Utility · Apple Watch · Android</span><span class="st dev">In development</span><h2>ARIA<em>mouse</em></h2><p>Turn your Apple Watch into a trackpad for Android phones and smart glasses. Tap, slide, swipe — straight over Bluetooth.</p><div class="chips"><span>Trackpad</span><span>Bluetooth</span><span>Phones + glasses</span><span>No data collected</span></div><div class="btns"><a class="gold" href="/ariamouse/">Open page &amp; download</a></div></div></div></dialog>
 <div class="foot">© 2026 ARIAgames · Independent apps made in Chile · <a href="/privacy.html">Privacy</a> · <a href="/support.html">Support</a></div>
 <script>var h=document.getElementById('hd');addEventListener('scroll',function(){h.classList.toggle('s',scrollY>8)});
-var io=new IntersectionObserver(function(e){e.forEach(function(x){if(x.isIntersecting){x.target.classList.add('in')}})},{threshold:.12});document.querySelectorAll('.rv').forEach(function(n){io.observe(n);if(/[?&]s=1/.test(location.search))n.classList.add('in')});</script>
+var io=new IntersectionObserver(function(e){e.forEach(function(x){if(x.isIntersecting){x.target.classList.add('in')}})},{threshold:.12});document.querySelectorAll('.rv').forEach(function(n){io.observe(n);if(/[?&]s=1/.test(location.search))n.classList.add('in')});
+function openM(id){var d=document.getElementById('m-'+id);if(!d)return;if(!d.open){d.showModal()}document.body.style.overflow='hidden';history.replaceState(null,'','#'+id)}
+function closeM(d){d.close()}
+document.querySelectorAll('.wg').forEach(function(b){b.addEventListener('click',function(){openM(b.dataset.id)})});
+document.querySelectorAll('dialog.md').forEach(function(d){d.addEventListener('click',function(e){if(e.target===d||e.target.classList.contains('x'))closeM(d)});d.addEventListener('close',function(){document.body.style.overflow='';history.replaceState(null,'',location.pathname)})});
+if(location.hash)openM(location.hash.slice(1));
+</script>
 </body></html>
