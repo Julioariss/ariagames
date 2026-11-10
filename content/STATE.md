@@ -108,3 +108,7 @@
 - PUBLICADO STAR Ace 01/11: TikTok (IA ON, en revision) + IG reel DfMwa6DhsVk (IA ON) con comentario dev + link id6821445432.
 - MEDIODIA: publicar Kart (daily_20261101_kartwatchgp_en.mp4, cap_kart.txt) en TikTok+IG. NOCHE: Poppy (daily_20261101_poppypop_en.mp4, cap_poppy.txt) y preparar clips de mañana (Flow). No republicar STAR.
 - DMs IG: sin nada urgente. Pendiente: comentario dev en TikTok (STAR 01/11 y los 3 del 31/10) tras revision; Rednote login; fijar comentarios (Julio). Poster-cola de personajes la gestiona otra tarea (no tocada).
+
+## Fecha 2026-11-10 (martes) - corrida marketing diario (agente)
+- Seguidores: IG 60 (525 seguidos), TikTok 32. Kart publicado hoy en IG (DfkPOXBSfIU) y TikTok (en revision). Proximo piloto Kart = HAZEL; rotar a Poppy/STAR manana.
+- Pendiente: comentario dev en TikTok Kart al salir de revision; interaccion 6-8/red NO alcanzada (nicho fresco escaso). Ver cm_log.md.
