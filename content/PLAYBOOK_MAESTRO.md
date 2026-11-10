@@ -33,3 +33,6 @@ Cada hora, ademas de lo asignado: 2 comentarios reales en videos/posts recientes
 - Idioma y audiencia: ES para Chile/LatAm; EN para devs indie y Apple Watch global. Ubicacion en posts solo en reels en español para Chile. 3-5 hashtags especificos.
 - Hashtags sirven para encontrar cuentas, no para crecer. Ignorar posts de mas de 1 semana. Seguir de a pocos (max 10/dia, ya en regla), sin follow masivo.
 - Plan completo: claude/plan_seguidores_expertos_2026-11-07.md (Projects).
+
+## KART WATCH GP 2026-11-10 (orden de Julio)
+- La version 3D fue DESCARTADA. Promocionar la version publicada actual de Kart Watch GP (Apple Watch Series 10+, iPhone companion; modo online; 6 copas, 18 pistas, 10 pilotos oficiales). Rotar el reel diario entre Poppy Pop, STAR Ace y Kart Watch GP.
