@@ -33,3 +33,4 @@
 2026-11-01 | kartwatchgp | escena 7 circuito entre nubes, piloto Ada (Flow) | 38cdbe117749357b13c2fd71a8183913 | content/2026-11-01/gem/kartwatchgp_ada_clouds.mp4
 # KART ROTACION: ultimo piloto usado = Ada; PROXIMO = Hazel (luego Pip, Ember, Kodiak, Bruno, Cosmo, Remy)
 2026-11-03 | poppypop | amigos flor jardin 3D multijugador (Gemini) | 91dd8e5f65947d5c6cd7d226c3e0fb40 | content/2026-11-03/gem/lila_friends_garden.mp4
+2026-11-06 | staracce | trailer iPhone+multiplayer solo canon del juego (cine_start/h0/h2/b4/team + gameplay sim iPhone + arte versus) + musica Gemini | - | content/2026-11-06/trailer_staracE_iphone_multiplayer_en.mp4

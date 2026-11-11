@@ -36,3 +36,10 @@ Cada hora, ademas de lo asignado: 2 comentarios reales en videos/posts recientes
 
 ## KART WATCH GP 2026-11-10 (orden de Julio)
 - La version 3D fue DESCARTADA. Promocionar la version publicada actual de Kart Watch GP (Apple Watch Series 10+, iPhone companion; modo online; 6 copas, 18 pistas, 10 pilotos oficiales). Rotar el reel diario entre Poppy Pop, STAR Ace y Kart Watch GP.
+
+## ESTILO STAR ACE 2026-11-11 (orden de Julio, tras borrar el reel del 11-nov)
+- Cada reel de STAR Ace: estilo juego de accion de los 90 (tipo intro de jefe: franjas rojas/amarillas "WARNING", nombre del jefe/zona, texto metalico con borde grueso y brillo, cortes rapidos con destello blanco).
+- OBLIGATORIO: al menos 2 clips generados en Gemini (Crear video, vertical 9:16) a partir de arte oficial (cosmo, cine_s1 nave azul, cine_b0a..b4a jefes) + gameplay real del juego.
+- OBLIGATORIO: musica generada en Gemini (Crear musica): rock instrumental rapido ~170 BPM, guitarras distorsionadas, bateria con doble bombo, melodia de sintetizador cuadrado, heroica; NUNCA usar solo la musica del juego.
+- Plantilla: _tools/build_star_x_20261111.py (reel aprobado de referencia: content/2026-11-11/daily_20261111_staracce_v2_en.mp4). No nombrar marcas de terceros en textos ni captions.
+- Enviar el video a Julio antes de publicar si es un formato nuevo.
