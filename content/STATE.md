@@ -116,3 +116,7 @@
 ## Fecha 2026-11-11 (miercoles) - corrida marketing diario 9:00 (agente)
 - Seguidores: IG 60 (527 seguidos), TikTok 32. STAR Ace boss/NOVA SEEKERS publicado en IG (DfmcNvftb-p) y TikTok (en revision). Rotacion: manana toca Poppy Pop (Kart fue 10/11, STAR hoy). Kart proximo piloto = HAZEL.
 - Pendiente: comentario dev en TikTok STAR y Kart al salir de revision. Interaccion fresca escasa (nicho). Para subir archivos al Chrome: device_stage_files + comprimir <10 MB.
+
+## Fecha 2026-11-12 (jueves) - corrida marketing diario 9:00 (agente)
+- Seguidores: IG 63 (533 seguidos), TikTok sin medir (7d: 453 vistas). Poppy Pop online/friends publicado en IG (DfpAgO6PPF3) y TikTok (en revision). Manana: Kart Watch GP (piloto Hazel).
+- Pendiente: comentario dev en TikTok Poppy al salir de revision. Nota: file_upload requiere device_request_folder_access sobre ~/Downloads (ariagames no es concedible) + device_stage_files.
