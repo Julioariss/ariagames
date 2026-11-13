@@ -1,21 +1,25 @@
 # ESTADO REAL DE LAS APPS (fuente de verdad para videos, captions, comentarios y posters)
-Verificado en la App Store el 2026-11-01. Las apps cambian seguido: ANTES DE PUBLICAR cualquier cosa, el agente debe repetir la CHEQUEO DE ESTADO de abajo y actualizar este archivo si algo cambió. Si un texto de un prompt contradice este archivo, MANDA ESTE ARCHIVO.
+Verificado en la App Store el 2026-11-13. Las apps cambian seguido: ANTES DE PUBLICAR cualquier cosa, el agente debe repetir la CHEQUEO DE ESTADO de abajo y actualizar este archivo si algo cambió. Si un texto de un prompt contradice este archivo, MANDA ESTE ARCHIVO.
 
-## Poppy Pop (id 6821664713) — v1.3.0 (1/11/2026)
-- Plataformas: iPhone, iPad y Apple Watch (watch app: watchOS 11+, hasta hace poco "Series 7+"; iOS 16+). Nombre en la tienda: "Poppy Pop: Puzzle".
-- Modo historia: **50 capítulos/etapas en 10 mundos**, jefes y villano final (Emperador Eclipse). NUNCA decir "29 capítulos" (dato viejo).
-- Modo Infinito: gratis, se desbloquea al terminar la historia.
-- NUEVO 1.3.0: modos online **Versus y Worldwide** (duelos 2-4 jugadores, Top 100 mundial con banderas, desafios contra jefes, offline-first), hub Tierra, filas de ataque, opciones de privacidad/borrar datos online.
-- Gratis: Mundo 1 (9 etapas) + Infinito. Compra unica "Full game" desbloquea el resto. Sin anuncios, sin cuenta. Progreso sincronizado por iCloud. Complicación en la esfera del Watch.
-- Etiqueta de precio: "Free · In-App Purchases".
+## Poppy Pop: Puzzle (id 6821664713) — v1.3.7 (nov-2026)
+- Plataformas: iPhone, iPad y Apple Watch (iOS 16+, watchOS 11+).
+- Historia: **50 capítulos en 10 mundos**, jefes y villano final (Emperador Eclipse). Online: Versus y Worldwide (2-4 jugadores).
+- Gratis: Mundo 1 (9 capítulos). Compra única "Juego completo" desbloquea los otros 9 mundos. Sin anuncios ni suscripción.
+- Texto de cierre: "FREE ON IPHONE + IPAD + APPLE WATCH".
 
-## Kart Watch GP (id 6821168181) — v1.1.1 publicada; v1.1.2 (modo Online) ENVIADA A REVISIÓN (no anunciar Online hasta que salga)
-- Apple Watch Series 10+ (compañera iPhone). **18 pistas en 6 copas**, **10 corredores** originales (no 8), Grand Prix con medallas, Time Trials, drift/mini-turbo, items.
-- Gratis: Kart Cup. Resto con compra unica "Full Game". Sin anuncios, sin cuenta.
+## STAR Ace: Space Shooter (id 6821445432) — v1.2.3 (nov-2026)
+- Plataformas: **iPhone y Apple Watch (Series 8 o posterior)**. iOS 17+.
+- **20 sectores** en 2 galaxias, 5 jefes elementales y el Devorador de Mundos; lock-on hasta 6 blancos; Versus y Co-op para 2-4 pilotos (online o misma Wi-Fi). Piloto: Cosmo (nutria azul).
+- Gratis: primeros 2 sectores y el primer jefe. Compra única desbloquea el resto.
+- Texto de cierre: "FREE ON IPHONE + APPLE WATCH".
 
-## STAR Ace: Watch Shooter (id 6821445432) — v1.1.3
-- Apple Watch Series 10+ (companera iPhone). 5 mundos/misiones y 5 jefes, lock-on multiple, Digital Crown. Piloto: Cosmo (nutria) en la nave Aurora Manta.
-- La ficha dice "no in-app purchases / one purchase" pero la tienda muestra IAP: NO afirmar nada de pagos mas alla de "Free · In-App Purchases".
+## Kart Watch GP (id 6821168181) — v1.1.4 (nov-2026)
+- Plataforma: **Apple Watch Series 10 o posterior** (la app de iPhone es compañera). La versión 3D fue descartada: se promociona esta.
+- **18 pistas en 6 copas**, **10 pilotos** oficiales, Grand Prix con medallas, contrarreloj, modo Online (publicado).
+- Gratis: Copa Kart. Compra única desbloquea las otras 5 copas.
+- Texto de cierre: "FREE ON APPLE WATCH".
+
+Para las tres: decir solo "Free · In-App Purchases" / "gratis con compra única opcional"; nunca prometer precio.
 
 ## CHEQUEO DE ESTADO (obligatorio antes de publicar y al inicio de cada tramo)
 1. Abrir en Chrome apps.apple.com/us/app/id6821664713, id6821168181 e id6821445432 y leer: version, "What's New", descripcion, dispositivos.
