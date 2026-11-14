@@ -64,6 +64,7 @@ Generar una hoja de contactos (1 fotograma cada 2 s) y mirarla. Publicar solo si
 [ ] 1080x1920, 15-30 s, con audio, sin franjas negras ni video horizontal incrustado.
 [ ] Gancho con texto visible en el primer segundo.
 [ ] Al menos 2 clips de Gemini nuevos y gameplay real en video.
+[ ] QA DE MOVIMIENTO superado (ver REGLA DE DIRECCIÓN DE MOVIMIENTO al final: el vehículo avanza hacia adelante, piloto mirando al frente, llamas/polvo atrás).
 [ ] Personajes idénticos a los oficiales; ningún personaje, logo o marca ajenos.
 [ ] Ningún texto de interfaz o diálogo del juego tapado o cortado por nuestros textos; nada fuera de la zona segura.
 [ ] Cifras y plataformas iguales a APPS_STATUS.md.
@@ -106,3 +107,12 @@ Oportunidad abierta: FestiGame (Chile, 10-13 dic). Comentar sus posts en españo
 
 ## 9. REGISTRO
 cm_log.md, una línea: `AAAA-MM-DD MARKETING DIARIO OK|PARCIAL: reel <juego> "<gancho>" (<idioma>, <n> clips Gemini, música "<pista>", archivo) IG <id> / TikTok <estado>; QA ok; comentarios IG <n> TikTok <n>; respuestas <n>; seguidores IG <n> TikTok <n>; pendientes: <...>`
+
+## REGLA DE DIRECCIÓN DE MOVIMIENTO (vehículos, aviones, naves) — orden de Julio 14-nov, OBLIGATORIA
+Problema: la IA confunde si el vehículo avanza hacia adelante o hacia atrás y el video se ve extraño. Se previene en el PROMPT y se verifica en el QA.
+PROMPT (incluir TODO, en inglés, en cada clip con algo que se mueve):
+"The [kart/plane/ship] moves FORWARD only: its nose/front points exactly in the direction of travel and the driver/pilot looks straight ahead in that direction, never looking back. Wheels/propellers/engines spin forward. Exhaust flames, dust, sparks and contrails trail BEHIND it, on the opposite side of the direction of travel. The track/ground/clouds/background stream past in the opposite direction. Camera: [chase camera directly behind, OR front camera as it approaches, OR steady side tracking shot where the nose leads the frame]. Never reversing, never drifting sideways without advancing, no spinning, no backwards motion."
+EVITAR en el prompt: "drift", "spin", "turn around", "camera orbit", "she looks at the camera/back" (el personaje no mira a cámara mientras conduce si la cámara está delante: debe mirar hacia adelante), planos laterales ambiguos.
+Encuadre preferido: cámara DETRÁS (chase) con el vehículo alejándose, o delantera con el vehículo acercándose y el piloto mirando al frente; escribir 1 solo encuadre por clip.
+QA DE MOVIMIENTO (además del 4.6): ver 4 fotogramas consecutivos (cada 0.3 s) y comprobar: (1) el morro apunta a la dirección de avance, (2) el piloto mira al frente, (3) llamas, polvo y chispas quedan ATRÁS, (4) el fondo corre en sentido contrario. Si UNA falla: descartar y regenerar (máx. 3 intentos); si aún falla, no usar ese clip.
+Nota: la regla aplica a autos, karts, aviones, naves y cualquier cosa con dirección.
