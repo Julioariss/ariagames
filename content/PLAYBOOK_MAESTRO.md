@@ -116,3 +116,6 @@ EVITAR en el prompt: "drift", "spin", "turn around", "camera orbit", "she looks 
 Encuadre preferido: cámara DETRÁS (chase) con el vehículo alejándose, o delantera con el vehículo acercándose y el piloto mirando al frente; escribir 1 solo encuadre por clip.
 QA DE MOVIMIENTO (además del 4.6): ver 4 fotogramas consecutivos (cada 0.3 s) y comprobar: (1) el morro apunta a la dirección de avance, (2) el piloto mira al frente, (3) llamas, polvo y chispas quedan ATRÁS, (4) el fondo corre en sentido contrario. Si UNA falla: descartar y regenerar (máx. 3 intentos); si aún falla, no usar ese clip.
 Nota: la regla aplica a autos, karts, aviones, naves y cualquier cosa con dirección.
+
+## REGLA DE MATERIAL NUEVO (orden de Julio 14-nov, OBLIGATORIA)
+Cada video se hace con material NUEVO: clips Gemini recién generados (escena/personaje/ángulo distintos a clips_used.md), música nueva, y gameplay grabado nuevo (otra pantalla/nivel/momento; nunca recortar de reels anteriores). Prohibido reciclar clips, gameplay o música de videos publicados. Si la cuota de Gemini se agota, esperar o publicar menos; no reutilizar. Registrar en clips_used.md.
