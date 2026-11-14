@@ -34,3 +34,6 @@
 # KART ROTACION: ultimo piloto usado = Ada; PROXIMO = Hazel (luego Pip, Ember, Kodiak, Bruno, Cosmo, Remy)
 2026-11-03 | poppypop | amigos flor jardin 3D multijugador (Gemini) | 91dd8e5f65947d5c6cd7d226c3e0fb40 | content/2026-11-03/gem/lila_friends_garden.mp4
 2026-11-06 | staracce | trailer iPhone+multiplayer solo canon del juego (cine_start/h0/h2/b4/team + gameplay sim iPhone + arte versus) + musica Gemini | - | content/2026-11-06/trailer_staracE_iphone_multiplayer_en.mp4
+2026-11-14 | kartwatchgp | escena 8 bosque de pinos, piloto Hazel (Gemini) | hazel1 | content/2026-11-14/ (Downloads/kartes/hazel1.mp4)
+2026-11-14 | kartwatchgp | escena 9 canon del desierto con arcos, Hazel (Gemini) | hazel2 | Downloads/kartes/hazel2.mp4
+# KART ROTACION: ultimo piloto usado = Hazel; PROXIMO = Pip (luego Ember, Kodiak, Bruno, Cosmo, Remy, Ada)
