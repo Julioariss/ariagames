@@ -122,3 +122,9 @@ Cada video se hace con material NUEVO: clips Gemini recién generados (escena/pe
 
 ## REGLA DE COMENTARIOS HONESTOS
 Nunca afirmar experiencias personales falsas ("justo buscaba esto", "me sirvio un monton"). Comentar solo con aprecio genuino y verificable sobre el contenido. Tras comentar, verificar que lo publicado coincide con lo que se pretendia (y no dar por no-publicado sin comprobarlo).
+
+## NOTAS TECNICAS GEMINI/REDES (15-nov)
+- Gemini musica: cambiar modelo a "Respuestas rapidas / Flash-Lite" (con Hydrogen solo da texto); Voces=Instrumental; luego volver a Hydrogen para video.
+- Gemini video: si dice "trafico alto"/error, reintentar con "Rehacer>Reintentar" (a veces tarda 3-4 intentos). Subir referencia con file_upload al file-input oculto tras abrir "+".
+- IG portada: el selector de fotogramas no responde; usar "Seleccionar de la computadora" (find 'hidden input type=file') con un JPG extraido del reel. TikTok: elegir fotograma en la tira y guardar por JS (boton "Guardar").
+- Gameplay: los c_*.mov y d_*.mov del dir dist/epic de PetalPop son menus Watch; usar n_s12/n_story/n_boss/n_map/n_dlg (iPhone, espanol).

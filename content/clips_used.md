@@ -37,3 +37,7 @@
 2026-11-14 | kartwatchgp | escena 8 bosque de pinos, piloto Hazel (Gemini) | hazel1 | content/2026-11-14/ (Downloads/kartes/hazel1.mp4)
 2026-11-14 | kartwatchgp | escena 9 canon del desierto con arcos, Hazel (Gemini) | hazel2 | Downloads/kartes/hazel2.mp4
 # KART ROTACION: ultimo piloto usado = Hazel; PROXIMO = Pip (luego Ember, Kodiak, Bruno, Cosmo, Remy, Ada)
+2026-11-15 | poppypop | Lila bosque nevado de flores de cristal (Gemini) | snow | content/2026-11-15/gem/lila_snow_forest.mp4
+2026-11-15 | poppypop | Lila cueva de cristal con faroles (Gemini) | cave | content/2026-11-15/gem/lila_cave.mp4
+2026-11-15 | poppypop | musica Gemini 'A Kingdom Awakens' (orquestal aventura magica) + gameplay iPhone n_s12 (3.0s) y n_boss (10.0s) | - | content/2026-11-15/daily_20261115_poppypop_es.mp4
+# KART ROTACION: ultimo piloto usado = Hazel; PROXIMO = Pip (luego Ember, Kodiak, Bruno, Cosmo, Remy, Ada)
