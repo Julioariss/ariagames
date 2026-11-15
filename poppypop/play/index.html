@@ -1,0 +1,86 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+<title>Poppy Pop — Prueba gratis en tu navegador</title>
+<meta name="description" content="Juega un nivel de Poppy Pop sin instalar nada. Une flores, encadena combos y baja el juego completo (50 capítulos) en la App Store.">
+<meta property="og:title" content="Poppy Pop — Juega gratis en tu navegador"><meta property="og:description" content="Une. Explota. Encadena. Prueba un nivel ahora."><meta property="og:image" content="https://ariagames.dev/img/logo_sq.png">
+<link rel="icon" href="/img/logo_sq.png">
+<style>
+*{box-sizing:border-box;margin:0;-webkit-tap-highlight-color:transparent;user-select:none;-webkit-user-select:none}
+html,body{height:100%;overflow:hidden;touch-action:none}
+body{background:#120a1c;color:#fff;font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI",Roboto,Arial,sans-serif;display:flex;justify-content:center;align-items:center}
+body:before{content:"";position:fixed;inset:0;background:radial-gradient(70% 50% at 50% 0%,rgba(255,92,170,.45),transparent 70%),radial-gradient(60% 50% at 50% 100%,rgba(138,92,246,.4),transparent 70%);pointer-events:none}
+#app{position:relative;width:min(94vw,440px);display:flex;flex-direction:column;gap:12px}
+.top{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.pill{flex:1;background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.15);border-radius:16px;padding:8px 10px;text-align:center;backdrop-filter:blur(10px)}
+.pill small{display:block;font-size:10px;letter-spacing:.12em;color:#d9b8e8;text-transform:uppercase}
+.pill b{font-size:22px}
+.bar{height:10px;border-radius:6px;background:rgba(255,255,255,.12);overflow:hidden}
+.bar i{display:block;height:100%;width:0;background:linear-gradient(90deg,#ff5caa,#ffd166);transition:width .35s}
+#board{position:relative;width:100%;aspect-ratio:1;border-radius:22px;background:rgba(10,5,20,.55);border:1px solid rgba(255,255,255,.15);box-shadow:0 20px 60px -20px rgba(255,92,170,.6);touch-action:none}
+.t{position:absolute;display:flex;align-items:center;justify-content:center;transition:transform .22s cubic-bezier(.3,1.4,.5,1),opacity .2s;font-size:calc(min(94vw,440px)/7*.62);cursor:pointer;will-change:transform}
+.t.sel{filter:drop-shadow(0 0 10px #fff);scale:1.12}
+.t.pop{opacity:0;scale:1.6}
+#msg{position:absolute;left:0;right:0;top:44%;text-align:center;font-weight:900;font-size:34px;pointer-events:none;opacity:0;text-shadow:0 4px 24px #ff5caa;transition:opacity .2s}
+#msg.on{opacity:1}
+.cta{display:none;position:absolute;inset:0;border-radius:22px;background:rgba(14,6,24,.97);backdrop-filter:blur(8px);flex-direction:column;align-items:center;justify-content:center;gap:12px;text-align:center;padding:20px}
+.cta.on{display:flex}
+.cta h2{font-size:26px}.cta p{color:#d9b8e8;font-size:14px;line-height:1.4}
+.btn{display:inline-block;text-decoration:none;color:#fff;background:linear-gradient(135deg,#ff5caa,#8a5cf6);padding:14px 22px;border-radius:16px;font-weight:800;font-size:16px;box-shadow:0 12px 30px -10px #ff5caa;border:0;cursor:pointer}
+.btn.g{background:rgba(255,255,255,.12);box-shadow:none}
+.foot{text-align:center;font-size:12px;color:#b9a3c9}.foot a{color:#ffd166}
+</style></head><body>
+<div id="app">
+ <div class="top"><div class="pill"><small>Puntos</small><b id="sc">0</b></div><div class="pill"><small>Meta</small><b id="goal">1100</b></div><div class="pill"><small>Movs</small><b id="mv">20</b></div></div>
+ <div class="bar"><i id="pb"></i></div>
+ <div id="board"><div id="msg"></div>
+  <div class="cta" id="cta"><h2 id="ct">¡Nivel completado! 🌸</h2><p id="cp">Esto es 1 de 50 capítulos.<br>Juego completo: historia, 10 mundos y jefes — gratis en iPhone, iPad y Apple Watch.</p>
+  <a class="btn" id="dl" href="https://apps.apple.com/app/id6821664713">Descargar en la App Store</a><button class="btn g" id="again">Jugar otra vez</button></div></div>
+ <div class="foot">Une 3 o más flores iguales · Desliza para intercambiar · <a href="/go">ariagames.dev</a></div>
+</div>
+<script>
+const N=7,F=['🌸','🌼','🌺','🌷','🌻'],GOAL=1100;let g,sc,mv,busy,sel,tiles,combo;
+const B=document.getElementById('board'),$=id=>document.getElementById(id);
+const sz=()=>B.clientWidth/N;
+function rnd(){return Math.floor(Math.random()*F.length)}
+function init(){B.querySelectorAll('.t').forEach(e=>e.remove());g=[];tiles=[];
+ for(let r=0;r<N;r++){g[r]=[];tiles[r]=[];for(let c=0;c<N;c++){let v;do{v=rnd()}while((c>1&&g[r][c-1]==v&&g[r][c-2]==v)||(r>1&&g[r-1][c]==v&&g[r-2][c]==v));g[r][c]=v;tiles[r][c]=mk(r,c,v)}}
+ sc=0;mv=20;busy=false;sel=null;hud();$('cta').classList.remove('on')}
+function mk(r,c,v){const e=document.createElement('div');e.className='t';e.textContent=F[v];e.style.width=e.style.height=sz()+'px';pos(e,r,c);e.dataset.r=r;e.dataset.c=c;B.appendChild(e);return e}
+function pos(e,r,c){e.style.transform=`translate(${c*sz()}px,${r*sz()}px)`}
+function hud(){$('sc').textContent=sc;$('mv').textContent=mv;$('goal').textContent=GOAL;$('pb').style.width=Math.min(100,sc/GOAL*100)+'%'}
+const sleep=ms=>new Promise(r=>setTimeout(r,ms));
+function find(){const m=new Set();
+ for(let r=0;r<N;r++)for(let c=0;c<N-2;c++){const v=g[r][c];if(v!=null&&v==g[r][c+1]&&v==g[r][c+2]){let k=c;while(k<N&&g[r][k]==v){m.add(r+','+k);k++}}}
+ for(let c=0;c<N;c++)for(let r=0;r<N-2;r++){const v=g[r][c];if(v!=null&&v==g[r+1][c]&&v==g[r+2][c]){let k=r;while(k<N&&g[k][c]==v){m.add(k+','+c);k++}}}
+ return m}
+function swapData(a,b,c,d){[g[a][b],g[c][d]]=[g[c][d],g[a][b]];[tiles[a][b],tiles[c][d]]=[tiles[c][d],tiles[a][b]];pos(tiles[a][b],a,b);pos(tiles[c][d],c,d)}
+function say(t){const m=$('msg');m.textContent=t;m.classList.add('on');setTimeout(()=>m.classList.remove('on'),600)}
+async function resolve(){combo=0;let m;
+ while((m=find()).size){combo++;
+  sc+=m.size*10*combo;if(combo>1)say(['','','¡Combo x2!','¡Genial x3!','¡Increíble x4!'][Math.min(combo,4)]||'¡x'+combo+'!');
+  m.forEach(k=>{const[r,c]=k.split(',').map(Number);tiles[r][c].classList.add('pop')});hud();await sleep(260);
+  m.forEach(k=>{const[r,c]=k.split(',').map(Number);tiles[r][c].remove();tiles[r][c]=null;g[r][c]=null});
+  for(let c=0;c<N;c++){let w=N-1;for(let r=N-1;r>=0;r--)if(g[r][c]!=null){if(w!=r){g[w][c]=g[r][c];tiles[w][c]=tiles[r][c];g[r][c]=null;tiles[r][c]=null;pos(tiles[w][c],w,c)}w--}
+   for(let r=w;r>=0;r--){const v=rnd();g[r][c]=v;const e=mk(-1-(w-r),c,v);tiles[r][c]=e;e.offsetWidth;pos(e,r,c)}}
+  await sleep(320)}
+ }
+async function tryswap(a,b,c,d){if(busy||mv<=0)return;busy=true;swapData(a,b,c,d);await sleep(220);
+ if(!find().size){swapData(a,b,c,d);await sleep(220);busy=false;return}
+ mv--;hud();await resolve();hud();busy=false;
+ if(sc>=GOAL)end(true);else if(mv<=0)end(false)}
+function end(w){$('ct').textContent=w?'¡Nivel completado! 🌸':'¡Casi! 💪';
+ $('cp').innerHTML=w?'Esto es 1 de 50 capítulos.<br>Juego completo: historia, 10 mundos y jefes — gratis en iPhone, iPad y Apple Watch.':'Hiciste '+sc+' puntos.<br>En la app hay power-ups y 50 capítulos. ¡Inténtalo otra vez!';
+ $('cta').classList.add('on')}
+let down=null;
+// dataset r/c go stale; compute from position instead
+function cellOf(e){const R=B.getBoundingClientRect();return{r:Math.floor((e.clientY-R.top)/sz()),c:Math.floor((e.clientX-R.left)/sz())}}
+B.addEventListener('pointerdown',e=>{if(busy)return;const p=cellOf(e);if(p.r<0||p.c<0||p.r>=N||p.c>=N)return;down={...p,x:e.clientX,y:e.clientY};
+ if(sel){const d=Math.abs(sel.r-p.r)+Math.abs(sel.c-p.c);if(d==1){const s=sel;clearSel();down=null;tryswap(s.r,s.c,p.r,p.c);return}clearSel()}
+ sel=p;tiles[p.r][p.c].classList.add('sel')},true);
+function clearSel(){if(sel&&tiles[sel.r]&&tiles[sel.r][sel.c])tiles[sel.r][sel.c].classList.remove('sel');sel=null}
+window.addEventListener('pointermove',e=>{if(!down||busy)return;const dx=e.clientX-down.x,dy=e.clientY-down.y;if(Math.max(Math.abs(dx),Math.abs(dy))<sz()*.4)return;
+ let r=down.r,c=down.c,r2=r,c2=c;if(Math.abs(dx)>Math.abs(dy))c2+=dx>0?1:-1;else r2+=dy>0?1:-1;
+ down=null;clearSel();if(r2<0||c2<0||r2>=N||c2>=N)return;tryswap(r,c,r2,c2)});
+window.addEventListener('pointerup',()=>{down=null});
+$('again').onclick=init;window.addEventListener('resize',()=>{for(let r=0;r<N;r++)for(let c=0;c<N;c++){const e=tiles[r]&&tiles[r][c];if(e){e.style.width=e.style.height=sz()+'px';pos(e,r,c)}}});
+init();
+</script></body></html>
