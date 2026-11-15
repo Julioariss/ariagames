@@ -119,3 +119,6 @@ Nota: la regla aplica a autos, karts, aviones, naves y cualquier cosa con direcc
 
 ## REGLA DE MATERIAL NUEVO (orden de Julio 14-nov, OBLIGATORIA)
 Cada video se hace con material NUEVO: clips Gemini recién generados (escena/personaje/ángulo distintos a clips_used.md), música nueva, y gameplay grabado nuevo (otra pantalla/nivel/momento; nunca recortar de reels anteriores). Prohibido reciclar clips, gameplay o música de videos publicados. Si la cuota de Gemini se agota, esperar o publicar menos; no reutilizar. Registrar en clips_used.md.
+
+## REGLA DE COMENTARIOS HONESTOS
+Nunca afirmar experiencias personales falsas ("justo buscaba esto", "me sirvio un monton"). Comentar solo con aprecio genuino y verificable sobre el contenido. Tras comentar, verificar que lo publicado coincide con lo que se pretendia (y no dar por no-publicado sin comprobarlo).
