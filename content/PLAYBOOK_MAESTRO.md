@@ -128,3 +128,20 @@ Nunca afirmar experiencias personales falsas ("justo buscaba esto", "me sirvio u
 - Gemini video: si dice "trafico alto"/error, reintentar con "Rehacer>Reintentar" (a veces tarda 3-4 intentos). Subir referencia con file_upload al file-input oculto tras abrir "+".
 - IG portada: el selector de fotogramas no responde; usar "Seleccionar de la computadora" (find 'hidden input type=file') con un JPG extraido del reel. TikTok: elegir fotograma en la tira y guardar por JS (boton "Guardar").
 - Gameplay: los c_*.mov y d_*.mov del dir dist/epic de PetalPop son menus Watch; usar n_s12/n_story/n_boss/n_map/n_dlg (iPhone, espanol).
+
+## ESTRATEGIA CONCHETUFIGHT (analizada 15-nov) -> sumar a la nuestra
+Que hizo Ricardo Valencia (@valencia.s7, 33K IG, 1572 posts, sigue a 4750; web conchetufight.cl, gratis, sin ads): 310K visitas en 17 dias.
+1. Cuenta personal con cara + nicho IA/educacion DURANTE AÑOS (1572 posts) -> audiencia previa; el juego salio a una base ya caliente.
+2. Cero friccion: juego en el navegador, sin instalar, gratis. Humor chileno local (identidad = viralidad).
+3. Creadores externos (YouTubers/TikTokers) hacen videos del juego solos; el sitio los muestra como "Tazos de la comunidad" (reconocimiento publico semanal = incentivo a seguir creando).
+4. Medios/eventos: matinal Canal 9, speaker en Festigame (10-13 dic, Cenco Florida), charlas.
+5. Historia "hecho con IA por un profe de Puerto Aysen": narrativa humana + prueba social (cifras publicas).
+6. Sigue mucho (4750) = reciprocidad/comunidad; ecosistema de cuentas satelite (@eltioia.cl).
+### Adaptacion ARIAgames (costo $0)
+- A) Hub de comunidad: seccion "Tazos de la comunidad" en ariagames.dev/go (quien juega/comparte Poppy Pop/STAR Ace/Kart; actualizacion semanal; pedir permiso a cada uno).
+- B) Cara + historia: reels "dev log" (un papa chileno hace juegos para Apple Watch con IA); hablar en chileno en ES.
+- C) Demo sin friccion: version web jugable (Poppy Pop 1 nivel en navegador) en ariagames.dev como gancho -> App Store. Evaluar.
+- D) Creadores: 5 mini-creadores Watch/indie Chile por semana; codigos promo ASC (100/version) + mencion en el hub.
+- E) Festigame 10-13 dic (Cenco Florida): contactar a la organizacion (@festigame) para stand/mencion; Maisheet (maisheet.com) = comunidad gamers gratis a la que unirse.
+- F) Desafios compartibles: "supera mi score" + stickers de reto en stories; pedir clip del jugador y repostear.
+- G) Constancia: 1 post/dia sostenido; seguir/comentar a cuentas chicas relevantes (sin spam).
