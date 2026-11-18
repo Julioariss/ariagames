@@ -1,0 +1,6 @@
+file '/Users/julioarisserey/Documents/Claude/Projects/ariagames/content/2026-11-18/work/s01.mp4'
+file '/Users/julioarisserey/Documents/Claude/Projects/ariagames/content/2026-11-18/work/s02.mp4'
+file '/Users/julioarisserey/Documents/Claude/Projects/ariagames/content/2026-11-18/work/s03.mp4'
+file '/Users/julioarisserey/Documents/Claude/Projects/ariagames/content/2026-11-18/work/s04.mp4'
+file '/Users/julioarisserey/Documents/Claude/Projects/ariagames/content/2026-11-18/work/s05.mp4'
+file '/Users/julioarisserey/Documents/Claude/Projects/ariagames/content/2026-11-18/work/s06.mp4'

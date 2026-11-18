@@ -7,7 +7,7 @@ Verificado en la App Store el 2026-11-13. Las apps cambian seguido: ANTES DE PUB
 - Gratis: Mundo 1 (9 capítulos). Compra única "Juego completo" desbloquea los otros 9 mundos. Sin anuncios ni suscripción.
 - Texto de cierre: "FREE ON IPHONE + IPAD + APPLE WATCH".
 
-## STAR Ace: Space Shooter (id 6821445432) — v1.2.3 (nov-2026)
+## STAR Ace: Space Shooter (id 6821445432) — v1.2.5 (verificado 16-nov-2026; novedad: MODO AS = al vencer al Devorador se desbloquea una historia mas dificil con estrella dorada; Devorador redibujado con ojo nuevo; final rehecho; la ficha de App Store ya no cita cifra de sectores: no usar '20 sectores' en pantalla)
 - Plataformas: **iPhone y Apple Watch (Series 8 o posterior)**. iOS 17+.
 - **20 sectores** en 2 galaxias, 5 jefes elementales y el Devorador de Mundos; lock-on hasta 6 blancos; Versus y Co-op para 2-4 pilotos (online o misma Wi-Fi). Piloto: Cosmo (nutria azul).
 - Gratis: primeros 2 sectores y el primer jefe. Compra única desbloquea el resto.
