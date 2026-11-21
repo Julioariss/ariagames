@@ -36,9 +36,10 @@
 2026-11-06 | staracce | trailer iPhone+multiplayer solo canon del juego (cine_start/h0/h2/b4/team + gameplay sim iPhone + arte versus) + musica Gemini | - | content/2026-11-06/trailer_staracE_iphone_multiplayer_en.mp4
 2026-11-14 | kartwatchgp | escena 8 bosque de pinos, piloto Hazel (Gemini) | hazel1 | content/2026-11-14/ (Downloads/kartes/hazel1.mp4)
 2026-11-14 | kartwatchgp | escena 9 canon del desierto con arcos, Hazel (Gemini) | hazel2 | Downloads/kartes/hazel2.mp4
-# KART ROTACION: ultimo piloto usado = Hazel; PROXIMO = Pip (luego Ember, Kodiak, Bruno, Cosmo, Remy, Ada)
+# KART ROTACION: ultimo piloto usado = Pip; PROXIMO = Ember (luego Kodiak, Bruno, Cosmo, Remy, Ada, Hazel)
 2026-11-15 | poppypop | Lila bosque nevado de flores de cristal (Gemini) | snow | content/2026-11-15/gem/lila_snow_forest.mp4
 2026-11-15 | poppypop | Lila cueva de cristal con faroles (Gemini) | cave | content/2026-11-15/gem/lila_cave.mp4
 2026-11-15 | poppypop | musica Gemini 'A Kingdom Awakens' (orquestal aventura magica) + gameplay iPhone n_s12 (3.0s) y n_boss (10.0s) | - | content/2026-11-15/daily_20261115_poppypop_es.mp4
-# KART ROTACION: ultimo piloto usado = Hazel; PROXIMO = Pip (luego Ember, Kodiak, Bruno, Cosmo, Remy, Ada)
+# KART ROTACION: ultimo piloto usado = Pip; PROXIMO = Ember (luego Kodiak, Bruno, Cosmo, Remy, Ada, Hazel)
 - 2026-11-18 STAR Ace ACE MODE: clips cosmo_cockpit_hyperspace + starfighter_vs_armada (content/2026-11-18/gem), musica Against_the_Armada, gameplay st12/devourer/st17 (transpose=2)
+2026-11-21 | kartwatchgp | Pip frontal (Gemini) pip_a + gameplay watch sim + musica Gemini Checkered_Flag_Pursuit | - | content/2026-11-21/daily_20261121_kartwatchgp_es.mp4
