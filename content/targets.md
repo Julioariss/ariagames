@@ -4,10 +4,10 @@ Semilla del 13-nov (cuentas con las que ya hubo contacto). Meta: llegar a 30 act
 
 ## Instagram
 IG | valencia.s7 | ES | dev chileno (juego de pelea) | 2026-11-18 | 2026-11-18 | no | activa
-IG | festigame | ES | evento gamer Chile 10-13 dic | 2026-11-18 | 2026-11-18 | no | activa
-IG | amelievonb | ES | tech / Apple Watch (200K, DM enviado 7-nov, sin respuesta) | 2026-11-18 | 2026-11-18 | no | activa
+IG | festigame | ES | evento gamer Chile 10-13 dic | 2026-11-21 | 2026-11-21 | no | activa
+IG | amelievonb | ES | tech / Apple Watch (200K, DM enviado 7-nov, sin respuesta) | 2026-11-21 | 2026-11-21 | no | activa
 IG | dugcanlift | EN | dev de juegos para Apple Watch | 2026-11-01 | 2026-11-01 | ? | por revisar
-IG | daisyyhoneyy | EN | cozy games | 2026-11-18 | 2026-11-18 | no | activa
+IG | daisyyhoneyy | EN | cozy games | 2026-11-21 | 2026-11-21 | no | activa
 IG | x_wolf.r | ES | streamer gaming Chile (respondio nuestro comentario 14-nov, le contestamos) | 2026-11-15 | 2026-11-15 | SI | activa
 
 ## TikTok
