@@ -175,3 +175,8 @@
 
 ## 2026-11-01 manana (agente)
 - 3 clips nuevos Flow (STAR anillos, Kart Ada nubes, Poppy girasoles). STAR publicado TikTok + IG DfMwa6DhsVk. Kart/Poppy listos para mediodia/noche. IG 57 seg.
+
+## 2026-11-21 tarde (STAR Ace reel v2, aprobado por Julio)
+- Clip Gemini nuevo (Cosmo, tunel de magma + jefe tortuga de lava), musica Gemini nueva Over_the_Boiling_Tide.mp3, gameplay iPhone+Watch etapas 4-5-6. Archivo NovaStrike/dist/ig/STARAce_ig_split_v2.mp4.
+- Publicado IG reel DgBDy8TB_gK (9:16, etiqueta IA, sin Facebook) + comentario dev con link. TikTok subido (etiqueta IA), en revision; comentario dev pendiente.
+- STAR Ace 1.2.7 (build 161, fix video etapa magma) WAITING_FOR_REVIEW.
