@@ -19,10 +19,23 @@ Verificado en la App Store el 2026-11-13. Las apps cambian seguido: ANTES DE PUB
 - Gratis: Copa Kart. Compra única desbloquea las otras 5 copas.
 - Texto de cierre: "FREE ON APPLE WATCH".
 
-Para las tres: decir solo "Free · In-App Purchases" / "gratis con compra única opcional"; nunca prometer precio.
+## ARIAemu (id 6832322784) — v1.0 a la venta; v1.0.1 en revisión (22-nov-2026)
+- Emulador de juegos retro (portátiles 8/16-bit y consola 16-bit). Plataformas: **iPhone, iPad y Apple Watch** (los juegos del iPhone pasan solos al reloj).
+- **100 % gratis: sin anuncios, sin compras, sin cuentas, sin datos.** NO incluye juegos (el usuario añade los suyos).
+- Lo que se vende: controles táctiles realistas (botones que se hunden, vibración fuerte en cada toque, cruceta, multitáctil), skins de consola portátil a elegir, multijugador inalámbrico 2P, estados guardados.
+- Texto de cierre: "100% FREE ON IPHONE + APPLE WATCH". Link: https://apps.apple.com/app/id6832322784
+
+## ARIAemu 3D (id 6837978709) — v1.0 (build 13) EN REVISIÓN (22-nov-2026)
+- Emulador 3D (consolas 3D de los 90 y portátil 3D). Plataformas: **iPhone y iPad**. Código abierto (GPL).
+- **100 % gratis: sin anuncios, sin compras, sin datos.** NO incluye juegos.
+- Lo que se vende: stick analógico 3D animado con "clic" de vibración en cada cambio de dirección, gatillos L/Z/R, botones bien separados, 7 colores de carcasa (lima, uva, rojo, azul, carbón, perla, neón), pantalla maximizada.
+- NO PUBLICAR NADA de ARIAemu 3D hasta que la App Store la muestre a la venta (abrir apps.apple.com/us/app/id6837978709; si no carga, sigue en revisión → promocionar ARIAemu en su turno).
+- Texto de cierre: "100% FREE ON IPHONE + IPAD". Link: https://apps.apple.com/app/id6837978709
+
+Para los tres juegos (no los emuladores): decir solo "Free · In-App Purchases" / "gratis con compra única opcional"; nunca prometer precio.
 
 ## CHEQUEO DE ESTADO (obligatorio antes de publicar y al inicio de cada tramo)
-1. Abrir en Chrome apps.apple.com/us/app/id6821664713, id6821168181 e id6821445432 y leer: version, "What's New", descripcion, dispositivos.
+1. Abrir en Chrome apps.apple.com/us/app/id6821664713, id6821168181, id6821445432, id6832322784 (ARIAemu) e id6837978709 (ARIAemu 3D) y leer: version, "What's New", descripcion, dispositivos.
 2. Leer en el Project (claude/…): poppypop_ios_*, kartwatchgp_online_*, poppypop_versus_*; y `git log --since="3 days ago"`.
 3. Comparar con este archivo; si cambió algo (version, numero de etapas/pistas, modos, plataformas), ACTUALIZAR este archivo y usar los datos nuevos en captions, textos en pantalla y comentarios.
 4. Prohibido repetir cifras o funciones que no estén aquí. Si no estás seguro de una cifra, no la pongas.

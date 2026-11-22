@@ -2,7 +2,7 @@
 Reemplaza al v1 (archivado en PLAYBOOK_v1_archivado.md; NO leerlo ni seguir PROMPT_*.md antiguos). Si algo aquí contradice otro archivo, manda este, salvo las cifras de las apps: esas salen de content/APPS_STATUS.md.
 
 ## 0. OBJETIVO
-Descargas y compras de Poppy Pop, STAR Ace y Kart Watch GP con gasto US$0.
+Descargas y compras de Poppy Pop, STAR Ace y Kart Watch GP, y descargas y SEGUIDORES con los emuladores gratis ARIAemu y ARIAemu 3D (sección 10), con gasto US$0.
 Diagnóstico al 13-nov: ~8 descargas/día en total; IG 63 seguidores (533 seguidos), TikTok ~32; casi todas las ventas históricas son de CHILE.
 Metas a 30 días: IG 300 seguidores, TikTok 300, 1 reel con >2.000 vistas por semana, 15 descargas/día.
 Número que manda cada semana: vistas de NO seguidores por reel y visitas al perfil. Lo que suba eso se repite; lo que no, se cambia.
@@ -31,7 +31,7 @@ Fuente: content/APPS_STATUS.md (actualizado 13-nov). Antes de escribir una cifra
 
 ## 4. CONTENIDO: 1 reel al día (IG + TikTok, el mismo archivo)
 ### 4.1 Calendario
-Rotación Poppy Pop → STAR Ace → Kart Watch GP (ver en cm_log cuál fue ayer). Nunca el mismo juego dos días seguidos.
+Rotación Poppy Pop → STAR Ace → ARIAemu → Kart Watch GP → ARIAemu 3D (ver en cm_log cuál fue ayer). Nunca la misma app dos días seguidos. Si ARIAemu 3D aún no está a la venta (APPS_STATUS.md), su turno pasa a ARIAemu. Para los emuladores rige la sección 10 (reemplaza a 4.2-4.6 donde contradiga).
 Idioma del texto en pantalla y del caption: lunes a viernes en inglés; sábado y domingo en ESPAÑOL para Chile (con ubicación "Santiago, Chile" en IG), porque casi todos los compradores han sido chilenos.
 Cada reel muestra una ESCENA o capítulo distinto del juego (otro mundo, otro jefe, otro piloto, otro modo). Revisar clips_used.md y no repetir escena ni gancho de los últimos 10 reels. Kart: rotar piloto (siguiente: Hazel).
 
@@ -145,3 +145,21 @@ Que hizo Ricardo Valencia (@valencia.s7, 33K IG, 1572 posts, sigue a 4750; web c
 - E) Festigame 10-13 dic (Cenco Florida): contactar a la organizacion (@festigame) para stand/mencion; Maisheet (maisheet.com) = comunidad gamers gratis a la que unirse.
 - F) Desafios compartibles: "supera mi score" + stickers de reto en stories; pedir clip del jugador y repostear.
 - G) Constancia: 1 post/dia sostenido; seguir/comentar a cuentas chicas relevantes (sin spam).
+
+## 10. EMULADORES: ARIAemu y ARIAemu 3D (orden de Julio, 22-nov-2026)
+Objetivo: posicionarlos como los emuladores con los controles táctiles MÁS REALISTAS de su categoría y captar SEGUIDORES hacia la web (ariagames.dev/go). Datos solo de APPS_STATUS.md.
+REGLAS EXTRA (no se rompen):
+- Nunca nombrar consolas, fabricantes, juegos ni otros emuladores (ni en pantalla, caption, hashtags, comentarios ni prompts). Decir "retro handheld games", "16-bit classics", "3D classics".
+- Nunca mostrar juegos comerciales, personajes ajenos ni logos de consola: solo las ROMs de prueba propias (ARIAemu: ~/Developer/ARIAemu/dist/shots y ariatest.gb; ARIAemu 3D: escenas originales con -fakeframe, ver ~/Developer/ARIAemuX/store) y la interfaz de la app.
+- No se promocionan en LinkedIn. Etiqueta de precio: "100% free · no ads · no in-app purchases" (aquí SÍ es verdad; no aplica a los juegos).
+REEL (15-25 s, 1080x1920; mismo control de calidad 4.6 salvo el punto de personajes):
+1. 0-2 s GANCHO: primer plano de un pulgar presionando un botón que se HUNDE (o el stick 3D inclinándose) + texto "Feel every press." / "A real stick. On glass." (rotar ganchos; no repetir los de los últimos 10 reels).
+2. CUERPO: grabación REAL de la app (simulador: `xcrun simctl io <id> recordVideo`, o capturas de pantalla en video que Julio grabe en el iPhone) mostrando la animación de pulsación de botones, cruceta/stick en movimiento, cambio de skins/colores, y (ARIAemu) la misma partida en iPhone y Apple Watch. Puede llevar 1-2 clips de Gemini de MANOS genéricas sujetando un teléfono con controles táctiles brillantes y translúcidos (sin marcas, sin consola reconocible, sin personajes) para reforzar el realismo. Indicar la vibración con un pulso visual sutil en cada toque.
+3. CIERRE: end card de App Store ("Download on the App Store") + "100% FREE" + ariagames.dev/go.
+Música: Gemini, chiptune/synthwave retro (ARIAemu) o electrónica 90s con bajo marcado (ARIAemu 3D), pista nueva cada vez.
+CAPTION IG (EN) orientado a seguidores: línea 1 = gancho + qué es; "👉 Follow @ariagames.app for daily retro gaming drops"; "🔗 Free download: link in bio → ariagames.dev/go"; hashtags de descubrimiento (aprobados por Julio):
+- ARIAemu: #retrogaming #retrogamer #emulator #iphonegaming #applewatch #mobilegaming #gamingsetup #handheldgaming #retrogames #8bit #16bit #pixelart #gamerlife #indiedev #freegames #iosgames #gamingcommunity #nostalgia #ariagames #ariagamesapp
+- ARIAemu 3D: #retrogaming #3dgaming #emulator #iphonegaming #ipadgaming #mobilegaming #handheldgaming #retrogamer #gamingsetup #opensource #freegames #iosgames #gamerlife #indiedev #nostalgia #90sgaming #gamingcommunity #ariagames #ariagamesapp
+TikTok: mismo texto con 4-5 hashtags (#retrogaming #emulator #iphonegaming #handheldgaming #ariagames). Comentario dev con link de App Store + pregunta ("Which button feels the most real? 👇").
+INTERACCIÓN: sumar a targets.md cuentas de retro gaming / setups handheld / iPhone gaming (1.000-200.000 seguidores, activas) y comentar con el mismo criterio de la sección 5.
+
