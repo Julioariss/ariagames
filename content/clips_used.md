@@ -43,3 +43,5 @@
 # KART ROTACION: ultimo piloto usado = Pip; PROXIMO = Ember (luego Kodiak, Bruno, Cosmo, Remy, Ada, Hazel)
 - 2026-11-18 STAR Ace ACE MODE: clips cosmo_cockpit_hyperspace + starfighter_vs_armada (content/2026-11-18/gem), musica Against_the_Armada, gameplay st12/devourer/st17 (transpose=2)
 2026-11-21 | kartwatchgp | Pip frontal (Gemini) pip_a + gameplay watch sim + musica Gemini Checkered_Flag_Pursuit | - | content/2026-11-21/daily_20261121_kartwatchgp_es.mp4
+2026-11-22 | poppypop | Lila corre por bosque nocturno de flores (Gemini) | night_forest_run | content/2026-11-22/gem/lila_night_forest_run.mp4
+2026-11-22 | poppypop | Lila en mercado de flores con cadena de flores (Gemini) + musica Gemini Sunlight_on_the_Stems + gameplay sim iPhone cap.7 Capitan Cactus (pp_game.mov) | - | content/2026-11-22/daily_20261122_poppypop_es.mp4 (NO publicado aun)
