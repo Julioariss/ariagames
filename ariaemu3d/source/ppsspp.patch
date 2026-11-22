@@ -1,0 +1,62 @@
+diff --git a/libretro/Makefile b/libretro/Makefile
+index ae8d3f0..fa8de97 100644
+--- a/libretro/Makefile
++++ b/libretro/Makefile
+@@ -85,7 +85,7 @@ else ifneq (,$(findstring rpi,$(platform)))
+ 	LDFLAGS += -lrt -ldl
+ 
+ # ARM64
+-else ifneq (,$(findstring arm64,$(platform)))
++else ifeq ($(platform),arm64)
+ 	TARGET := $(TARGET_NAME)_libretro.so
+ 	TARGET_ARCH = arm64
+ 	fpic := -fPIC
+@@ -172,7 +172,7 @@ endif
+       MINVERSION = -miphoneos-version-min=8.0
+    endif
+ 	PLATCFLAGS += $(MINVERSION)
+-	PLATCFLAGS += -DHAVE_POSIX_MEMALIGN
++	PLATCFLAGS += -DHAVE_POSIX_MEMALIGN -DMOBILE_DEVICE -DLUA_USE_IOS -DPNG_ARM_NEON_OPT=0
+ 	CPUFLAGS += -DARMv5_ONLY -DARM
+ 	PLATFORM_EXT = darwin
+ 	TARGET_ARCH = arm
+@@ -195,7 +195,7 @@ else ifeq ($(platform), tvos-arm64)
+ 	CXX = clang++ -arch arm64 -isysroot $(IOSSDK)
+ 	OSXVER = `sw_vers -productVersion | cut -c 4`
+ 	PLATCFLAGS += $(MINVERSION)
+-	PLATCFLAGS += -DHAVE_POSIX_MEMALIGN
++	PLATCFLAGS += -DHAVE_POSIX_MEMALIGN -DMOBILE_DEVICE -DLUA_USE_IOS -DPNG_ARM_NEON_OPT=0
+ 	CPUFLAGS += -DARMv5_ONLY -DARM
+ 	PLATFORM_EXT = darwin
+ 	TARGET_ARCH = arm
+@@ -512,6 +512,9 @@ ifneq (,$(findstring msvc,$(platform)))
+ 	LD = link.exe
+ else ifneq (,$(findstring osx,$(platform)))
+ 	LD = $(CXX)
++else ifneq (,$(findstring ios,$(platform)))
++	LD = $(CXX)
++	LDFLAGS += -Wl,-dead_strip -framework OpenGLES -framework Foundation -framework AudioToolbox
+ else
+ 	LD = $(CXX)
+    CFLAGS += -ffunction-sections -fdata-sections
+diff --git a/libretro/Makefile.common b/libretro/Makefile.common
+index 5c5f947..c0d4bd5 100644
+--- a/libretro/Makefile.common
++++ b/libretro/Makefile.common
+@@ -386,6 +386,8 @@ ifeq ($(PLATFORM_EXT), android)
+ COREFLAGS += -DHAVE_DLFCN_H
+ # newlib has no <sys/auxv.h>, so cpu_features must not go looking for getauxval.
+ else ifeq ($(platform), libnx)
++else ifneq (,$(findstring ios,$(platform)))
++COREFLAGS += -DHAVE_SYSCTLBYNAME -DHAVE_DLFCN_H
+ else ifneq ($(PLATFORM_EXT), win32)
+ COREFLAGS += -DHAVE_STRONG_GETAUXVAL
+ endif
+@@ -397,6 +399,7 @@ endif
+ SOURCES_C += \
+ 	$(EXTDIR)/cpu_features/src/filesystem.c \
+ 	$(EXTDIR)/cpu_features/src/impl_aarch64_linux_or_android.c \
++	$(EXTDIR)/cpu_features/src/impl_aarch64_macos_or_iphone.c \
+ 	$(EXTDIR)/cpu_features/src/impl_aarch64_windows.c \
+ 	$(EXTDIR)/cpu_features/src/impl_arm_linux_or_android.c \
+ 	$(EXTDIR)/cpu_features/src/impl_mips_linux_or_android.c \
