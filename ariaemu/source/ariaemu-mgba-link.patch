@@ -1,0 +1,106 @@
+diff --git a/src/platform/libretro/libretro.c b/src/platform/libretro/libretro.c
+index abed4cc..3354874 100644
+--- a/src/platform/libretro/libretro.c
++++ b/src/platform/libretro/libretro.c
+@@ -1257,6 +1257,7 @@ static void _reloadSettings(void) {
+ 	mCoreLoadConfig(core);
+ }
+ 
++static void _ariaAttach(void);
+ static void _doDeferredSetup(void) {
+ 	// Libretro API doesn't let you know when it's done copying data into the save buffers.
+ 	// On the off-hand chance that a core actually expects its buffers to be populated when
+@@ -1266,6 +1267,7 @@ static void _doDeferredSetup(void) {
+ 
+     /* need to defer resetting the core on start so drivers are initialized */
+     core->reset(core);
++	_ariaAttach();
+ 	_setupMaps(core);
+ 
+ #if defined(COLOR_16_BIT) && defined(COLOR_5_6_5)
+@@ -2120,6 +2122,85 @@ bool retro_load_game(const struct retro_game_info* game) {
+ 	return true;
+ }
+ 
++
++/* ===== ARIAemu: cable link inalámbrico para Game Boy / Color =====
++ * Maestro (reloj interno): envía su byte y espera el del otro equipo (máx. 400 ms).
++ * Esclavo (reloj externo): el hilo de red contesta al instante con su SB actual y deja
++ * el byte recibido pendiente; un evento periódico lo aplica y dispara la interrupción. */
++#include <mgba/internal/gb/io.h>
++#include <mgba/internal/gb/sio.h>
++#include <stdatomic.h>
++#include <unistd.h>
++static void (*_ariaLinkSend)(int kind, int byte) = NULL;
++static _Atomic int _ariaIn = -1;      /* byte de un maestro remoto para nosotros */
++static _Atomic int _ariaReply = -1;   /* respuesta del esclavo remoto */
++static _Atomic bool _ariaOn = false;
++static struct GBSIODriver _ariaDrv;
++static struct mTimingEvent _ariaEv;
++static struct GB* _ariaGB = NULL;
++
++static void _ariaPoll(struct mTiming* timing, void* ctx, uint32_t late) {
++	UNUSED(ctx); UNUSED(late);
++	struct GB* gb = _ariaGB;
++	if (gb) {
++		int b = atomic_load(&_ariaIn);
++		uint8_t sc = gb->memory.io[GB_REG_SC];
++		if (b >= 0 && GBRegisterSCIsEnable(sc) && !GBRegisterSCIsShiftClock(sc)) {
++			atomic_store(&_ariaIn, -1);
++			gb->memory.io[GB_REG_SB] = (uint8_t) b;
++			gb->memory.io[GB_REG_SC] = GBRegisterSCClearEnable(sc);
++			gb->memory.io[GB_REG_IF] |= (1 << GB_IRQ_SIO);
++			GBUpdateIRQs(gb);
++		}
++	}
++	mTimingSchedule(timing, &_ariaEv, 512);
++}
++static bool _ariaInit(struct GBSIODriver* d) {
++	_ariaGB = d->p->p;
++	_ariaEv.context = NULL; _ariaEv.name = "ARIA link"; _ariaEv.callback = _ariaPoll; _ariaEv.priority = 0x80;
++	mTimingSchedule(&_ariaGB->timing, &_ariaEv, 512);
++	return true;
++}
++static void _ariaDeinit(struct GBSIODriver* d) {
++	if (_ariaGB) mTimingDeschedule(&_ariaGB->timing, &_ariaEv);
++	_ariaGB = NULL; UNUSED(d);
++}
++static void _ariaWriteSB(struct GBSIODriver* d, uint8_t v) { UNUSED(d); UNUSED(v); }
++static uint8_t _ariaWriteSC(struct GBSIODriver* d, uint8_t sc) {
++	struct GBSIO* sio = d->p;
++	if (GBRegisterSCIsEnable(sc) && GBRegisterSCIsShiftClock(sc)) {
++		uint8_t out = sio->p->memory.io[GB_REG_SB];
++		if (!atomic_load(&_ariaOn) || !_ariaLinkSend) { sio->pendingSB = 0xFF; return sc; }
++		atomic_store(&_ariaReply, -1);
++		atomic_store(&_ariaIn, -1);
++		_ariaLinkSend(0, out);
++		int r = -1;
++		for (int i = 0; i < 4000 && (r = atomic_load(&_ariaReply)) < 0; ++i) usleep(100);
++		sio->pendingSB = r >= 0 ? (uint8_t) r : 0xFF;
++	}
++	return sc;
++}
++void aria_link_set_sender(void (*cb)(int kind, int byte)) { _ariaLinkSend = cb; }
++void aria_link_enable(bool on) {
++	atomic_store(&_ariaOn, on);
++	atomic_store(&_ariaIn, -1); atomic_store(&_ariaReply, -1);
++}
++/* kind 0 = byte de un maestro remoto (contestar al tiro); kind 1 = respuesta a nuestro envío */
++void aria_link_receive(int kind, int byte) {
++	if (kind == 1) { atomic_store(&_ariaReply, byte & 0xFF); return; }
++	struct GB* gb = _ariaGB;
++	int mine = gb ? gb->memory.io[GB_REG_SB] : 0xFF;
++	if (_ariaLinkSend) _ariaLinkSend(1, mine);
++	atomic_store(&_ariaIn, byte & 0xFF);
++}
++static void _ariaAttach(void) {
++	if (!core || core->platform(core) != mPLATFORM_GB) return;
++	_ariaDrv.init = _ariaInit; _ariaDrv.deinit = _ariaDeinit;
++	_ariaDrv.writeSB = _ariaWriteSB; _ariaDrv.writeSC = _ariaWriteSC;
++	GBSIOSetDriver(&((struct GB*) core->board)->sio, &_ariaDrv);
++}
++/* ===== fin cable link ===== */
++
+ void retro_unload_game(void) {
+ 	if (!core) {
+ 		return;
