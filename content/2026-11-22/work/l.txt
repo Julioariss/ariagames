@@ -1,0 +1,8 @@
+file '/Users/julioarisserey/Documents/Claude/Projects/ariagames/content/2026-11-22/work/p22_hook.mp4'
+file '/Users/julioarisserey/Documents/Claude/Projects/ariagames/content/2026-11-22/work/p22_a0.mp4'
+file '/Users/julioarisserey/Documents/Claude/Projects/ariagames/content/2026-11-22/work/p22_g0.mp4'
+file '/Users/julioarisserey/Documents/Claude/Projects/ariagames/content/2026-11-22/work/p22_a1.mp4'
+file '/Users/julioarisserey/Documents/Claude/Projects/ariagames/content/2026-11-22/work/p22_a2.mp4'
+file '/Users/julioarisserey/Documents/Claude/Projects/ariagames/content/2026-11-22/work/p22_g1.mp4'
+file '/Users/julioarisserey/Documents/Claude/Projects/ariagames/content/2026-11-22/work/p22_a3.mp4'
+file '/Users/julioarisserey/Documents/Claude/Projects/ariagames/content/2026-11-22/work/p22_e.mp4'
