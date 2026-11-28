@@ -1,0 +1,17 @@
+# ARIAgames
+
+> Independent games made in Chile, built only for Apple Watch. Designed from scratch for the Digital Crown, haptics and the watch screen. No ads, no accounts, no tracking.
+
+## Games (App Store)
+- [Kart Watch GP](https://apps.apple.com/app/id6821168181): racing game for Apple Watch with original tracks, cups and racers, drift mini-turbos and nearby multiplayer.
+- [Star Ace : Watch Shooter](https://apps.apple.com/app/id6821445432): space rail shooter for Apple Watch with five worlds, five bosses and spoken wingman radio calls.
+- [Poppy Pop](https://apps.apple.com/app/id6821664713): puzzle game for Apple Watch.
+
+## Other apps
+- [ARIAemu](https://apps.apple.com/app/id6832322784): emulator for iPhone, iPad and Apple Watch.
+- [ARIAemu 3D](https://apps.apple.com/app/id6837978709): N64 and PSP emulator for iPhone and iPad.
+
+## Site
+- [Home](https://ariagames.dev/): catalog of games, available in 15 languages.
+- [All apps](https://ariagames.dev/apps/)
+- [Support](https://ariagames.dev/support.html) · [Privacy](https://ariagames.dev/privacy.html)
